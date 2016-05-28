@@ -1,7 +1,7 @@
 Starting up
-Don't Starve: 172748 OSX_STEAM
+Don't Starve: 172748 WIN32_STEAM
 Build Date: 2016-04-06_13-50-40
-THREAD - started 'GAClient' (2953981952)
+THREAD - started 'GAClient' (6732)
 HttpClient::ClientThread::Main()
 SteamApps()->BIsSubscribedApp( 282470 ) -- Subscribed!
 SteamApps()->BIsDlcInstalled( 282470 ) -- Installed!
@@ -9,157 +9,49 @@ SteamApps()->BIsSubscribedApp( 393010 ) -- Subscribed!
 SteamApps()->BIsDlcInstalled( 393010 ) -- Installed!
 cGame::InitializeOnMainThread
 WindowManager::Initialize
-Creating window with size 1650x1050 at 805240832x805240832
-THREAD - started 'SDLInputManager' (2957389824)
-OSX version 10.11.4
+WindowManager::SetFullscreen(0, 1280, 720, 60)
+SetCommonDefaultControlMapping
+   X-pos and Y-pos available (Left Stick)
+   Z-pos and Z-rot available (Right Stick)
 GLInfo
 ~~~~~~
-GL_VENDOR: Intel Inc.
-GL_RENDERER: Intel Iris OpenGL Engine
-GL_VERSION: 2.1 INTEL-10.14.58
-GL_SHADING_LANGUAGE_VERSION: 1.20
-OpenGL 3.0 not present, detecting extensions the old way
-OpenGL extensions (129, 129):
-
-GL_APPLE_aux_depth_stencil
-GL_APPLE_client_storage
-GL_APPLE_element_array
-GL_APPLE_fence
-GL_APPLE_float_pixels
-GL_APPLE_flush_buffer_range
-GL_APPLE_flush_render
-GL_APPLE_object_purgeable
-GL_APPLE_packed_pixels
-GL_APPLE_pixel_buffer
-GL_APPLE_rgb_422
-GL_APPLE_row_bytes
-GL_APPLE_specular_vector
-GL_APPLE_texture_range
-GL_APPLE_transform_hint
-GL_APPLE_vertex_array_object
-GL_APPLE_vertex_array_range
-GL_APPLE_vertex_point_size
-GL_APPLE_vertex_program_evaluators
-GL_APPLE_ycbcr_422
-GL_ARB_color_buffer_float
-GL_ARB_depth_buffer_float
-GL_ARB_depth_clamp
-GL_ARB_depth_texture
-GL_ARB_draw_buffers
-GL_ARB_draw_elements_base_vertex
-GL_ARB_draw_instanced
-GL_ARB_fragment_program
-GL_ARB_fragment_program_shadow
-GL_ARB_fragment_shader
-GL_ARB_framebuffer_object
-GL_ARB_framebuffer_sRGB
-GL_ARB_half_float_pixel
-GL_ARB_half_float_vertex
-GL_ARB_instanced_arrays
-GL_ARB_multisample
-GL_ARB_multitexture
-GL_ARB_occlusion_query
-GL_ARB_pixel_buffer_object
-GL_ARB_point_parameters
-GL_ARB_point_sprite
-GL_ARB_provoking_vertex
-GL_ARB_seamless_cube_map
-GL_ARB_shader_objects
-GL_ARB_shader_texture_lod
-GL_ARB_shading_language_100
-GL_ARB_shadow
-GL_ARB_sync
-GL_ARB_texture_border_clamp
-GL_ARB_texture_compression
-GL_ARB_texture_compression_rgtc
-GL_ARB_texture_cube_map
-GL_ARB_texture_env_add
-GL_ARB_texture_env_combine
-GL_ARB_texture_env_crossbar
-GL_ARB_texture_env_dot3
-GL_ARB_texture_float
-GL_ARB_texture_mirrored_repeat
-GL_ARB_texture_non_power_of_two
-GL_ARB_texture_rectangle
-GL_ARB_texture_rg
-GL_ARB_transpose_matrix
-GL_ARB_vertex_array_bgra
-GL_ARB_vertex_blend
-GL_ARB_vertex_buffer_object
-GL_ARB_vertex_program
-GL_ARB_vertex_shader
-GL_ARB_window_pos
-GL_ATI_separate_stencil
-GL_ATI_texture_env_combine3
-GL_ATI_texture_float
-GL_ATI_texture_mirror_once
-GL_EXT_abgr
-GL_EXT_bgra
-GL_EXT_blend_color
-GL_EXT_blend_equation_separate
-GL_EXT_blend_func_separate
-GL_EXT_blend_minmax
-GL_EXT_blend_subtract
-GL_EXT_clip_volume_hint
-GL_EXT_debug_label
-GL_EXT_debug_marker
-GL_EXT_draw_buffers2
-GL_EXT_draw_range_elements
-GL_EXT_fog_coord
-GL_EXT_framebuffer_blit
-GL_EXT_framebuffer_multisample
-GL_EXT_framebuffer_multisample_blit_scaled
-GL_EXT_framebuffer_object
-GL_EXT_framebuffer_sRGB
-GL_EXT_geometry_shader4
-GL_EXT_gpu_program_parameters
-GL_EXT_gpu_shader4
-GL_EXT_multi_draw_arrays
-GL_EXT_packed_depth_stencil
-GL_EXT_packed_float
-GL_EXT_provoking_vertex
-GL_EXT_rescale_normal
-GL_EXT_secondary_color
-GL_EXT_separate_specular_color
-GL_EXT_shadow_funcs
-GL_EXT_stencil_two_side
-GL_EXT_stencil_wrap
-GL_EXT_texture_array
+THREAD - started 'WindowsInputManager' (10028)
+GL_VENDOR: Google Inc.
+GL_RENDERER: ANGLE (NVIDIA GeForce GT 630M               )
+GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
+GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
+OpenGL extensions (19, 19):
+GL_ANGLE_depth_texture
+GL_ANGLE_framebuffer_blit
+GL_ANGLE_framebuffer_multisample
+GL_ANGLE_instanced_arrays
+GL_ANGLE_pack_reverse_row_order
+GL_ANGLE_texture_compression_dxt3
+GL_ANGLE_texture_compression_dxt5
+GL_ANGLE_texture_usage
+GL_ANGLE_translated_shader_source
+GL_EXT_read_format_bgra
+GL_EXT_robustness
 GL_EXT_texture_compression_dxt1
-GL_EXT_texture_compression_s3tc
-GL_EXT_texture_env_add
-GL_EXT_texture_filter_anisotropic
-GL_EXT_texture_integer
-GL_EXT_texture_lod_bias
-GL_EXT_texture_rectangle
-GL_EXT_texture_sRGB
-GL_EXT_texture_sRGB_decode
-GL_EXT_texture_shared_exponent
-GL_EXT_timer_query
-GL_EXT_transform_feedback
-GL_EXT_vertex_array_bgra
-GL_IBM_rasterpos_clip
-GL_NV_blend_square
-GL_NV_conditional_render
-GL_NV_depth_clamp
-GL_NV_fog_distance
-GL_NV_light_max_exponent
-GL_NV_texgen_reflection
-GL_NV_texture_barrier
-GL_SGIS_generate_mipmap
-GL_SGIS_texture_edge_clamp
-GL_SGIS_texture_lod
+GL_EXT_texture_format_BGRA8888
+GL_EXT_texture_storage
+GL_OES_get_program_binary
+GL_OES_packed_depth_stencil
+GL_OES_rgb8_rgba8
+GL_OES_standard_derivatives
+GL_OES_texture_npot
 GL_MAX_TEXTURE_SIZE = 16384
 GL_MAX_TEXTURE_IMAGE_UNITS = 16
 GL_MAX_RENDERBUFFER_SIZE = 16384
 GL_MAX_VIEWPORT_DIMS = 16384, 16384
-GL_MAX_VARYING_VECTORS not supported
+GL_MAX_VARYING_VECTORS = 10
 GL_MAX_VERTEX_ATTRIBS = 16
-GL_MAX_VERTEX_UNIFORM_VECTORS not supported
-GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 16
-GL_MAX_FRAGMENT_UNIFORM_VECTORS not supported
-3 compressed texture formats
+GL_MAX_VERTEX_UNIFORM_VECTORS = 254
+GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 4
+GL_MAX_FRAGMENT_UNIFORM_VECTORS = 221
+4 compressed texture formats
 texture format 0x83f0
+texture format 0x83f1
 texture format 0x83f2
 texture format 0x83f3
 cDontStarveGame::DoGameSpecificInitialize()
@@ -172,10 +64,6 @@ scripts/main.lua(165,1) running main.lua
 scripts/modindex.lua(321,1) loaded modindex	
 scripts/modindex.lua(75,1) ModIndex: Beginning normal load sequence.
 	
-scripts/modindex.lua(249,1) WARNING loading modinfo.lua: workshop-222342168 does not specify if it is compatible with the base game. It may not work properly.	
-scripts/modindex.lua(252,1) WARNING loading modinfo.lua: workshop-222342168 does not specify if it is compatible with Reign of Giants. It may not work properly.	
-scripts/modindex.lua(249,1) WARNING loading modinfo.lua: workshop-448551009 does not specify if it is compatible with the base game. It may not work properly.	
-scripts/modindex.lua(252,1) WARNING loading modinfo.lua: workshop-448551009 does not specify if it is compatible with Reign of Giants. It may not work properly.	
 scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-170030148	
 scripts/mods.lua(179,1) Loading mod: workshop-170030148 (Display Food Values)	
 scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-180823800	
@@ -201,42 +89,44 @@ scripts/mods.lua(179,1) Loading mod: workshop-511422938 (Scythe)
 scripts/mods.lua(206,1) Mod: workshop-222342168 (SmartCrockPot)	Loading modworldgenmain.lua	
 scripts/mods.lua(214,1) Mod: workshop-222342168 (SmartCrockPot)	  Mod had no modworldgenmain.lua. Skipping.	
 scripts/mods.lua(206,1) Mod: workshop-222342168 (SmartCrockPot)	Loading modmain.lua	
-scripts/mods.lua(206,1) Mod: workshop-456082189 (Health Info)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-456082189 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-456082189 (Health Info)	Loading modmain.lua	
-scripts/mods.lua(206,1) Mod: workshop-377836982 (Where is Chester?)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-377836982 (Where is Chester?)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-377836982 (Where is Chester?)	Loading modmain.lua	
-scripts/mods.lua(206,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Loading modmain.lua	
-scripts/mods.lua(206,1) Mod: workshop-511422938 (Scythe)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-511422938 (Scythe)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-511422938 (Scythe)	Loading modmain.lua	
-scripts/mods.lua(132,1) modimport: ../mods/workshop-511422938/mowdown.lua	
+scripts/mods.lua(132,1) modimport: ../mods/workshop-222342168/modmain_segments/action_predict.lua	
+scripts/mods.lua(132,1) modimport: ../mods/workshop-222342168/modmain_segments/containerwidgetfunction.lua	
 scripts/mods.lua(206,1) Mod: workshop-323996352 (Wormhole Marks)	Loading modworldgenmain.lua	
 scripts/mods.lua(214,1) Mod: workshop-323996352 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
 scripts/mods.lua(206,1) Mod: workshop-323996352 (Wormhole Marks)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-222103064 (Where's My Beefalo?)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-222103064 (Where's My Beefalo?)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-222103064 (Where's My Beefalo?)	Loading modmain.lua	
 scripts/mods.lua(206,1) Mod: workshop-180823800 (Just Larger Chests)	Loading modworldgenmain.lua	
 scripts/mods.lua(214,1) Mod: workshop-180823800 (Just Larger Chests)	  Mod had no modworldgenmain.lua. Skipping.	
 scripts/mods.lua(206,1) Mod: workshop-180823800 (Just Larger Chests)	Loading modmain.lua	
 scripts/mods.lua(206,1) Mod: workshop-188251898 (Minimap HUD)	Loading modworldgenmain.lua	
 scripts/mods.lua(214,1) Mod: workshop-188251898 (Minimap HUD)	  Mod had no modworldgenmain.lua. Skipping.	
 scripts/mods.lua(206,1) Mod: workshop-188251898 (Minimap HUD)	Loading modmain.lua	
-scripts/mods.lua(206,1) Mod: workshop-222103064 (Where's My Beefalo?)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-222103064 (Where's My Beefalo?)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-222103064 (Where's My Beefalo?)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-377836982 (Where is Chester?)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-377836982 (Where is Chester?)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-377836982 (Where is Chester?)	Loading modmain.lua	
 scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modworldgenmain.lua	
 scripts/mods.lua(214,1) Mod: workshop-170030148 (Display Food Values)	  Mod had no modworldgenmain.lua. Skipping.	
 scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-511422938 (Scythe)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-511422938 (Scythe)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-511422938 (Scythe)	Loading modmain.lua	
+scripts/mods.lua(132,1) modimport: ../mods/workshop-511422938/mowdown.lua	
 scripts/mods.lua(206,1) Mod: workshop-356043883 (Geometric Placement)	Loading modworldgenmain.lua	
 scripts/mods.lua(214,1) Mod: workshop-356043883 (Geometric Placement)	  Mod had no modworldgenmain.lua. Skipping.	
 scripts/mods.lua(206,1) Mod: workshop-356043883 (Geometric Placement)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-456082189 (Health Info)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-456082189 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-456082189 (Health Info)	Loading modmain.lua	
 LOADING LUA SUCCESS
 scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	4557	
 scripts/playerprofile.lua(508,1) loaded profile	
 scripts/playerprofile.lua(572,1) bloom_enabled	false	
-DEVICE CAP 1460292866
+DEVICE CAP 1464435932
 scripts/saveindex.lua(119,1) loaded saveindex	
 scripts/gamelogic.lua(1390,1) OnFilesLoaded()	
 scripts/gamelogic.lua(1379,1) OnUpdatePurchaseStateComplete	
@@ -289,6 +179,7 @@ Could not unload undefined prefab 0xb981ecda (fast_farmplot)
 Could not unload undefined prefab 0x6c77c310 (fast_farmplot_placer)
 Could not unload undefined prefab 0xf4eb0943 (shovel)
 Could not unload undefined prefab 0xbcfca634 (strawhat)
+Could not unload undefined prefab 0xce5beefe (golden_scythe)
 Could not unload undefined prefab 0x761a1799 (gunpowder)
 Could not unload undefined prefab 0x1cd9e60e (razor)
 Could not unload undefined prefab 0x2e264dbc (blowdart_pipe)
@@ -526,106 +417,1604 @@ scripts/dlcsupport.lua(26,1) Load scripts/DLC001_prefab_files
 scripts/dlcsupport.lua(26,1) Load scripts/DLC002_prefab_files	
 scripts/mods.lua(296,1) Mod: workshop-222342168 (SmartCrockPot)	Registering prefabs	
 scripts/mods.lua(319,1) Mod: workshop-222342168 (SmartCrockPot)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-456082189 (Health Info)	Registering prefabs	
-scripts/mods.lua(319,1) Mod: workshop-456082189 (Health Info)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-377836982 (Where is Chester?)	Registering prefabs	
-scripts/mods.lua(319,1) Mod: workshop-377836982 (Where is Chester?)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Registering prefabs	
-scripts/mods.lua(319,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-511422938 (Scythe)	Registering prefabs	
-scripts/mods.lua(302,1) Mod: workshop-511422938 (Scythe)	  Registering prefab file: prefabs/scythe	
-scripts/mods.lua(306,1) Mod: workshop-511422938 (Scythe)	    scythe	
-scripts/mods.lua(319,1) Mod: workshop-511422938 (Scythe)	  Registering default mod prefab	
 scripts/mods.lua(296,1) Mod: workshop-323996352 (Wormhole Marks)	Registering prefabs	
 scripts/mods.lua(319,1) Mod: workshop-323996352 (Wormhole Marks)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-222103064 (Where's My Beefalo?)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-222103064 (Where's My Beefalo?)	  Registering default mod prefab	
 scripts/mods.lua(296,1) Mod: workshop-180823800 (Just Larger Chests)	Registering prefabs	
 scripts/mods.lua(319,1) Mod: workshop-180823800 (Just Larger Chests)	  Registering default mod prefab	
 scripts/mods.lua(296,1) Mod: workshop-188251898 (Minimap HUD)	Registering prefabs	
 scripts/mods.lua(319,1) Mod: workshop-188251898 (Minimap HUD)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-222103064 (Where's My Beefalo?)	Registering prefabs	
-scripts/mods.lua(319,1) Mod: workshop-222103064 (Where's My Beefalo?)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-377836982 (Where is Chester?)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-377836982 (Where is Chester?)	  Registering default mod prefab	
 scripts/mods.lua(296,1) Mod: workshop-170030148 (Display Food Values)	Registering prefabs	
 scripts/mods.lua(319,1) Mod: workshop-170030148 (Display Food Values)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-511422938 (Scythe)	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-511422938 (Scythe)	  Registering prefab file: prefabs/scythe	
+scripts/mods.lua(306,1) Mod: workshop-511422938 (Scythe)	    scythe	
+scripts/mods.lua(302,1) Mod: workshop-511422938 (Scythe)	  Registering prefab file: prefabs/golden_scythe	
+scripts/mods.lua(306,1) Mod: workshop-511422938 (Scythe)	    golden_scythe	
+scripts/mods.lua(319,1) Mod: workshop-511422938 (Scythe)	  Registering default mod prefab	
 scripts/mods.lua(296,1) Mod: workshop-356043883 (Geometric Placement)	Registering prefabs	
 scripts/mods.lua(302,1) Mod: workshop-356043883 (Geometric Placement)	  Registering prefab file: prefabs/buildgridplacer	
 scripts/mods.lua(306,1) Mod: workshop-356043883 (Geometric Placement)	    buildgridplacer	
 scripts/mods.lua(319,1) Mod: workshop-356043883 (Geometric Placement)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-456082189 (Health Info)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-456082189 (Health Info)	  Registering default mod prefab	
+scripts/gamelogic.lua(142,1) 	Load FE	
+scripts/gamelogic.lua(146,1) 	Load FE: done	
+SimLuaProxy::QueryServer()
+Reset() returning
+QueryServerComplete no callback
+HttpClientWriteCallback (0x061B5801, 1, 1272, 0x063DFB20)
+HttpClientWriteCallback READ 1272 (1272 total)
+HttpClientWriteCallback (0x061B561C, 1, 16384, 0x063DFB20)
+HttpClientWriteCallback READ 16384 (16384 total)
+HttpClientWriteCallback (0x061B561C, 1, 16384, 0x063DFB20)
+HttpClientWriteCallback READ 16384 (32768 total)
+HttpClientWriteCallback (0x061B561C, 1, 12120, 0x063DFB20)
+HttpClientWriteCallback READ 12120 (44888 total)
+HttpClientWriteCallback (0x061B561C, 1, 16384, 0x063DFB20)
+HttpClientWriteCallback READ 16384 (61272 total)
+HttpClientWriteCallback (0x061B561C, 1, 16384, 0x063DFB20)
+HttpClientWriteCallback READ 16384 (77656 total)
+HttpClientWriteCallback (0x061B561C, 1, 9850, 0x063DFB20)
+HttpClientWriteCallback READ 9850 (87506 total)
+scripts/modindex.lua(85,1) ModIndex: Load sequence finished successfully.
+	
+GetCachedUGCCount 0
+EnumerateUserSubscribedFiles(0)
+OnEnumerateUserSubscribedFilesResult 
+   EResult 1, results 18/18
+Enum complete. Found 18 mods.
+DeleteUnsubscribedFiles [../mods]
+FindDirectoriesMatching [../mods/workshop-*]
+GetPublishedFileDetails(0)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 222103064
+   245850, 219740, [Where's My Beefalo?], 30726777088895825, 487820662817815988, 76561197989646930, 1390995491, 1417398092, 0, 0, [Creature,environment,Interface,worldgen,tweak,Reign of Giants Compatible,version:1.4], 0, [mod_publish_data_file.zip], 79011, 275659, [], 0
+scripts/mods.lua(19,1) mod_name workshop-222103064	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(1)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 323996352
+   245850, 219740, [Wormhole Marks], 609474841941678598, 35227289354721911, 76561198027077262, 1412788013, 1450904438, 0, 0, [utility,tweak,Reign of Giants Compatible,version:1.2.3], 0, [mod_publish_data_file.zip], 107504, 32008, [], 0
+scripts/mods.lua(19,1) mod_name workshop-323996352	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(2)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 222342168
+   245850, 219740, [SmartCrockPot], 357276631074961702, 3281172720287038854, 76561198025317013, 1391049622, 1454352129, 0, 0, [utility,Interface,Tutorial,Reign of Giants Compatible,version:4.000002], 0, [mod_publish_data_file.zip], 19816, 30514, [], 0
+scripts/mods.lua(19,1) mod_name workshop-222342168	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(3)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 377836982
+   245850, 219740, [Where is Chester?], 28480317266604612, 28479983629129611, 76561197967998533, 1421668584, 1421974237, 0, 0, [pet,item,Creature,environment,tweak,Other,version:1.1], 0, [mod_publish_data_file.zip], 315318, 223522, [], 0
+scripts/mods.lua(19,1) mod_name workshop-377836982	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(4)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 511422938
+   245850, 219740, [Scythe], 280722393123968067, 365154562156716078, 76561198234234404, 1441272399, 1460621840, 0, 0, [item,Reign of Giants Compatible,Shipwrecked Compatible,version:2.0.3], 0, [mod_publish_data_file.zip], 63457, 75678, [], 0
+scripts/mods.lua(19,1) mod_name workshop-511422938	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(5)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 180823800
+   245850, 219740, [Just Larger Chests], 615044185862288786, 615029943832853987, 76561198039114150, 1379944117, 1393880608, 0, 0, [Interface,tweak], 0, [mod_publish_data_file.zip], 76571, 121990, [], 0
+scripts/mods.lua(19,1) mod_name workshop-180823800	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(6)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 399501980
+   245850, 219740, [Never Perish Icebox 2.0], 530634929176767509, 530634674428875257, 76561198060471684, 1425006287, 1425259564, 0, 0, [item,environment,Other,Reign of Giants Compatible,version:2.0], 0, [mod_publish_data_file.zip], 10796, 7748, [], 0
+scripts/mods.lua(19,1) mod_name workshop-399501980	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(7)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 456082189
+   245850, 219740, [Health Info], 362902762342902823, 27366287301149683, 76561198025486794, 1433578344, 1450879401, 0, 0, [character,utility,Creature,Interface,Other,Reign of Giants Compatible,version:2.0.3,server_admin], 0, [mod_publish_data_file.zip], 15481, 68108, [], 0
+scripts/mods.lua(19,1) mod_name workshop-456082189	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(8)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 198485522
+   245850, 219740, [Storm Cellar], 29597789815426563, 666828702388181528, 76561197989646930, 1385527105, 1413964168, 0, 0, [item,environment,Interface,tweak,Other,Reign of Giants Compatible], 0, [mod_publish_data_file.zip], 287008, 239026, [], 0
+scripts/mods.lua(19,1) mod_name workshop-198485522	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(9)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 256990160
+   245850, 219740, [Dont Erase My Saveslot], 642124127289310763, 3336349969170785508, 76561198062976749, 1399372665, 1449285926, 0, 0, [utility,tweak,version:1.0], 0, [mod_publish_data_file.zip], 678, 28339, [], 0
+scripts/mods.lua(19,1) mod_name workshop-256990160	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(10)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 584259222
+   245850, 219740, [Storeroom], 316744920734173277, 362903713116215502, 76561198174493482, 1451132249, 1454889863, 0, 0, [item,Art,tweak,Other,Reign of Giants Compatible,version:2.1a], 0, [mod_publish_data_file.zip], 333601, 519442, [], 0
+scripts/mods.lua(19,1) mod_name workshop-584259222	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(11)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 579513934
+   245850, 219740, [[DS] Too many Item +], 577949100157329664, 577949100157108938, 76561198091006872, 1450590033, 1450594638, 0, 0, [item,utility,environment,Interface,tweak,Other,Reign of Giants Compatible,version:1.1], 0, [mod_publish_data_file.zip], 1198223, 115665, [], 0
+scripts/mods.lua(19,1) mod_name workshop-579513934	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(12)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 170030148
+   245850, 219740, [Display Food Values], 529544281346799238, 919019506098964950, 76561198049829886, 1376666733, 1458983166, 0, 0, [item,Interface,tweak,version:Public preview version], 0, [mod_publish_data_file.zip], 271655, 74101, [], 0
+scripts/mods.lua(19,1) mod_name workshop-170030148	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(13)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 188251898
+   245850, 219740, [Minimap HUD], 288602101460365415, 558737771725946190, 76561197960431333, 1382514013, 1459105915, 0, 0, [Interface,Reign of Giants Compatible,version:1.0.7], 0, [mod_publish_data_file.zip], 12777, 41782, [], 0
+scripts/mods.lua(19,1) mod_name workshop-188251898	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(14)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 571751170
+   245850, 219740, [Extra Slots (Shipwrecked)], 305488747313135225, 387671104592789186, 76561198023676128, 1449611101, 1457408741, 0, 0, [character,item,Interface,tweak,Reign of Giants Compatible,version:0.06], 0, [mod_publish_data_file.zip], 16016, 21121, [], 0
+scripts/mods.lua(19,1) mod_name workshop-571751170	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(15)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 356043883
+   245850, 219740, [Geometric Placement], 278474310944283631, 278474310944194293, 76561198025931302, 1418560911, 1464324798, 0, 0, [Interface,Reign of Giants Compatible,Shipwrecked Compatible,tweak,utility,version:2.0.3], 0, [mod_publish_data_file.zip], 58840, 1066286, [], 0
+scripts/mods.lua(19,1) mod_name workshop-356043883	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(16)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 592554020
+   245850, 219740, [Smart  Furnace (SW-ROG) V1.4], 273970711309154725, 362906026131407096, 76561198193315938, 1451906390, 1464226052, 0, 0, [item,Reign of Giants Compatible,Shipwrecked Compatible,version:1.4], 0, [mod_publish_data_file.zip], 188943, 51645, [], 0
+scripts/mods.lua(19,1) mod_name workshop-592554020	
+scripts/mods.lua(21,1) table: 0B1269D0	
+GetPublishedFileDetails(17)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 574636989
+   245850, 219740, [Combined Status], 278474310935845234, 403434072387554230, 76561198025931302, 1449993746, 1464144059, 0, 0, [Interface,Reign of Giants Compatible,Shipwrecked Compatible,tweak,version:1.6.3], 0, [mod_publish_data_file.zip], 384567, 118758, [], 0
+scripts/mods.lua(19,1) mod_name workshop-574636989	
+scripts/mods.lua(21,1) table: 0B1269D0	
+Mod listing complete.
+DownloadPublishedFile(0)
+Downloading mod file 280722393123968067 [mod_publish_data_file.zip] [Scythe]...
+OnDownloadPublishedFileResult 
+   EResult 1, 280722393123968067
+   245850, 63457, [mod_publish_data_file.zip], 76561198234234404
+UnpackMod 280722393123968067 [mod_publish_data_file.zip] [Scythe]
+RecursivelyDeleteDirectory [../mods/workshop-511422938]
+RecursivelyDeleteDirectory [../mods/workshop-511422938/anim]
+DelFile [../mods/workshop-511422938/anim/golden_scythe.zip] 0: ok.
+DelFile [../mods/workshop-511422938/anim/scythe.zip] 0: ok.
+DelFile [../mods/workshop-511422938/anim/swap_golden_scythe.zip] 0: ok.
+DelFile [../mods/workshop-511422938/anim/swap_scythe.zip] 0: ok.
+DelDirectory [../mods/workshop-511422938/anim] 0: ok.
+RecursivelyDeleteDirectory [../mods/workshop-511422938/images]
+RecursivelyDeleteDirectory [../mods/workshop-511422938/images/inventoryimages]
+DelFile [../mods/workshop-511422938/images/inventoryimages/golden_scythe.tex] 0: ok.
+DelFile [../mods/workshop-511422938/images/inventoryimages/golden_scythe.xml] 0: ok.
+DelFile [../mods/workshop-511422938/images/inventoryimages/scythe.tex] 0: ok.
+DelFile [../mods/workshop-511422938/images/inventoryimages/scythe.xml] 0: ok.
+DelDirectory [../mods/workshop-511422938/images/inventoryimages] 0: ok.
+DelDirectory [../mods/workshop-511422938/images] 0: ok.
+RecursivelyDeleteDirectory [../mods/workshop-511422938/scripts]
+RecursivelyDeleteDirectory [../mods/workshop-511422938/scripts/prefabs]
+DelFile [../mods/workshop-511422938/scripts/prefabs/golden_scythe.lua] 0: ok.
+DelFile [../mods/workshop-511422938/scripts/prefabs/scythe.lua] 0: ok.
+DelDirectory [../mods/workshop-511422938/scripts/prefabs] 0: ok.
+DelDirectory [../mods/workshop-511422938/scripts] 0: ok.
+DelFile [../mods/workshop-511422938/modinfo.lua] 0: ok.
+DelFile [../mods/workshop-511422938/modmain.lua] 0: ok.
+DelFile [../mods/workshop-511422938/mowdown.lua] 0: ok.
+DelFile [../mods/workshop-511422938/scythe.tex] 0: ok.
+DelFile [../mods/workshop-511422938/scythe.xml] 0: ok.
+DelDirectory [../mods/workshop-511422938] 0: ok.
+SteamWorkshop::UnzipMod ../mods/workshop-511422938
+WriteModFile [../mods/workshop-511422938/modinfo.lua] 1352 bytes
+WriteModFile [../mods/workshop-511422938/modmain.lua] 2887 bytes
+WriteModFile [../mods/workshop-511422938/mowdown.lua] 4046 bytes
+WriteModFile [../mods/workshop-511422938/scythe.tex] 21960 bytes
+WriteModFile [../mods/workshop-511422938/scythe.xml] 162 bytes
+WriteModFile [../mods/workshop-511422938/anim/golden_scythe.zip] 19141 bytes
+WriteModFile [../mods/workshop-511422938/anim/scythe.zip] 2552 bytes
+WriteModFile [../mods/workshop-511422938/anim/swap_golden_scythe.zip] 18022 bytes
+WriteModFile [../mods/workshop-511422938/anim/swap_scythe.zip] 2719 bytes
+WriteModFile [../mods/workshop-511422938/images/inventoryimages/golden_scythe.tex] 5566 bytes
+WriteModFile [../mods/workshop-511422938/images/inventoryimages/golden_scythe.xml] 172 bytes
+WriteModFile [../mods/workshop-511422938/images/inventoryimages/scythe.tex] 5566 bytes
+WriteModFile [../mods/workshop-511422938/images/inventoryimages/scythe.xml] 158 bytes
+WriteModFile [../mods/workshop-511422938/scripts/prefabs/golden_scythe.lua] 2883 bytes
+WriteModFile [../mods/workshop-511422938/scripts/prefabs/scythe.lua] 2574 bytes
+DownloadPublishedFile(1)
+Downloading mod file 288602101460365415 [mod_publish_data_file.zip] [Minimap HUD]...
+OnDownloadPublishedFileResult 
+   EResult 1, 288602101460365415
+   245850, 12777, [mod_publish_data_file.zip], 76561197960431333
+UnpackMod 288602101460365415 [mod_publish_data_file.zip] [Minimap HUD]
+RecursivelyDeleteDirectory [../mods/workshop-188251898]
+RecursivelyDeleteDirectory [../mods/workshop-188251898/scripts]
+RecursivelyDeleteDirectory [../mods/workshop-188251898/scripts/widgets]
+DelFile [../mods/workshop-188251898/scripts/widgets/minimapwidget.lua] 0: ok.
+DelDirectory [../mods/workshop-188251898/scripts/widgets] 0: ok.
+DelDirectory [../mods/workshop-188251898/scripts] 0: ok.
+DelFile [../mods/workshop-188251898/modicon.tex] 0: ok.
+DelFile [../mods/workshop-188251898/modicon.xml] 0: ok.
+DelFile [../mods/workshop-188251898/modinfo.lua] 0: ok.
+DelFile [../mods/workshop-188251898/modmain.lua] 0: ok.
+DelDirectory [../mods/workshop-188251898] 0: ok.
+SteamWorkshop::UnzipMod ../mods/workshop-188251898
+WriteModFile [../mods/workshop-188251898/modicon.tex] 21960 bytes
+WriteModFile [../mods/workshop-188251898/modicon.xml] 164 bytes
+WriteModFile [../mods/workshop-188251898/modinfo.lua] 4806 bytes
+WriteModFile [../mods/workshop-188251898/modmain.lua] 4174 bytes
+WriteModFile [../mods/workshop-188251898/scripts/widgets/minimapwidget.lua] 7291 bytes
+DownloadPublishedFile(2)
+Downloading mod file 305488747313135225 [mod_publish_data_file.zip] [Extra Slots (Shipwrecked)]...
+OnDownloadPublishedFileResult 
+   EResult 1, 305488747313135225
+   245850, 16016, [mod_publish_data_file.zip], 76561198023676128
+UnpackMod 305488747313135225 [mod_publish_data_file.zip] [Extra Slots (Shipwrecked)]
+RecursivelyDeleteDirectory [../mods/workshop-571751170]
+RecursivelyDeleteDirectory [../mods/workshop-571751170/images]
+DelFile [../mods/workshop-571751170/images/slots5.tex] 0: ok.
+DelFile [../mods/workshop-571751170/images/slots5.xml] 0: ok.
+DelDirectory [../mods/workshop-571751170/images] 0: ok.
+DelFile [../mods/workshop-571751170/compatibility notes for modders.txt] 0: ok.
+DelFile [../mods/workshop-571751170/extra_equip.tex] 0: ok.
+DelFile [../mods/workshop-571751170/extra_equip.xml] 0: ok.
+DelFile [../mods/workshop-571751170/modinfo.lua] 0: ok.
+DelFile [../mods/workshop-571751170/modmain.lua] 0: ok.
+DelDirectory [../mods/workshop-571751170] 0: ok.
+SteamWorkshop::UnzipMod ../mods/workshop-571751170
+WriteModFile [../mods/workshop-571751170/compatibility notes for modders.txt] 240 bytes
+WriteModFile [../mods/workshop-571751170/extra_equip.tex] 21960 bytes
+WriteModFile [../mods/workshop-571751170/extra_equip.xml] 146 bytes
+WriteModFile [../mods/workshop-571751170/modinfo.lua] 418 bytes
+WriteModFile [../mods/workshop-571751170/modmain.lua] 4260 bytes
+WriteModFile [../mods/workshop-571751170/images/slots5.tex] 43826 bytes
+WriteModFile [../mods/workshop-571751170/images/slots5.xml] 255 bytes
+DownloadPublishedFile(3)
+Downloading mod file 278474310944283631 [mod_publish_data_file.zip] [Geometric Placement]...
+OnDownloadPublishedFileResult 
+   EResult 1, 278474310944283631
+   245850, 58840, [mod_publish_data_file.zip], 76561198025931302
+UnpackMod 278474310944283631 [mod_publish_data_file.zip] [Geometric Placement]
+RecursivelyDeleteDirectory [../mods/workshop-356043883]
+RecursivelyDeleteDirectory [../mods/workshop-356043883/anim]
+DelFile [../mods/workshop-356043883/anim/buildgridplacer.zip] 0: ok.
+DelFile [../mods/workshop-356043883/anim/gridplacer.zip] 0: ok.
+DelDirectory [../mods/workshop-356043883/anim] 0: ok.
+RecursivelyDeleteDirectory [../mods/workshop-356043883/scripts]
+RecursivelyDeleteDirectory [../mods/workshop-356043883/scripts/prefabs]
+DelFile [../mods/workshop-356043883/scripts/prefabs/buildgridplacer.lua] 0: ok.
+DelDirectory [../mods/workshop-356043883/scripts/prefabs] 0: ok.
+DelDirectory [../mods/workshop-356043883/scripts] 0: ok.
+DelFile [../mods/workshop-356043883/modicon.tex] 0: ok.
+DelFile [../mods/workshop-356043883/modicon.xml] 0: ok.
+DelFile [../mods/workshop-356043883/modinfo.lua] 0: ok.
+DelFile [../mods/workshop-356043883/modmain.lua] 0: ok.
+DelDirectory [../mods/workshop-356043883] 0: ok.
+SteamWorkshop::UnzipMod ../mods/workshop-356043883
+WriteModFile [../mods/workshop-356043883/geometricplacement.tex] 21960 bytes
+WriteModFile [../mods/workshop-356043883/geometricplacement.xml] 160 bytes
+WriteModFile [../mods/workshop-356043883/modinfo.lua] 6365 bytes
+WriteModFile [../mods/workshop-356043883/modmain.lua] 38570 bytes
+WriteModFile [../mods/workshop-356043883/anim/buildgridplacer.zip] 4342 bytes
+WriteModFile [../mods/workshop-356043883/images/cursor_toggle_icon.tex] 5566 bytes
+WriteModFile [../mods/workshop-356043883/images/cursor_toggle_icon.xml] 182 bytes
+WriteModFile [../mods/workshop-356043883/images/diamond_geometry.tex] 5566 bytes
+WriteModFile [../mods/workshop-356043883/images/diamond_geometry.xml] 178 bytes
+WriteModFile [../mods/workshop-356043883/images/flat_hexagon_geometry.tex] 5566 bytes
+WriteModFile [../mods/workshop-356043883/images/flat_hexagon_geometry.xml] 188 bytes
+WriteModFile [../mods/workshop-356043883/images/grid_toggle_icon.tex] 5566 bytes
+WriteModFile [../mods/workshop-356043883/images/grid_toggle_icon.xml] 178 bytes
+WriteModFile [../mods/workshop-356043883/images/placer_toggle_icon.tex] 5566 bytes
+WriteModFile [../mods/workshop-356043883/images/placer_toggle_icon.xml] 182 bytes
+WriteModFile [../mods/workshop-356043883/images/pointy_hexagon_geometry.tex] 5566 bytes
+WriteModFile [../mods/workshop-356043883/images/pointy_hexagon_geometry.xml] 192 bytes
+WriteModFile [../mods/workshop-356043883/images/square_geometry.tex] 5566 bytes
+WriteModFile [../mods/workshop-356043883/images/square_geometry.xml] 176 bytes
+WriteModFile [../mods/workshop-356043883/images/toggle_x_out.tex] 5566 bytes
+WriteModFile [../mods/workshop-356043883/images/toggle_x_out.xml] 170 bytes
+WriteModFile [../mods/workshop-356043883/images/x_hexagon_geometry.tex] 5566 bytes
+WriteModFile [../mods/workshop-356043883/images/x_hexagon_geometry.xml] 182 bytes
+WriteModFile [../mods/workshop-356043883/images/z_hexagon_geometry.tex] 5566 bytes
+WriteModFile [../mods/workshop-356043883/images/z_hexagon_geometry.xml] 182 bytes
+WriteModFile [../mods/workshop-356043883/scripts/prefabs/buildgridplacer.lua] 868 bytes
+WriteModFile [../mods/workshop-356043883/scripts/screens/geometricoptionsscreen.lua] 22012 bytes
+WriteModFile [../mods/workshop-356043883/scripts/screens/geometricoptionsscreen_singleplayer.lua] 27641 bytes
+DownloadPublishedFile(4)
+Downloading mod file 273970711309154725 [mod_publish_data_file.zip] [Smart  Furnace (SW-ROG) V1.4]...
+OnDownloadPublishedFileResult 
+   EResult 1, 273970711309154725
+   245850, 188943, [mod_publish_data_file.zip], 76561198193315938
+UnpackMod 273970711309154725 [mod_publish_data_file.zip] [Smart  Furnace (SW-ROG) V1.4]
+RecursivelyDeleteDirectory [../mods/workshop-592554020]
+RecursivelyDeleteDirectory [../mods/workshop-592554020/anim]
+DelFile [../mods/workshop-592554020/anim/furnace.zip] 0: ok.
+DelFile [../mods/workshop-592554020/anim/furnace_fire.zip] 0: ok.
+DelDirectory [../mods/workshop-592554020/anim] 0: ok.
+RecursivelyDeleteDirectory [../mods/workshop-592554020/images]
+RecursivelyDeleteDirectory [../mods/workshop-592554020/images/inventoryimages]
+DelFile [../mods/workshop-592554020/images/inventoryimages/furnace.tex] 0: ok.
+DelFile [../mods/workshop-592554020/images/inventoryimages/furnace.xml] 0: ok.
+DelDirectory [../mods/workshop-592554020/images/inventoryimages] 0: ok.
+DelDirectory [../mods/workshop-592554020/images] 0: ok.
+RecursivelyDeleteDirectory [../mods/workshop-592554020/minimap]
+DelFile [../mods/workshop-592554020/minimap/furnace.tex] 0: ok.
+DelFile [../mods/workshop-592554020/minimap/furnace.xml] 0: ok.
+DelDirectory [../mods/workshop-592554020/minimap] 0: ok.
+RecursivelyDeleteDirectory [../mods/workshop-592554020/scripts]
+RecursivelyDeleteDirectory [../mods/workshop-592554020/scripts/components]
+DelFile [../mods/workshop-592554020/scripts/components/cookable.lua] 0: ok.
+DelDirectory [../mods/workshop-592554020/scripts/components] 0: ok.
+RecursivelyDeleteDirectory [../mods/workshop-592554020/scripts/prefabs]
+DelFile [../mods/workshop-592554020/scripts/prefabs/furnace.lua] 0: ok.
+DelFile [../mods/workshop-592554020/scripts/prefabs/furnacefire.lua] 0: ok.
+DelDirectory [../mods/workshop-592554020/scripts/prefabs] 0: ok.
+DelDirectory [../mods/workshop-592554020/scripts] 0: ok.
+DelFile [../mods/workshop-592554020/modinfo.lua] 0: ok.
+DelFile [../mods/workshop-592554020/modmain.lua] 0: ok.
+DelFile [../mods/workshop-592554020/sf.tex] 0: ok.
+DelFile [../mods/workshop-592554020/sf.xml] 0: ok.
+DelDirectory [../mods/workshop-592554020] 0: ok.
+SteamWorkshop::UnzipMod ../mods/workshop-592554020
+WriteModFile [../mods/workshop-592554020/modinfo.lua] 580 bytes
+WriteModFile [../mods/workshop-592554020/modmain.lua] 1448 bytes
+WriteModFile [../mods/workshop-592554020/sf.tex] 21960 bytes
+WriteModFile [../mods/workshop-592554020/sf.xml] 122 bytes
+WriteModFile [../mods/workshop-592554020/anim/furnace.zip] 27711 bytes
+WriteModFile [../mods/workshop-592554020/anim/furnace_fire.zip] 146845 bytes
+WriteModFile [../mods/workshop-592554020/images/inventoryimages/furnace.tex] 5566 bytes
+WriteModFile [../mods/workshop-592554020/images/inventoryimages/furnace.xml] 133 bytes
+WriteModFile [../mods/workshop-592554020/minimap/furnace.tex] 5566 bytes
+WriteModFile [../mods/workshop-592554020/minimap/furnace.xml] 133 bytes
+WriteModFile [../mods/workshop-592554020/scripts/components/cookable.lua] 1358 bytes
+WriteModFile [../mods/workshop-592554020/scripts/prefabs/furnace.lua] 12518 bytes
+WriteModFile [../mods/workshop-592554020/scripts/prefabs/furnacefire.lua] 1697 bytes
+DownloadPublishedFile(5)
+Downloading mod file 278474310935845234 [mod_publish_data_file.zip] [Combined Status]...
+OnDownloadPublishedFileResult 
+   EResult 1, 278474310935845234
+   245850, 384567, [mod_publish_data_file.zip], 76561198025931302
+UnpackMod 278474310935845234 [mod_publish_data_file.zip] [Combined Status]
+RecursivelyDeleteDirectory [../mods/workshop-574636989]
+RecursivelyDeleteDirectory [../mods/workshop-574636989/anim]
+DelFile [../mods/workshop-574636989/anim/cave_clock.zip] 0: ok.
+DelFile [../mods/workshop-574636989/anim/moon_waning_phases.zip] 0: ok.
+DelDirectory [../mods/workshop-574636989/anim] 0: ok.
+RecursivelyDeleteDirectory [../mods/workshop-574636989/images]
+DelFile [../mods/workshop-574636989/images/avatars.tex] 0: ok.
+DelFile [../mods/workshop-574636989/images/avatars.xml] 0: ok.
+DelFile [../mods/workshop-574636989/images/bar.tex] 0: ok.
+DelFile [../mods/workshop-574636989/images/bar.xml] 0: ok.
+DelFile [../mods/workshop-574636989/images/bar_bg.tex] 0: ok.
+DelFile [../mods/workshop-574636989/images/bar_bg.xml] 0: ok.
+DelFile [../mods/workshop-574636989/images/rain.tex] 0: ok.
+DelFile [../mods/workshop-574636989/images/rain.xml] 0: ok.
+DelFile [../mods/workshop-574636989/images/status_bgs.tex] 0: ok.
+DelFile [../mods/workshop-574636989/images/status_bgs.xml] 0: ok.
+DelDirectory [../mods/workshop-574636989/images] 0: ok.
+RecursivelyDeleteDirectory [../mods/workshop-574636989/scripts]
+RecursivelyDeleteDirectory [../mods/workshop-574636989/scripts/widgets]
+DelFile [../mods/workshop-574636989/scripts/widgets/playerbadge_aos.lua] 0: ok.
+DelFile [../mods/workshop-574636989/scripts/widgets/seasonclock.lua] 0: ok.
+DelDirectory [../mods/workshop-574636989/scripts/widgets] 0: ok.
+DelDirectory [../mods/workshop-574636989/scripts] 0: ok.
+DelFile [../mods/workshop-574636989/alwaysonstatus.tex] 0: ok.
+DelFile [../mods/workshop-574636989/alwaysonstatus.xml] 0: ok.
+DelFile [../mods/workshop-574636989/modinfo.lua] 0: ok.
+DelFile [../mods/workshop-574636989/modmain.lua] 0: ok.
+DelDirectory [../mods/workshop-574636989] 0: ok.
+SteamWorkshop::UnzipMod ../mods/workshop-574636989
+WriteModFile [../mods/workshop-574636989/combinedstatus.tex] 16402 bytes
+WriteModFile [../mods/workshop-574636989/combinedstatus.xml] 152 bytes
+WriteModFile [../mods/workshop-574636989/modinfo.lua] 6780 bytes
+WriteModFile [../mods/workshop-574636989/modmain.lua] 26292 bytes
+WriteModFile [../mods/workshop-574636989/anim/cave_clock.zip] 246527 bytes
+WriteModFile [../mods/workshop-574636989/anim/moon_waning_phases.zip] 6395 bytes
+WriteModFile [../mods/workshop-574636989/images/avatars.tex] 699206 bytes
+WriteModFile [../mods/workshop-574636989/images/avatars.xml] 4238 bytes
+WriteModFile [../mods/workshop-574636989/images/bar.tex] 10818 bytes
+WriteModFile [../mods/workshop-574636989/images/bar.xml] 130 bytes
+WriteModFile [../mods/workshop-574636989/images/bar_bg.tex] 19458 bytes
+WriteModFile [../mods/workshop-574636989/images/bar_bg.xml] 136 bytes
+WriteModFile [../mods/workshop-574636989/images/rain.tex] 21960 bytes
+WriteModFile [../mods/workshop-574636989/images/rain.xml] 158 bytes
+WriteModFile [../mods/workshop-574636989/images/status_bgs.tex] 21960 bytes
+WriteModFile [../mods/workshop-574636989/images/status_bgs.xml] 170 bytes
+WriteModFile [../mods/workshop-574636989/scripts/widgets/playerbadge_aos.lua] 1425 bytes
+WriteModFile [../mods/workshop-574636989/scripts/widgets/seasonclock.lua] 10398 bytes
+Mod downloads complete.
+GetCachedUGCCount 0
+SteamWorkshop::CompleteCallback (success, Mods were updated.) set
+SimLuaProxy::OnUpdateWorkshopModsComplete(ok., Mods were updated.)
+scripts/screens/modsscreen.lua(915,1) Reloading Mod Info Prefabs	
+scripts/screens/modsscreen.lua(902,1) Loading Mod Info Prefabs	
+scripts/screens/modsscreen.lua(907,1) Unloading Mod Info Prefabs	
+QueryStats: { "req":"modrank", "field":"Session.Loads.Mods.list", "fieldop":"unwind", "linkpref":"external", "limit": 20}
+../mods/workshop-180823800/modicon.tex is 200x200 but compressed textures must have power of 2 dimensions.
+../mods/workshop-323996352/wormhole_marks.tex is 200x200 but compressed textures must have power of 2 dimensions.
+CURL ERROR: Operation timed out after 5000 milliseconds with 0 bytes received
+scripts/screens/modsscreen.lua(907,1) Unloading Mod Info Prefabs	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-222342168	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-323996352	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-399501980	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-222103064	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-180823800	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-188251898	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-377836982	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-170030148	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-511422938	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-356043883	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-456082189	
+Collecting garbage...
+lua_gc took 0.02 seconds
+~SimLuaProxy()
+lua_close took 0.03 seconds
+ReleaseAll
+ReleaseAll Finished
+cGame::StartPlaying
+LOADING LUA
+DoLuaFile scripts/main.lua
+DoLuaFile loading buffer scripts/main.lua
+scripts/main.lua(165,1) running main.lua
+	
+scripts/modindex.lua(321,1) loaded modindex	
+scripts/modindex.lua(75,1) ModIndex: Beginning normal load sequence.
+	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-170030148	
+scripts/mods.lua(179,1) Loading mod: workshop-170030148 (Display Food Values)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-188251898	
+scripts/mods.lua(179,1) Loading mod: workshop-188251898 (Minimap HUD)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-222103064	
+scripts/mods.lua(179,1) Loading mod: workshop-222103064 (Where's My Beefalo?)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-222342168	
+scripts/mods.lua(179,1) Loading mod: workshop-222342168 (SmartCrockPot)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-256990160	
+scripts/mods.lua(179,1) Loading mod: workshop-256990160 (Dont Erase My Saveslot)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-323996352	
+scripts/mods.lua(179,1) Loading mod: workshop-323996352 (Wormhole Marks)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-356043883	
+scripts/mods.lua(179,1) Loading mod: workshop-356043883 (Geometric Placement)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-377836982	
+scripts/mods.lua(179,1) Loading mod: workshop-377836982 (Where is Chester?)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-399501980	
+scripts/mods.lua(179,1) Loading mod: workshop-399501980 (Never Perish Icebox 2.0)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-456082189	
+scripts/mods.lua(179,1) Loading mod: workshop-456082189 (Health Info)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-511422938	
+scripts/mods.lua(179,1) Loading mod: workshop-511422938 (Scythe)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-574636989	
+scripts/mods.lua(179,1) Loading mod: workshop-574636989 (Combined Status)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-579513934	
+scripts/mods.lua(179,1) Loading mod: workshop-579513934 ([DS] Too many Item)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-584259222	
+scripts/mods.lua(179,1) Loading mod: workshop-584259222 ( Storeroom)	
+scripts/mods.lua(206,1) Mod: workshop-222342168 (SmartCrockPot)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-222342168 (SmartCrockPot)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-222342168 (SmartCrockPot)	Loading modmain.lua	
+scripts/mods.lua(132,1) modimport: ../mods/workshop-222342168/modmain_segments/action_predict.lua	
+scripts/mods.lua(132,1) modimport: ../mods/workshop-222342168/modmain_segments/containerwidgetfunction.lua	
+scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-574636989 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-579513934 ([DS] Too many Item)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-579513934 ([DS] Too many Item)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-579513934 ([DS] Too many Item)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-377836982 (Where is Chester?)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-377836982 (Where is Chester?)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-377836982 (Where is Chester?)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-323996352 (Wormhole Marks)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-323996352 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-323996352 (Wormhole Marks)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-222103064 (Where's My Beefalo?)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-222103064 (Where's My Beefalo?)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-222103064 (Where's My Beefalo?)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-188251898 (Minimap HUD)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-188251898 (Minimap HUD)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-188251898 (Minimap HUD)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-170030148 (Display Food Values)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-584259222 ( Storeroom)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-584259222 ( Storeroom)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-584259222 ( Storeroom)	Loading modmain.lua	
+../mods/workshop-584259222/modmain.lua(67,1) slots_debug 	80	
+../mods/workshop-584259222/modmain.lua(68,1) recipe_debug 	20	20	5	
+scripts/mods.lua(206,1) Mod: workshop-511422938 (Scythe)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-511422938 (Scythe)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-511422938 (Scythe)	Loading modmain.lua	
+scripts/mods.lua(132,1) modimport: ../mods/workshop-511422938/mowdown.lua	
+scripts/mods.lua(206,1) Mod: workshop-356043883 (Geometric Placement)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-356043883 (Geometric Placement)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-356043883 (Geometric Placement)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-456082189 (Health Info)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-456082189 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-456082189 (Health Info)	Loading modmain.lua	
+LOADING LUA SUCCESS
+scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	4557	
+scripts/playerprofile.lua(508,1) loaded profile	
+scripts/playerprofile.lua(572,1) bloom_enabled	false	
+DEVICE CAP 1464436082
+scripts/saveindex.lua(119,1) loaded saveindex	
+scripts/gamelogic.lua(1390,1) OnFilesLoaded()	
+scripts/gamelogic.lua(1379,1) OnUpdatePurchaseStateComplete	
+scripts/gamelogic.lua(121,1) 	FE assets already loaded	
+scripts/mods.lua(296,1) Mod: workshop-222342168 (SmartCrockPot)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-222342168 (SmartCrockPot)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-574636989 (Combined Status)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-574636989 (Combined Status)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-579513934 ([DS] Too many Item)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-579513934 ([DS] Too many Item)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-377836982 (Where is Chester?)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-377836982 (Where is Chester?)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-323996352 (Wormhole Marks)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-323996352 (Wormhole Marks)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-222103064 (Where's My Beefalo?)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-222103064 (Where's My Beefalo?)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-188251898 (Minimap HUD)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-188251898 (Minimap HUD)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-170030148 (Display Food Values)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-170030148 (Display Food Values)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-584259222 ( Storeroom)	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-584259222 ( Storeroom)	  Registering prefab file: prefabs/cupboard	
+scripts/mods.lua(306,1) Mod: workshop-584259222 ( Storeroom)	    cupboard	
+scripts/mods.lua(306,1) Mod: workshop-584259222 ( Storeroom)	    cupboard_placer	
+scripts/mods.lua(319,1) Mod: workshop-584259222 ( Storeroom)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-511422938 (Scythe)	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-511422938 (Scythe)	  Registering prefab file: prefabs/scythe	
+scripts/mods.lua(306,1) Mod: workshop-511422938 (Scythe)	    scythe	
+scripts/mods.lua(302,1) Mod: workshop-511422938 (Scythe)	  Registering prefab file: prefabs/golden_scythe	
+scripts/mods.lua(306,1) Mod: workshop-511422938 (Scythe)	    golden_scythe	
+scripts/mods.lua(319,1) Mod: workshop-511422938 (Scythe)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-356043883 (Geometric Placement)	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-356043883 (Geometric Placement)	  Registering prefab file: prefabs/buildgridplacer	
+scripts/mods.lua(306,1) Mod: workshop-356043883 (Geometric Placement)	    buildgridplacer	
+scripts/mods.lua(319,1) Mod: workshop-356043883 (Geometric Placement)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-456082189 (Health Info)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-456082189 (Health Info)	  Registering default mod prefab	
+SimLuaProxy::QueryServer()
+scripts/modindex.lua(85,1) ModIndex: Load sequence finished successfully.
+	
+Reset() returning
+HttpClientWriteCallback (0x061B5801, 1, 1272, 0x063DFB20)
+HttpClientWriteCallback READ 1272 (1272 total)
+scripts/screens/slotdetailsscreen.lua(64,1) Loading slot details my DLC is RoG = 	true	  Capy = 	false	
+GetCachedUGCCount 0
+EnumerateUserSubscribedFiles(0)
+OnEnumerateUserSubscribedFilesResult 
+   EResult 1, results 18/18
+Enum complete. Found 18 mods.
+DeleteUnsubscribedFiles [../mods]
+FindDirectoriesMatching [../mods/workshop-*]
+GetPublishedFileDetails(0)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 222103064
+   245850, 219740, [Where's My Beefalo?], 30726777088895825, 487820662817815988, 76561197989646930, 1390995491, 1417398092, 0, 0, [Creature,environment,Interface,worldgen,tweak,Reign of Giants Compatible,version:1.4], 0, [mod_publish_data_file.zip], 79011, 275659, [], 0
+scripts/mods.lua(19,1) mod_name workshop-222103064	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(1)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 323996352
+   245850, 219740, [Wormhole Marks], 609474841941678598, 35227289354721911, 76561198027077262, 1412788013, 1450904438, 0, 0, [utility,tweak,Reign of Giants Compatible,version:1.2.3], 0, [mod_publish_data_file.zip], 107504, 32008, [], 0
+scripts/mods.lua(19,1) mod_name workshop-323996352	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(2)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 222342168
+   245850, 219740, [SmartCrockPot], 357276631074961702, 3281172720287038854, 76561198025317013, 1391049622, 1454352129, 0, 0, [utility,Interface,Tutorial,Reign of Giants Compatible,version:4.000002], 0, [mod_publish_data_file.zip], 19816, 30514, [], 0
+scripts/mods.lua(19,1) mod_name workshop-222342168	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(3)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 377836982
+   245850, 219740, [Where is Chester?], 28480317266604612, 28479983629129611, 76561197967998533, 1421668584, 1421974237, 0, 0, [pet,item,Creature,environment,tweak,Other,version:1.1], 0, [mod_publish_data_file.zip], 315318, 223522, [], 0
+scripts/mods.lua(19,1) mod_name workshop-377836982	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(4)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 511422938
+   245850, 219740, [Scythe], 280722393123968067, 365154562156716078, 76561198234234404, 1441272399, 1460621840, 0, 0, [item,Reign of Giants Compatible,Shipwrecked Compatible,version:2.0.3], 0, [mod_publish_data_file.zip], 63457, 75678, [], 0
+scripts/mods.lua(19,1) mod_name workshop-511422938	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(5)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 180823800
+   245850, 219740, [Just Larger Chests], 615044185862288786, 615029943832853987, 76561198039114150, 1379944117, 1393880608, 0, 0, [Interface,tweak], 0, [mod_publish_data_file.zip], 76571, 121990, [], 0
+scripts/mods.lua(19,1) mod_name workshop-180823800	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(6)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 399501980
+   245850, 219740, [Never Perish Icebox 2.0], 530634929176767509, 530634674428875257, 76561198060471684, 1425006287, 1425259564, 0, 0, [item,environment,Other,Reign of Giants Compatible,version:2.0], 0, [mod_publish_data_file.zip], 10796, 7748, [], 0
+scripts/mods.lua(19,1) mod_name workshop-399501980	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(7)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 456082189
+   245850, 219740, [Health Info], 362902762342902823, 27366287301149683, 76561198025486794, 1433578344, 1450879401, 0, 0, [character,utility,Creature,Interface,Other,Reign of Giants Compatible,version:2.0.3,server_admin], 0, [mod_publish_data_file.zip], 15481, 68108, [], 0
+scripts/mods.lua(19,1) mod_name workshop-456082189	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(8)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 198485522
+   245850, 219740, [Storm Cellar], 29597789815426563, 666828702388181528, 76561197989646930, 1385527105, 1413964168, 0, 0, [item,environment,Interface,tweak,Other,Reign of Giants Compatible], 0, [mod_publish_data_file.zip], 287008, 239026, [], 0
+scripts/mods.lua(19,1) mod_name workshop-198485522	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(9)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 256990160
+   245850, 219740, [Dont Erase My Saveslot], 642124127289310763, 3336349969170785508, 76561198062976749, 1399372665, 1449285926, 0, 0, [utility,tweak,version:1.0], 0, [mod_publish_data_file.zip], 678, 28339, [], 0
+scripts/mods.lua(19,1) mod_name workshop-256990160	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(10)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 584259222
+   245850, 219740, [Storeroom], 316744920734173277, 362903713116215502, 76561198174493482, 1451132249, 1454889863, 0, 0, [item,Art,tweak,Other,Reign of Giants Compatible,version:2.1a], 0, [mod_publish_data_file.zip], 333601, 519442, [], 0
+scripts/mods.lua(19,1) mod_name workshop-584259222	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(11)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 579513934
+   245850, 219740, [[DS] Too many Item +], 577949100157329664, 577949100157108938, 76561198091006872, 1450590033, 1450594638, 0, 0, [item,utility,environment,Interface,tweak,Other,Reign of Giants Compatible,version:1.1], 0, [mod_publish_data_file.zip], 1198223, 115665, [], 0
+scripts/mods.lua(19,1) mod_name workshop-579513934	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(12)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 170030148
+   245850, 219740, [Display Food Values], 529544281346799238, 919019506098964950, 76561198049829886, 1376666733, 1458983166, 0, 0, [item,Interface,tweak,version:Public preview version], 0, [mod_publish_data_file.zip], 271655, 74101, [], 0
+scripts/mods.lua(19,1) mod_name workshop-170030148	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(13)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 188251898
+   245850, 219740, [Minimap HUD], 288602101460365415, 558737771725946190, 76561197960431333, 1382514013, 1459105915, 0, 0, [Interface,Reign of Giants Compatible,version:1.0.7], 0, [mod_publish_data_file.zip], 12777, 41782, [], 0
+scripts/mods.lua(19,1) mod_name workshop-188251898	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(14)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 571751170
+   245850, 219740, [Extra Slots (Shipwrecked)], 305488747313135225, 387671104592789186, 76561198023676128, 1449611101, 1457408741, 0, 0, [character,item,Interface,tweak,Reign of Giants Compatible,version:0.06], 0, [mod_publish_data_file.zip], 16016, 21121, [], 0
+scripts/mods.lua(19,1) mod_name workshop-571751170	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(15)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 356043883
+   245850, 219740, [Geometric Placement], 278474310944283631, 278474310944194293, 76561198025931302, 1418560911, 1464324798, 0, 0, [Interface,Reign of Giants Compatible,Shipwrecked Compatible,tweak,utility,version:2.0.3], 0, [mod_publish_data_file.zip], 58840, 1066286, [], 0
+scripts/mods.lua(19,1) mod_name workshop-356043883	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(16)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 592554020
+   245850, 219740, [Smart  Furnace (SW-ROG) V1.4], 273970711309154725, 362906026131407096, 76561198193315938, 1451906390, 1464226052, 0, 0, [item,Reign of Giants Compatible,Shipwrecked Compatible,version:1.4], 0, [mod_publish_data_file.zip], 188943, 51645, [], 0
+scripts/mods.lua(19,1) mod_name workshop-592554020	
+scripts/mods.lua(21,1) table: 11D308A8	
+GetPublishedFileDetails(17)
+Getting mod details...
+OnPublishedFileDetailsResult 
+   EResult 1, 574636989
+   245850, 219740, [Combined Status], 278474310935845234, 403434072387554230, 76561198025931302, 1449993746, 1464144059, 0, 0, [Interface,Reign of Giants Compatible,Shipwrecked Compatible,tweak,version:1.6.3], 0, [mod_publish_data_file.zip], 384567, 118758, [], 0
+scripts/mods.lua(19,1) mod_name workshop-574636989	
+scripts/mods.lua(21,1) table: 11D308A8	
+Mod listing complete.
+DownloadPublishedFile(0)
+SteamWorkshop::OnError: DownloadPublishedFile attempted to download non-existent mod.
+SteamWorkshop::CompleteCallback (failure, DownloadPublishedFile attempted to download non-existent mod.) set
+SimLuaProxy::OnUpdateWorkshopModsComplete(failed, DownloadPublishedFile attempted to download non-existent mod.)
+scripts/screens/modsscreen.lua(915,1) Reloading Mod Info Prefabs	
+scripts/screens/modsscreen.lua(902,1) Loading Mod Info Prefabs	
+scripts/screens/modsscreen.lua(907,1) Unloading Mod Info Prefabs	
+QueryStats: { "req":"modrank", "field":"Session.Loads.Mods.list", "fieldop":"unwind", "linkpref":"external", "limit": 20}
+../mods/workshop-180823800/modicon.tex is 200x200 but compressed textures must have power of 2 dimensions.
+../mods/workshop-323996352/wormhole_marks.tex is 200x200 but compressed textures must have power of 2 dimensions.
+CURL ERROR: SSL connection timeout
+scripts/screens/modsscreen.lua(907,1) Unloading Mod Info Prefabs	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-222342168	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-574636989	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-579513934	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-377836982	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-323996352	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-256990160	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-222103064	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-399501980	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-188251898	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-170030148	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-584259222	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-511422938	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-356043883	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-456082189	
+Collecting garbage...
+lua_gc took 0.01 seconds
+~SimLuaProxy()
+lua_close took 0.02 seconds
+ReleaseAll
+ReleaseAll Finished
+cGame::StartPlaying
+LOADING LUA
+DoLuaFile scripts/main.lua
+DoLuaFile loading buffer scripts/main.lua
+scripts/main.lua(165,1) running main.lua
+	
+scripts/modindex.lua(321,1) loaded modindex	
+scripts/modindex.lua(75,1) ModIndex: Beginning normal load sequence.
+	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-170030148	
+scripts/mods.lua(179,1) Loading mod: workshop-170030148 (Display Food Values)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-180823800	
+scripts/mods.lua(179,1) Loading mod: workshop-180823800 (Just Larger Chests) (Old API! (mod: 5 game: 6) )	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-188251898	
+scripts/mods.lua(179,1) Loading mod: workshop-188251898 (Minimap HUD)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-198485522	
+scripts/mods.lua(179,1) Loading mod: workshop-198485522 (Storm Cellar)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-222103064	
+scripts/mods.lua(179,1) Loading mod: workshop-222103064 (Where's My Beefalo?)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-222342168	
+scripts/mods.lua(179,1) Loading mod: workshop-222342168 (SmartCrockPot)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-256990160	
+scripts/mods.lua(179,1) Loading mod: workshop-256990160 (Dont Erase My Saveslot)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-323996352	
+scripts/mods.lua(179,1) Loading mod: workshop-323996352 (Wormhole Marks)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-356043883	
+scripts/mods.lua(179,1) Loading mod: workshop-356043883 (Geometric Placement)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-377836982	
+scripts/mods.lua(179,1) Loading mod: workshop-377836982 (Where is Chester?)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-399501980	
+scripts/mods.lua(179,1) Loading mod: workshop-399501980 (Never Perish Icebox 2.0)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-456082189	
+scripts/mods.lua(179,1) Loading mod: workshop-456082189 (Health Info)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-511422938	
+scripts/mods.lua(179,1) Loading mod: workshop-511422938 (Scythe)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-574636989	
+scripts/mods.lua(179,1) Loading mod: workshop-574636989 (Combined Status)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-579513934	
+scripts/mods.lua(179,1) Loading mod: workshop-579513934 ([DS] Too many Item)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-584259222	
+scripts/mods.lua(179,1) Loading mod: workshop-584259222 ( Storeroom)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-592554020	
+scripts/mods.lua(179,1) Loading mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	
+scripts/mods.lua(206,1) Mod: workshop-222342168 (SmartCrockPot)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-222342168 (SmartCrockPot)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-222342168 (SmartCrockPot)	Loading modmain.lua	
+scripts/mods.lua(132,1) modimport: ../mods/workshop-222342168/modmain_segments/action_predict.lua	
+scripts/mods.lua(132,1) modimport: ../mods/workshop-222342168/modmain_segments/containerwidgetfunction.lua	
+scripts/mods.lua(206,1) Mod: workshop-323996352 (Wormhole Marks)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-323996352 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-323996352 (Wormhole Marks)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-579513934 ([DS] Too many Item)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-579513934 ([DS] Too many Item)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-579513934 ([DS] Too many Item)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-377836982 (Where is Chester?)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-377836982 (Where is Chester?)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-377836982 (Where is Chester?)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-198485522 (Storm Cellar)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-198485522 (Storm Cellar)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-198485522 (Storm Cellar)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-222103064 (Where's My Beefalo?)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-222103064 (Where's My Beefalo?)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-222103064 (Where's My Beefalo?)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-180823800 (Just Larger Chests)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-180823800 (Just Larger Chests)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-180823800 (Just Larger Chests)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-188251898 (Minimap HUD)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-188251898 (Minimap HUD)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-188251898 (Minimap HUD)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-574636989 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-170030148 (Display Food Values)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-584259222 ( Storeroom)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-584259222 ( Storeroom)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-584259222 ( Storeroom)	Loading modmain.lua	
+../mods/workshop-584259222/modmain.lua(67,1) slots_debug 	80	
+../mods/workshop-584259222/modmain.lua(68,1) recipe_debug 	20	20	5	
+scripts/mods.lua(206,1) Mod: workshop-511422938 (Scythe)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-511422938 (Scythe)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-511422938 (Scythe)	Loading modmain.lua	
+scripts/mods.lua(132,1) modimport: ../mods/workshop-511422938/mowdown.lua	
+scripts/mods.lua(206,1) Mod: workshop-356043883 (Geometric Placement)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-356043883 (Geometric Placement)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-356043883 (Geometric Placement)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-456082189 (Health Info)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-456082189 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-456082189 (Health Info)	Loading modmain.lua	
+LOADING LUA SUCCESS
+scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	4557	
+scripts/playerprofile.lua(508,1) loaded profile	
+scripts/playerprofile.lua(572,1) bloom_enabled	false	
+DEVICE CAP 1464436120
+scripts/saveindex.lua(119,1) loaded saveindex	
+scripts/gamelogic.lua(1390,1) OnFilesLoaded()	
+scripts/gamelogic.lua(1379,1) OnUpdatePurchaseStateComplete	
+scripts/gamelogic.lua(121,1) 	FE assets already loaded	
+scripts/mods.lua(296,1) Mod: workshop-222342168 (SmartCrockPot)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-222342168 (SmartCrockPot)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-323996352 (Wormhole Marks)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-323996352 (Wormhole Marks)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-579513934 ([DS] Too many Item)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-579513934 ([DS] Too many Item)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-377836982 (Where is Chester?)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-377836982 (Where is Chester?)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	  Registering prefab file: prefabs/furnace	
+scripts/mods.lua(306,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	    furnace	
+scripts/mods.lua(306,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	    furnace_placer	
+scripts/mods.lua(302,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	  Registering prefab file: prefabs/furnacefire	
+scripts/mods.lua(306,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	    furnacefire	
+scripts/mods.lua(319,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-198485522 (Storm Cellar)	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-198485522 (Storm Cellar)	  Registering prefab file: prefabs/cellar	
+scripts/mods.lua(306,1) Mod: workshop-198485522 (Storm Cellar)	    cellar	
+scripts/mods.lua(306,1) Mod: workshop-198485522 (Storm Cellar)	    cellar_placer	
+scripts/mods.lua(319,1) Mod: workshop-198485522 (Storm Cellar)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-222103064 (Where's My Beefalo?)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-222103064 (Where's My Beefalo?)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-180823800 (Just Larger Chests)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-180823800 (Just Larger Chests)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-188251898 (Minimap HUD)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-188251898 (Minimap HUD)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-574636989 (Combined Status)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-574636989 (Combined Status)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-170030148 (Display Food Values)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-170030148 (Display Food Values)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-584259222 ( Storeroom)	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-584259222 ( Storeroom)	  Registering prefab file: prefabs/cupboard	
+scripts/mods.lua(306,1) Mod: workshop-584259222 ( Storeroom)	    cupboard	
+scripts/mods.lua(306,1) Mod: workshop-584259222 ( Storeroom)	    cupboard_placer	
+scripts/mods.lua(319,1) Mod: workshop-584259222 ( Storeroom)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-511422938 (Scythe)	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-511422938 (Scythe)	  Registering prefab file: prefabs/scythe	
+scripts/mods.lua(306,1) Mod: workshop-511422938 (Scythe)	    scythe	
+scripts/mods.lua(302,1) Mod: workshop-511422938 (Scythe)	  Registering prefab file: prefabs/golden_scythe	
+scripts/mods.lua(306,1) Mod: workshop-511422938 (Scythe)	    golden_scythe	
+scripts/mods.lua(319,1) Mod: workshop-511422938 (Scythe)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-356043883 (Geometric Placement)	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-356043883 (Geometric Placement)	  Registering prefab file: prefabs/buildgridplacer	
+scripts/mods.lua(306,1) Mod: workshop-356043883 (Geometric Placement)	    buildgridplacer	
+scripts/mods.lua(319,1) Mod: workshop-356043883 (Geometric Placement)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-456082189 (Health Info)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-456082189 (Health Info)	  Registering default mod prefab	
+SimLuaProxy::QueryServer()
+scripts/modindex.lua(85,1) ModIndex: Load sequence finished successfully.
+	
+Reset() returning
+HttpClientWriteCallback (0x061B5801, 1, 1272, 0x063DFB20)
+HttpClientWriteCallback READ 1272 (1272 total)
+scripts/screens/slotdetailsscreen.lua(64,1) Loading slot details my DLC is RoG = 	true	  Capy = 	false	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-222342168	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-323996352	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-256990160	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-579513934	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-377836982	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-399501980	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-592554020	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-198485522	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-222103064	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-180823800	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-188251898	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-574636989	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-170030148	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-584259222	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-511422938	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-356043883	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-456082189	
+Collecting garbage...
+lua_gc took 0.02 seconds
+~SimLuaProxy()
+lua_close took 0.02 seconds
+ReleaseAll
+ReleaseAll Finished
+cGame::StartPlaying
+LOADING LUA
+DoLuaFile scripts/main.lua
+DoLuaFile loading buffer scripts/main.lua
+scripts/main.lua(165,1) running main.lua
+	
+scripts/modindex.lua(321,1) loaded modindex	
+scripts/modindex.lua(75,1) ModIndex: Beginning normal load sequence.
+	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-170030148	
+scripts/mods.lua(179,1) Loading mod: workshop-170030148 (Display Food Values)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-180823800	
+scripts/mods.lua(179,1) Loading mod: workshop-180823800 (Just Larger Chests) (Old API! (mod: 5 game: 6) )	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-188251898	
+scripts/mods.lua(179,1) Loading mod: workshop-188251898 (Minimap HUD)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-198485522	
+scripts/mods.lua(179,1) Loading mod: workshop-198485522 (Storm Cellar)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-222103064	
+scripts/mods.lua(179,1) Loading mod: workshop-222103064 (Where's My Beefalo?)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-222342168	
+scripts/mods.lua(179,1) Loading mod: workshop-222342168 (SmartCrockPot)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-256990160	
+scripts/mods.lua(179,1) Loading mod: workshop-256990160 (Dont Erase My Saveslot)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-323996352	
+scripts/mods.lua(179,1) Loading mod: workshop-323996352 (Wormhole Marks)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-356043883	
+scripts/mods.lua(179,1) Loading mod: workshop-356043883 (Geometric Placement)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-377836982	
+scripts/mods.lua(179,1) Loading mod: workshop-377836982 (Where is Chester?)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-399501980	
+scripts/mods.lua(179,1) Loading mod: workshop-399501980 (Never Perish Icebox 2.0)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-456082189	
+scripts/mods.lua(179,1) Loading mod: workshop-456082189 (Health Info)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-511422938	
+scripts/mods.lua(179,1) Loading mod: workshop-511422938 (Scythe)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-574636989	
+scripts/mods.lua(179,1) Loading mod: workshop-574636989 (Combined Status)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-579513934	
+scripts/mods.lua(179,1) Loading mod: workshop-579513934 ([DS] Too many Item)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-584259222	
+scripts/mods.lua(179,1) Loading mod: workshop-584259222 ( Storeroom)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-592554020	
+scripts/mods.lua(179,1) Loading mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	
+scripts/mods.lua(206,1) Mod: workshop-222342168 (SmartCrockPot)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-222342168 (SmartCrockPot)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-222342168 (SmartCrockPot)	Loading modmain.lua	
+scripts/mods.lua(132,1) modimport: ../mods/workshop-222342168/modmain_segments/action_predict.lua	
+scripts/mods.lua(132,1) modimport: ../mods/workshop-222342168/modmain_segments/containerwidgetfunction.lua	
+scripts/mods.lua(206,1) Mod: workshop-323996352 (Wormhole Marks)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-323996352 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-323996352 (Wormhole Marks)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-579513934 ([DS] Too many Item)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-579513934 ([DS] Too many Item)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-579513934 ([DS] Too many Item)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-377836982 (Where is Chester?)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-377836982 (Where is Chester?)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-377836982 (Where is Chester?)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-198485522 (Storm Cellar)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-198485522 (Storm Cellar)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-198485522 (Storm Cellar)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-222103064 (Where's My Beefalo?)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-222103064 (Where's My Beefalo?)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-222103064 (Where's My Beefalo?)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-180823800 (Just Larger Chests)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-180823800 (Just Larger Chests)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-180823800 (Just Larger Chests)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-188251898 (Minimap HUD)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-188251898 (Minimap HUD)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-188251898 (Minimap HUD)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-574636989 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-170030148 (Display Food Values)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-584259222 ( Storeroom)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-584259222 ( Storeroom)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-584259222 ( Storeroom)	Loading modmain.lua	
+../mods/workshop-584259222/modmain.lua(67,1) slots_debug 	80	
+../mods/workshop-584259222/modmain.lua(68,1) recipe_debug 	20	20	5	
+scripts/mods.lua(206,1) Mod: workshop-511422938 (Scythe)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-511422938 (Scythe)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-511422938 (Scythe)	Loading modmain.lua	
+scripts/mods.lua(132,1) modimport: ../mods/workshop-511422938/mowdown.lua	
+scripts/mods.lua(206,1) Mod: workshop-356043883 (Geometric Placement)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-356043883 (Geometric Placement)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-356043883 (Geometric Placement)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-456082189 (Health Info)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-456082189 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-456082189 (Health Info)	Loading modmain.lua	
+LOADING LUA SUCCESS
+scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	4557	
+scripts/playerprofile.lua(508,1) loaded profile	
+scripts/playerprofile.lua(572,1) bloom_enabled	false	
+DEVICE CAP 1464436130
+scripts/saveindex.lua(119,1) loaded saveindex	
+scripts/gamelogic.lua(1168,1) OnFilesLoaded()	
+scripts/gamelogic.lua(1157,1) OnUpdatePurchaseStateComplete	
+scripts/gamelogic.lua(141,1) 	Unload FE	
+scripts/gamelogic.lua(143,1) 	Unload FE done	
+scripts/dlcsupport.lua(26,1) Load scripts/DLC001_prefab_files	
+Could not preload undefined prefab 0x1901065c (OUTOFSPACE)
+scripts/mods.lua(296,1) Mod: workshop-222342168 (SmartCrockPot)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-222342168 (SmartCrockPot)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-323996352 (Wormhole Marks)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-323996352 (Wormhole Marks)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-579513934 ([DS] Too many Item)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-579513934 ([DS] Too many Item)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-377836982 (Where is Chester?)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-377836982 (Where is Chester?)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	  Registering prefab file: prefabs/furnace	
+scripts/mods.lua(306,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	    furnace	
+scripts/mods.lua(306,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	    furnace_placer	
+scripts/mods.lua(302,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	  Registering prefab file: prefabs/furnacefire	
+scripts/mods.lua(306,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	    furnacefire	
+scripts/mods.lua(319,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-198485522 (Storm Cellar)	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-198485522 (Storm Cellar)	  Registering prefab file: prefabs/cellar	
+scripts/mods.lua(306,1) Mod: workshop-198485522 (Storm Cellar)	    cellar	
+scripts/mods.lua(306,1) Mod: workshop-198485522 (Storm Cellar)	    cellar_placer	
+scripts/mods.lua(319,1) Mod: workshop-198485522 (Storm Cellar)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-222103064 (Where's My Beefalo?)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-222103064 (Where's My Beefalo?)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-180823800 (Just Larger Chests)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-180823800 (Just Larger Chests)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-188251898 (Minimap HUD)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-188251898 (Minimap HUD)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-574636989 (Combined Status)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-574636989 (Combined Status)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-170030148 (Display Food Values)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-170030148 (Display Food Values)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-584259222 ( Storeroom)	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-584259222 ( Storeroom)	  Registering prefab file: prefabs/cupboard	
+scripts/mods.lua(306,1) Mod: workshop-584259222 ( Storeroom)	    cupboard	
+scripts/mods.lua(306,1) Mod: workshop-584259222 ( Storeroom)	    cupboard_placer	
+scripts/mods.lua(319,1) Mod: workshop-584259222 ( Storeroom)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-511422938 (Scythe)	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-511422938 (Scythe)	  Registering prefab file: prefabs/scythe	
+scripts/mods.lua(306,1) Mod: workshop-511422938 (Scythe)	    scythe	
+scripts/mods.lua(302,1) Mod: workshop-511422938 (Scythe)	  Registering prefab file: prefabs/golden_scythe	
+scripts/mods.lua(306,1) Mod: workshop-511422938 (Scythe)	    golden_scythe	
+scripts/mods.lua(319,1) Mod: workshop-511422938 (Scythe)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-356043883 (Geometric Placement)	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-356043883 (Geometric Placement)	  Registering prefab file: prefabs/buildgridplacer	
+scripts/mods.lua(306,1) Mod: workshop-356043883 (Geometric Placement)	    buildgridplacer	
+scripts/mods.lua(319,1) Mod: workshop-356043883 (Geometric Placement)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-456082189 (Health Info)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-456082189 (Health Info)	  Registering default mod prefab	
+scripts/gamelogic.lua(157,1) 	LOAD BE	
+Could not preload undefined prefab 0xf0533cd6 (OUTOFSPACE)
+scripts/gamelogic.lua(165,1) 	LOAD BE : done	
+MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_1.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_2.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_3.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_4.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_5.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_6.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_7.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_8.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_9.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_10.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_11.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_12.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_13.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_14.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_15.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_16.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_17.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_18.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_19.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_20.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_21.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/wormhole/mark_22.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/chester_eyebone.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-198485522/minimap/cellar.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/koalefant_winter.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/koalefant_summer.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/babybeefalo.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/beefalo.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/moose.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/dragonfly.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/deerclops.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/bearger.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/carrot_planted.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/chester_eyebone.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/flint.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/rabbithole.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/rocky.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/red_mushroom.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/green_mushroom.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/blue_mushroom.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/lightninggoat.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/mandrake.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-222103064/minimap/molehill.xml )
+MiniMapComponent::AddAtlas( ../mods/workshop-584259222/minimap/storeroom.xml )
+scripts/components/seasonmanager.lua(1529,1) SPRING TIME	
+scripts/gamelogic.lua(487,1) Loading Nav Grid	
+scripts/saveindex.lua(554,1) ClearCurrentResurrectors CB	
+scripts/saveindex.lua(579,1) DeregisterResurrector	
+scripts/saveindex.lua(595,1) DeregisterResurrector	
+scripts/saveindex.lua(579,1) DeregisterResurrector	
+scripts/saveindex.lua(595,1) DeregisterResurrector	
+FMOD Error: Can't play event dontstarve/creatures/teasertheparrot/wreckage: An invalid parameter was passed to this function. 
+FMOD Error: Can't play event dontstarve/creatures/teasertheparrot/wreckage: An invalid parameter was passed to this function. 
+scripts/entityscript.lua(290,1) component propagator already exists!	
+scripts/entityscript.lua(290,1) component propagator already exists!	
+scripts/entityscript.lua(290,1) component propagator already exists!	
+scripts/entityscript.lua(290,1) component propagator already exists!	
+scripts/entityscript.lua(290,1) component propagator already exists!	
+scripts/saveindex.lua(355,1) LoadSavedSeasonData CB	
+scripts/widgets/bloodover.lua(30,1) update state	
+scripts/widgets/bloodover.lua(50,1) turn off	
+Could not find anim build OUTOFSPACE
+Could not find anim bank [OUTOFSPACE]
+Could not find anim build krampus
+Could not find anim [OUTOFSPACE] in bank [krampus]
+Could not find anim build OUTOFSPACE
+Could not find anim bank [OUTOFSPACE]
+scripts/modindex.lua(85,1) ModIndex: Load sequence finished successfully.
+	
+Reset() returning
+QueryServerComplete no callback
+QueryServerComplete no callback
+Could not find anim [close] in bank [ui_chest_5x16]
+WARNING! Invalid resource handle for atlas 'OUTOFSPACE', did you remember to load the asset?
+../mods/workshop-198485522/images/inventoryimages/ui_chest_5x16.xml
+LUA ERROR stack traceback:
+        D:/Program Files (x86)/Steam/steamapps/common/dont_starve/data/scripts/widgets/image.lua(30,1) in function 'SetTexture'
+        D:/Program Files (x86)/Steam/steamapps/common/dont_starve/data/scripts/widgets/containerwidget.lua(31,1) in function 'old_container_open'
+        D:/Program Files (x86)/Steam/steamapps/common/dont_starve/data/../mods/workshop-222342168/modmain_segments/containerwidgetfunction.lua(21,1) in function 'Open'
+        D:/Program Files (x86)/Steam/steamapps/common/dont_starve/data/scripts/screens/playerhud.lua(164,1) in function 'OpenContainer'
+        D:/Program Files (x86)/Steam/steamapps/common/dont_starve/data/scripts/components/container.lua(231,1) in function 'Open'
+        D:/Program Files (x86)/Steam/steamapps/common/dont_starve/data/scripts/actions.lua(208,1) in function 'fn'
+        D:/Program Files (x86)/Steam/steamapps/common/dont_starve/data/scripts/bufferedaction.lua(19,1) in function 'Do'
+        D:/Program Files (x86)/Steam/steamapps/common/dont_starve/data/scripts/entityscript.lua(952,1) in function 'PerformBufferedAction'
+        D:/Program Files (x86)/Steam/steamapps/common/dont_starve/data/scripts/stategraphs/SGwilson.lua(1609,1) in function 'ontimeout'
+        D:/Program Files (x86)/Steam/steamapps/common/dont_starve/data/scripts/stategraph.lua(458,1) in function 'UpdateState'
+        D:/Program Files (x86)/Steam/steamapps/common/dont_starve/data/scripts/stategraph.lua(515,1) in function 'Update'
+        D:/Program Files (x86)/Steam/steamapps/common/dont_starve/data/scripts/stategraph.lua(111,1) in function 'Update'
+        D:/Program Files (x86)/Steam/steamapps/common/dont_starve/data/scripts/update.lua(135,1)
+Could not find anim [close] in bank [ui_chest_5x16]
+scripts/prefabs/pinecone.lua(25,1) PLANT	159.67284157842	
+scripts/prefabs/pinecone.lua(25,1) PLANT	295.17044587542	
+scripts/prefabs/pinecone.lua(25,1) PLANT	253.72325815607	
+scripts/prefabs/pinecone.lua(25,1) PLANT	262.33863338115	
+scripts/prefabs/pinecone.lua(25,1) PLANT	285.44267097995	
+scripts/prefabs/pinecone.lua(25,1) PLANT	224.29731131932	
+Stale Component Reference: GUID 113940, @D:/Program Files (x86)/Steam/steamapps/common/dont_starve/data/scripts/entityscript.lua:128
+Stale Component Reference: GUID 113940, @D:/Program Files (x86)/Steam/steamapps/common/dont_starve/data/scripts/entityscript.lua:134
+scripts/prefabs/pinecone.lua(25,1) PLANT	235.32517471847	
+scripts/prefabs/pinecone.lua(25,1) PLANT	220.67629016999	
+scripts/prefabs/pinecone.lua(25,1) PLANT	151.80364391003	
+scripts/prefabs/pinecone.lua(25,1) PLANT	208.2293160802	
+scripts/prefabs/pinecone.lua(25,1) PLANT	290.54231391339	
+scripts/prefabs/pinecone.lua(25,1) PLANT	234.46913052767	
+Could not find anim [close] in bank [ui_chest_5x16]
+Could not find anim [close] in bank [ui_chest_5x16]
+scripts/prefabs/pinecone.lua(8,1) GROWTREE	
+scripts/prefabs/pinecone.lua(8,1) GROWTREE	
+scripts/components/resurrector.lua(42,1) Resurrector:OnSave	100048 - resurrectionstone	used:false	active:false	
+scripts/saveindex.lua(579,1) DeregisterResurrector	
+scripts/saveindex.lua(595,1) DeregisterResurrector	
+scripts/components/resurrector.lua(42,1) Resurrector:OnSave	100049 - resurrectionstone	used:false	active:false	
+scripts/saveindex.lua(579,1) DeregisterResurrector	
+scripts/saveindex.lua(595,1) DeregisterResurrector	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-222342168	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-323996352	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-256990160	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-579513934	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-377836982	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-399501980	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-592554020	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-198485522	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-222103064	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-180823800	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-188251898	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-574636989	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-170030148	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-584259222	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-511422938	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-356043883	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-456082189	
+scripts/mainfunctions.lua(588,1) Saved	survival_2	
+Collecting garbage...
+lua_gc took 0.08 seconds
+~SimLuaProxy()
+Cancelling LuaQueryCallback handle [9]
+lua_close took 0.11 seconds
+ReleaseAll
+ReleaseAll Finished
+cGame::StartPlaying
+LOADING LUA
+DoLuaFile scripts/main.lua
+DoLuaFile loading buffer scripts/main.lua
+scripts/main.lua(165,1) running main.lua
+	
+scripts/modindex.lua(321,1) loaded modindex	
+scripts/modindex.lua(75,1) ModIndex: Beginning normal load sequence.
+	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-170030148	
+scripts/mods.lua(179,1) Loading mod: workshop-170030148 (Display Food Values)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-180823800	
+scripts/mods.lua(179,1) Loading mod: workshop-180823800 (Just Larger Chests) (Old API! (mod: 5 game: 6) )	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-188251898	
+scripts/mods.lua(179,1) Loading mod: workshop-188251898 (Minimap HUD)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-198485522	
+scripts/mods.lua(179,1) Loading mod: workshop-198485522 (Storm Cellar)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-222103064	
+scripts/mods.lua(179,1) Loading mod: workshop-222103064 (Where's My Beefalo?)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-222342168	
+scripts/mods.lua(179,1) Loading mod: workshop-222342168 (SmartCrockPot)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-256990160	
+scripts/mods.lua(179,1) Loading mod: workshop-256990160 (Dont Erase My Saveslot)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-323996352	
+scripts/mods.lua(179,1) Loading mod: workshop-323996352 (Wormhole Marks)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-356043883	
+scripts/mods.lua(179,1) Loading mod: workshop-356043883 (Geometric Placement)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-377836982	
+scripts/mods.lua(179,1) Loading mod: workshop-377836982 (Where is Chester?)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-399501980	
+scripts/mods.lua(179,1) Loading mod: workshop-399501980 (Never Perish Icebox 2.0)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-456082189	
+scripts/mods.lua(179,1) Loading mod: workshop-456082189 (Health Info)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-511422938	
+scripts/mods.lua(179,1) Loading mod: workshop-511422938 (Scythe)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-574636989	
+scripts/mods.lua(179,1) Loading mod: workshop-574636989 (Combined Status)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-579513934	
+scripts/mods.lua(179,1) Loading mod: workshop-579513934 ([DS] Too many Item)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-584259222	
+scripts/mods.lua(179,1) Loading mod: workshop-584259222 ( Storeroom)	
+scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-592554020	
+scripts/mods.lua(179,1) Loading mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	
+scripts/mods.lua(206,1) Mod: workshop-222342168 (SmartCrockPot)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-222342168 (SmartCrockPot)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-222342168 (SmartCrockPot)	Loading modmain.lua	
+scripts/mods.lua(132,1) modimport: ../mods/workshop-222342168/modmain_segments/action_predict.lua	
+scripts/mods.lua(132,1) modimport: ../mods/workshop-222342168/modmain_segments/containerwidgetfunction.lua	
+scripts/mods.lua(206,1) Mod: workshop-323996352 (Wormhole Marks)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-323996352 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-323996352 (Wormhole Marks)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-579513934 ([DS] Too many Item)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-579513934 ([DS] Too many Item)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-579513934 ([DS] Too many Item)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-377836982 (Where is Chester?)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-377836982 (Where is Chester?)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-377836982 (Where is Chester?)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-198485522 (Storm Cellar)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-198485522 (Storm Cellar)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-198485522 (Storm Cellar)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-222103064 (Where's My Beefalo?)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-222103064 (Where's My Beefalo?)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-222103064 (Where's My Beefalo?)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-180823800 (Just Larger Chests)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-180823800 (Just Larger Chests)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-180823800 (Just Larger Chests)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-188251898 (Minimap HUD)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-188251898 (Minimap HUD)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-188251898 (Minimap HUD)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-574636989 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-170030148 (Display Food Values)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-584259222 ( Storeroom)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-584259222 ( Storeroom)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-584259222 ( Storeroom)	Loading modmain.lua	
+../mods/workshop-584259222/modmain.lua(67,1) slots_debug 	80	
+../mods/workshop-584259222/modmain.lua(68,1) recipe_debug 	20	20	5	
+scripts/mods.lua(206,1) Mod: workshop-511422938 (Scythe)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-511422938 (Scythe)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-511422938 (Scythe)	Loading modmain.lua	
+scripts/mods.lua(132,1) modimport: ../mods/workshop-511422938/mowdown.lua	
+scripts/mods.lua(206,1) Mod: workshop-356043883 (Geometric Placement)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-356043883 (Geometric Placement)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-356043883 (Geometric Placement)	Loading modmain.lua	
+scripts/mods.lua(206,1) Mod: workshop-456082189 (Health Info)	Loading modworldgenmain.lua	
+scripts/mods.lua(214,1) Mod: workshop-456082189 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
+scripts/mods.lua(206,1) Mod: workshop-456082189 (Health Info)	Loading modmain.lua	
+LOADING LUA SUCCESS
+scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	4557	
+scripts/playerprofile.lua(508,1) loaded profile	
+scripts/playerprofile.lua(572,1) bloom_enabled	false	
+DEVICE CAP 1464436547
+scripts/saveindex.lua(119,1) loaded saveindex	
+scripts/gamelogic.lua(1390,1) OnFilesLoaded()	
+scripts/gamelogic.lua(1379,1) OnUpdatePurchaseStateComplete	
+scripts/gamelogic.lua(127,1) 	Unload BE	
+Could not unload undefined prefab 0x9a66a945 (fabric)
+Could not unload undefined prefab 0xec9c9d00 (shipwrecked_entrance)
+Could not unload undefined prefab 0xe5b1756a (shipwrecked_entrance_placer)
+Could not unload undefined prefab 0xec9c9d00 (shipwrecked_entrance)
+Could not unload undefined prefab 0xe5b1756a (shipwrecked_entrance_placer)
+Could not unload undefined prefab 0x14e47079 (turf_snakeskinfloor)
+Could not unload undefined prefab 0xca1efe0f (sandbagsmall_item)
+Could not unload undefined prefab 0xfef6177c (seatrap)
+Could not unload undefined prefab 0x31c5155c (cargoboat)
+Could not unload undefined prefab 0xc36de0e (cargoboat_placer)
+Could not unload undefined prefab 0x30d2b33d (primeapebarrel)
+Could not unload undefined prefab 0x807939ed (primeapebarrel_placer)
+Could not unload undefined prefab 0x9a4001b3 (sand_castle)
+Could not unload undefined prefab 0x3f43364e (sandcastle_placer)
+Could not unload undefined prefab 0x2a492c1d (aerodynamichat)
+Could not unload undefined prefab 0x9a81add (buoy)
+Could not unload undefined prefab 0x95f72a4d (buoy_placer)
+Could not unload undefined prefab 0x621669c0 (messagebottleempty)
+Could not unload undefined prefab 0x55b903ec (armorcactus)
+Could not unload undefined prefab 0xb04412f0 (limestone)
+Could not unload undefined prefab 0xa3a1ee36 (wildborehouse)
+Could not unload undefined prefab 0xe66562b4 (wildborehouse_placer)
+Could not unload undefined prefab 0xc1fc7553 (obsidianaxe)
+Could not unload undefined prefab 0x72436f38 (doydoynest)
+Could not unload undefined prefab 0x92390532 (doydoynest_placer)
+Could not unload undefined prefab 0x15c5371d (armor_snakeskin)
+Could not unload undefined prefab 0xabf27d93 (brainjellyhat)
+Could not unload undefined prefab 0x879e93b8 (palmleaf_hut)
+Could not unload undefined prefab 0x71f5c0b2 (palmleaf_hut_placer)
+Could not unload undefined prefab 0xa125dcf0 (wind_conch)
+Could not unload undefined prefab 0x76466fb2 (oxhat)
+Could not unload undefined prefab 0x5097886f (tropicalfan)
+Could not unload undefined prefab 0x60fc588a (chiminea)
+Could not unload undefined prefab 0x3bf2cb60 (chiminea_placer)
+Could not unload undefined prefab 0xcfd45dd4 (feathersail)
+Could not unload undefined prefab 0xe832ee7d (raft)
+Could not unload undefined prefab 0x897caead (raft_placer)
+Could not unload undefined prefab 0x33a7f0a1 (lograft)
+Could not unload undefined prefab 0xcca82b89 (lograft_placer)
+Could not unload undefined prefab 0x7ca101d3 (dragoonden)
+Could not unload undefined prefab 0x6db191d7 (dragoonden_placer)
+Could not unload undefined prefab 0x5e849cb (clothsail)
+Could not unload undefined prefab 0x5956e2a2 (piratehat)
+Could not unload undefined prefab 0x1b91a956 (blowdart_poison)
+Could not unload undefined prefab 0x68c8d9d7 (captainhat)
+Could not unload undefined prefab 0x811c1db3 (palmleaf_umbrella)
+Could not unload undefined prefab 0x703741a0 (bottlelantern)
+Could not unload undefined prefab 0x70660d69 (boatrepairkit)
+Could not unload undefined prefab 0xc8123fa5 (seasack)
+Could not unload undefined prefab 0xc2924a42 (gashat)
+Could not unload undefined prefab 0x79ad5092 (monkeyball)
+Could not unload undefined prefab 0x1a6c6f45 (blubbersuit)
+Could not unload undefined prefab 0xd74b6154 (goldenmachete)
+Could not unload undefined prefab 0xadce2aa0 (armorseashell)
+Could not unload undefined prefab 0xe649db6f (armouredboat)
+Could not unload undefined prefab 0xc87cc93b (armouredboat_placer)
+Could not unload undefined prefab 0xe2fc99b0 (ironwind)
+Could not unload undefined prefab 0x3b08494a (obsidianfirepit)
+Could not unload undefined prefab 0x69102aa0 (obsidianfirepit_placer)
+Could not unload undefined prefab 0xe55c027f (piratihatitator)
+Could not unload undefined prefab 0x6c19fe2b (piratihatitator_placer)
+Could not unload undefined prefab 0x8d14c757 (cutlass)
+Could not unload undefined prefab 0x144395a5 (trawlnet)
+Could not unload undefined prefab 0xf20956c9 (double_umbrellahat)
+Could not unload undefined prefab 0xe86f4f8f (supertelescope)
+Could not unload undefined prefab 0xeeb5180e (snakeskinsail)
+Could not unload undefined prefab 0x3e63128a (ox_flute)
+Could not unload undefined prefab 0xc4c93c5d (boatcannon)
+Could not unload undefined prefab 0xa715d03d (boat_torch)
+Could not unload undefined prefab 0xe9ed9582 (sail_stick)
+Could not unload undefined prefab 0xe5b46d47 (obsidiancoconade)
+Could not unload undefined prefab 0xcebbb0da (armorobsidian)
+Could not unload undefined prefab 0x3059686e (volcanostaff)
+Could not unload undefined prefab 0x29d05021 (spear_obsidian)
+Could not unload undefined prefab 0x15ad0ae7 (boat_lantern)
+Could not unload undefined prefab 0x43f6355e (snakeskinhat)
+Could not unload undefined prefab 0xf02cfe22 (obsidianmachete)
+Could not unload undefined prefab 0xf9183b8a (armor_lifejacket)
+Could not unload undefined prefab 0x67e2ab44 (armor_windbreaker)
+Could not unload undefined prefab 0xa94020c5 (thatchpack)
+Could not unload undefined prefab 0xf4762b9d (machete)
+Could not unload undefined prefab 0xae0991e0 (mussel_stick)
+Could not unload undefined prefab 0x362da119 (icemaker)
+Could not unload undefined prefab 0x3d61cd11 (icemaker_placer)
+Could not unload undefined prefab 0x474b8c6e (spear_poison)
+Could not unload undefined prefab 0x310f6e91 (armorlimestone)
+Could not unload undefined prefab 0x12c13ebb (antivenom)
+Could not unload undefined prefab 0xcfae714a (telescope)
+Could not unload undefined prefab 0x16bcbff1 (sail)
+Could not unload undefined prefab 0xbb660aa6 (spear_launcher)
+Could not unload undefined prefab 0x95e2439a (rowboat)
+Could not unload undefined prefab 0x77133c50 (rowboat_placer)
+Could not unload undefined prefab 0xbbc2b637 (wall_limestone_item)
+Could not unload undefined prefab 0xa818ae4d (shark_teethhat)
+Could not unload undefined prefab 0x21319e8c (coconade)
+Could not unload undefined prefab 0xf0533cd6 (OUTOFSPACE)
+Could not unload undefined prefab 0x7c61e1f5 (shipwrecked)
+Could not unload undefined prefab 0xa552d992 (volcanolevel)
+scripts/gamelogic.lua(130,1) 	Unload BE done	
+Could not unload undefined prefab 0x4426bece (OUTOFSPACE)
+Could not unload undefined prefab 0xd0ee1bd5 (collapse_small)
+scripts/dlcsupport.lua(26,1) Load scripts/DLC001_prefab_files	
+scripts/dlcsupport.lua(26,1) Load scripts/DLC002_prefab_files	
+scripts/mods.lua(296,1) Mod: workshop-222342168 (SmartCrockPot)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-222342168 (SmartCrockPot)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-323996352 (Wormhole Marks)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-323996352 (Wormhole Marks)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-579513934 ([DS] Too many Item)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-579513934 ([DS] Too many Item)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-377836982 (Where is Chester?)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-377836982 (Where is Chester?)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	  Registering prefab file: prefabs/furnace	
+scripts/mods.lua(306,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	    furnace	
+scripts/mods.lua(306,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	    furnace_placer	
+scripts/mods.lua(302,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	  Registering prefab file: prefabs/furnacefire	
+scripts/mods.lua(306,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	    furnacefire	
+scripts/mods.lua(319,1) Mod: workshop-592554020 (Smart  Furnace (SW-ROG-V1.4))	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-198485522 (Storm Cellar)	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-198485522 (Storm Cellar)	  Registering prefab file: prefabs/cellar	
+scripts/mods.lua(306,1) Mod: workshop-198485522 (Storm Cellar)	    cellar	
+scripts/mods.lua(306,1) Mod: workshop-198485522 (Storm Cellar)	    cellar_placer	
+scripts/mods.lua(319,1) Mod: workshop-198485522 (Storm Cellar)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-222103064 (Where's My Beefalo?)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-222103064 (Where's My Beefalo?)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-180823800 (Just Larger Chests)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-180823800 (Just Larger Chests)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-188251898 (Minimap HUD)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-188251898 (Minimap HUD)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-574636989 (Combined Status)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-574636989 (Combined Status)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-170030148 (Display Food Values)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-170030148 (Display Food Values)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-584259222 ( Storeroom)	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-584259222 ( Storeroom)	  Registering prefab file: prefabs/cupboard	
+scripts/mods.lua(306,1) Mod: workshop-584259222 ( Storeroom)	    cupboard	
+scripts/mods.lua(306,1) Mod: workshop-584259222 ( Storeroom)	    cupboard_placer	
+scripts/mods.lua(319,1) Mod: workshop-584259222 ( Storeroom)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-511422938 (Scythe)	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-511422938 (Scythe)	  Registering prefab file: prefabs/scythe	
+scripts/mods.lua(306,1) Mod: workshop-511422938 (Scythe)	    scythe	
+scripts/mods.lua(302,1) Mod: workshop-511422938 (Scythe)	  Registering prefab file: prefabs/golden_scythe	
+scripts/mods.lua(306,1) Mod: workshop-511422938 (Scythe)	    golden_scythe	
+scripts/mods.lua(319,1) Mod: workshop-511422938 (Scythe)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-356043883 (Geometric Placement)	Registering prefabs	
+scripts/mods.lua(302,1) Mod: workshop-356043883 (Geometric Placement)	  Registering prefab file: prefabs/buildgridplacer	
+scripts/mods.lua(306,1) Mod: workshop-356043883 (Geometric Placement)	    buildgridplacer	
+scripts/mods.lua(319,1) Mod: workshop-356043883 (Geometric Placement)	  Registering default mod prefab	
+scripts/mods.lua(296,1) Mod: workshop-456082189 (Health Info)	Registering prefabs	
+scripts/mods.lua(319,1) Mod: workshop-456082189 (Health Info)	  Registering default mod prefab	
 scripts/gamelogic.lua(142,1) 	Load FE	
 scripts/gamelogic.lua(146,1) 	Load FE: done	
 SimLuaProxy::QueryServer()
 scripts/modindex.lua(85,1) ModIndex: Load sequence finished successfully.
 	
 Reset() returning
-focus gained
-HttpClientWriteCallback (0x01009126, 1, 1279, 0xB0122E20)
-HttpClientWriteCallback READ 1279 (1279 total)
-scripts/screens/slotdetailsscreen.lua(64,1) Loading slot details my DLC is RoG = 	false	  Capy = 	true	
-scripts/fileutil.lua(35,1) Erasing	shipwrecked_3	
-Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-Could not unload undefined prefab 0x6170f8be (dropped_net)
-Could not unload undefined prefab 0xbaa28801 (cononut_halved)
-Could not unload undefined prefab 0xf0533cd6 (area_maxwelllight)
-Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-Could not unload undefined prefab 0xd0ee4d1c (sandcastle)
-Could not unload undefined prefab 0x3046954f (turf_lavarock)
-Could not unload undefined prefab 0x1901065d (DLC0002)
-Could not unload undefined prefab 0x5ecdd9bd (landspawner)
-Could not unload undefined prefab 0x223749c9 (player_common)
-Could not unload undefined prefab 0x535fab2b (poisonmistparticle)
-Could not unload undefined prefab 0x5f41a1f4 (brokenwalls)
-Could not unload undefined prefab 0xb92f32f4 (trunk)
-Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-Could not unload undefined prefab 0xc8b38691 (splash_cloud_drop)
-Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-Could not unload undefined prefab 0x6361dc13 (tropical_fish_cooked)
-Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-Could not unload undefined prefab 0x6361dc13 (tropical_fish_cooked)
-Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+QueryServerComplete for non-existent handle [9] ok, HTTP 200: []
+HttpClientWriteCallback (0x061B5801, 1, 1272, 0x063DFB20)
+HttpClientWriteCallback READ 1272 (1272 total)
+Could not unload undefined prefab 0xb070dece (OUTOFSPACE)
+Could not unload undefined prefab 0x6170f8be (OUTOFSPACE)
+Could not unload undefined prefab 0xbaa28801 (OUTOFSPACE)
+Could not unload undefined prefab 0xf0533cd6 (OUTOFSPACE)
+Could not unload undefined prefab 0x5577c7d1 (OUTOFSPACE)
+Could not unload undefined prefab 0x5577c7d1 (OUTOFSPACE)
+Could not unload undefined prefab 0xb070dece (OUTOFSPACE)
+Could not unload undefined prefab 0xd0ee4d1c (OUTOFSPACE)
+Could not unload undefined prefab 0x3046954f (OUTOFSPACE)
+Could not unload undefined prefab 0x1901065d (OUTOFSPACE)
+Could not unload undefined prefab 0x5ecdd9bd (OUTOFSPACE)
+Could not unload undefined prefab 0x223749c9 (OUTOFSPACE)
+Could not unload undefined prefab 0x535fab2b (OUTOFSPACE)
+Could not unload undefined prefab 0x5f41a1f4 (OUTOFSPACE)
+Could not unload undefined prefab 0xb92f32f4 (OUTOFSPACE)
+Could not unload undefined prefab 0xb070dece (OUTOFSPACE)
+Could not unload undefined prefab 0xb070dece (OUTOFSPACE)
+Could not unload undefined prefab 0xc8b38691 (OUTOFSPACE)
+Could not unload undefined prefab 0x5577c7d1 (OUTOFSPACE)
+Could not unload undefined prefab 0x6361dc13 (OUTOFSPACE)
+Could not unload undefined prefab 0x5577c7d1 (OUTOFSPACE)
+Could not unload undefined prefab 0x6361dc13 (OUTOFSPACE)
+Could not unload undefined prefab 0xb070dece (OUTOFSPACE)
+Could not unload undefined prefab 0xb070dece (OUTOFSPACE)
+Could not unload undefined prefab 0xb070dece (OUTOFSPACE)
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-222342168	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-456082189	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-323996352	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-256990160	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-579513934	
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-377836982	
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-399501980	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-511422938	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-323996352	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-592554020	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-198485522	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-222103064	
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-180823800	
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-188251898	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-222103064	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-574636989	
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-170030148	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-584259222	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-511422938	
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-356043883	
+scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-456082189	
 Collecting garbage...
 lua_gc took 0.02 seconds
 ~SimLuaProxy()
-lua_close took 0.05 seconds
-Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-Could not unload undefined prefab 0x6170f8be (dropped_net)
-Could not unload undefined prefab 0xbaa28801 (cononut_halved)
-Could not unload undefined prefab 0xf0533cd6 (area_maxwelllight)
-Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-Could not unload undefined prefab 0xd0ee4d1c (sandcastle)
-Could not unload undefined prefab 0x3046954f (turf_lavarock)
-Could not unload undefined prefab 0x1901065d (DLC0002)
-Could not unload undefined prefab 0x5ecdd9bd (landspawner)
-Could not unload undefined prefab 0x223749c9 (player_common)
-Could not unload undefined prefab 0x535fab2b (poisonmistparticle)
-Could not unload undefined prefab 0x5f41a1f4 (brokenwalls)
-Could not unload undefined prefab 0xb92f32f4 (trunk)
-Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-Could not unload undefined prefab 0xc8b38691 (splash_cloud_drop)
-Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-Could not unload undefined prefab 0x6361dc13 (tropical_fish_cooked)
-Could not unload undefined prefab 0x5577c7d1 (dragonfly_fx)
-Could not unload undefined prefab 0x6361dc13 (tropical_fish_cooked)
-Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-Could not unload undefined prefab 0xb070dece (flotsam_basegame)
-Could not unload undefined prefab 0xb070dece (flotsam_basegame)
+lua_close took 0.04 seconds
+Could not unload undefined prefab 0xb070dece (OUTOFSPACE)
+Could not unload undefined prefab 0x6170f8be (OUTOFSPACE)
+Could not unload undefined prefab 0xbaa28801 (OUTOFSPACE)
+Could not unload undefined prefab 0xf0533cd6 (OUTOFSPACE)
+Could not unload undefined prefab 0x5577c7d1 (OUTOFSPACE)
+Could not unload undefined prefab 0x5577c7d1 (OUTOFSPACE)
+Could not unload undefined prefab 0xb070dece (OUTOFSPACE)
+Could not unload undefined prefab 0xd0ee4d1c (OUTOFSPACE)
+Could not unload undefined prefab 0x3046954f (OUTOFSPACE)
+Could not unload undefined prefab 0x1901065d (OUTOFSPACE)
+Could not unload undefined prefab 0x5ecdd9bd (OUTOFSPACE)
+Could not unload undefined prefab 0x223749c9 (OUTOFSPACE)
+Could not unload undefined prefab 0x535fab2b (OUTOFSPACE)
+Could not unload undefined prefab 0x5f41a1f4 (OUTOFSPACE)
+Could not unload undefined prefab 0xb92f32f4 (OUTOFSPACE)
+Could not unload undefined prefab 0xb070dece (OUTOFSPACE)
+Could not unload undefined prefab 0xb070dece (OUTOFSPACE)
+Could not unload undefined prefab 0xc8b38691 (OUTOFSPACE)
+Could not unload undefined prefab 0x5577c7d1 (OUTOFSPACE)
+Could not unload undefined prefab 0x6361dc13 (OUTOFSPACE)
+Could not unload undefined prefab 0x5577c7d1 (OUTOFSPACE)
+Could not unload undefined prefab 0x6361dc13 (OUTOFSPACE)
+Could not unload undefined prefab 0xb070dece (OUTOFSPACE)
+Could not unload undefined prefab 0xb070dece (OUTOFSPACE)
+Could not unload undefined prefab 0xb070dece (OUTOFSPACE)
 Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
 Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
 Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
@@ -641,5 +2030,7 @@ Orphaned unnamed resource. This resource must have used Add( resource ) to inser
 Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
 Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
 Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-HttpClient::ClientThread::Main() complete
-Shutting down
+Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+Assert failure 'mCurrent == 0' at c:\jenkins\workspace\jobs\DontStarve_Release_Make_Steam_Package\workspace\source\util/Pool.h(88): Trace follows...
+
