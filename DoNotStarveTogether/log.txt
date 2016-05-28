@@ -1,0 +1,2517 @@
+[00:00:00]: Starting Up
+[00:00:00]: Version: 148470
+[00:00:00]: Current time: Tue Nov 03 22:20:45 2015
+
+[00:00:00]: Don't Starve Together: 148470 WIN32_STEAM
+NNN Build Date: 2015-09-01_13-20-47
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: 
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: Initializing Steam
+[00:00:00]: Steam AppBuildID: 213
+[00:00:00]: Steam BetaName(Branch): [Game_Beta]
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (8636)
+[00:00:00]: HttpClient2::ClientThread::Main()
+[00:00:00]: ProfileIndex:5.47
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: [Warning] Authorized application D:\Games\
+[00:00:00]: Authorized application D:\Games\
+[00:00:00]: could not load ping_cache
+[00:00:00]: OnLoadPermissionList: APP:Klei/DoNotStarveTogether/save/blocklist.txt (Failure)
+[00:00:00]: OnLoadPermissionList: APP:Klei/DoNotStarveTogether/save/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: APP:Klei/DoNotStarveTogether/save/whitelist.txt (Failure)
+[00:00:00]: Offline user name: OU_76561197960471446
+[00:00:00]: SteamID: 76561197960471446
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: WindowManager::Initialize
+[00:00:00]: CreateWindow: Requesting 1916,1017 - 5/6/5 - -1/-1/-1 - 0
+[00:00:00]: CreateEGLContext: 12 configs found
+[00:00:00]:      0: 8/8/8 -  0/ 0/ 0 - 0
+[00:00:00]:      1: 8/8/8 -  0/16/ 0 - 0
+[00:00:00]:      2: 8/8/8 -  0/24/ 0 - 0
+[00:00:00]:      3: 8/8/8 -  0/24/ 8 - 0
+[00:00:00]:      4: 5/5/5 -  0/ 0/ 0 - 0
+[00:00:00]:      5: 5/5/5 -  0/16/ 0 - 0
+[00:00:00]:      6: 5/5/5 -  0/24/ 0 - 0
+[00:00:00]:      7: 5/5/5 -  0/24/ 8 - 0
+[00:00:00]:      8: 8/8/8 -  8/ 0/ 0 - 0
+[00:00:00]:      9: 8/8/8 -  8/16/ 0 - 0
+[00:00:00]:     10: 8/8/8 -  8/24/ 0 - 0
+[00:00:00]:     11: 8/8/8 -  8/24/ 8 - 0
+[00:00:00]: RestoreWindowPosition
+[00:00:00]:    Saved Client Pos (0 x 31)
+[00:00:00]:    Adjusted Window Pos (-8 x 0)
+[00:00:00]: EnsureWindowOnScreen
+[00:00:00]:    All good.
+[00:00:00]: Could not find - D:\Games\楗ヨ崚\net\楗ヨ崚鑱旀満鐗圧ev.148470鐗圽楗ヨ崚鑱旀満鐗圧ev.148470鐗圽data\scripts\controller.vdf
+[00:00:00]: Failed to initialize Steam controller
+[00:00:00]: GLInfo
+[00:00:00]: ~~~~~~
+[00:00:00]: GL_VENDOR: Google Inc.
+[00:00:00]: GL_RENDERER: ANGLE (NVIDIA GeForce GT 630M               )
+[00:00:00]: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.2249)
+[00:00:00]: GL_SHADING_LANGUAGE_VERSION: OpenGL ES GLSL ES 1.00 (ANGLE 1.0.0.2249)
+[00:00:00]: THREAD - started 'WindowsInputManager' (8412)
+[00:00:00]: OpenGL extensions (19, 19):
+[00:00:00]: GL_ANGLE_depth_texture
+[00:00:00]: GL_ANGLE_framebuffer_blit
+[00:00:00]: GL_ANGLE_framebuffer_multisample
+[00:00:00]: GL_ANGLE_instanced_arrays
+[00:00:00]: GL_ANGLE_pack_reverse_row_order
+[00:00:00]: GL_ANGLE_texture_compression_dxt3
+[00:00:00]: GL_ANGLE_texture_compression_dxt5
+[00:00:00]: GL_ANGLE_texture_usage
+[00:00:00]: GL_ANGLE_translated_shader_source
+[00:00:00]: GL_EXT_read_format_bgra
+[00:00:00]: GL_EXT_robustness
+[00:00:00]: GL_EXT_texture_compression_dxt1
+[00:00:00]: GL_EXT_texture_format_BGRA8888
+[00:00:00]: GL_EXT_texture_storage
+[00:00:00]: GL_OES_get_program_binary
+[00:00:00]: GL_OES_packed_depth_stencil
+[00:00:00]: GL_OES_rgb8_rgba8
+[00:00:00]: GL_OES_standard_derivatives
+[00:00:00]: GL_OES_texture_npot
+[00:00:00]: GL_MAX_TEXTURE_SIZE = 16384
+[00:00:00]: GL_MAX_TEXTURE_IMAGE_UNITS = 16
+[00:00:00]: GL_MAX_RENDERBUFFER_SIZE = 16384
+[00:00:00]: GL_MAX_VIEWPORT_DIMS = 16384, 16384
+[00:00:00]: GL_MAX_VARYING_VECTORS = 10
+[00:00:00]: GL_MAX_VERTEX_ATTRIBS = 16
+[00:00:00]: GL_MAX_VERTEX_UNIFORM_VECTORS = 254
+[00:00:00]: GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS = 4
+[00:00:00]: GL_MAX_FRAGMENT_UNIFORM_VECTORS = 221
+[00:00:00]: 4 compressed texture formats
+[00:00:00]: texture format 0x83f0
+[00:00:00]: texture format 0x83f1
+[00:00:00]: texture format 0x83f2
+[00:00:00]: texture format 0x83f3
+[00:00:00]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]: Translator:LoadPOFile - loading file: scripts/languages/chinese.po	
+[00:00:02]: scripts/main.lua(169,1) running main.lua
+	
+[00:00:02]: loaded modindex	
+[00:00:02]: ModIndex: Beginning normal load sequence.
+	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	k01-367546858	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	k02-376333686	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	k03-345692228	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	k04-351325790	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	k05-459280938	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	k06-365119238	
+[00:00:02]: ModIndex:GetModsToLoad inserting moddir, 	k08-343753877	
+[00:00:02]: Could not load mod_config_data/modconfiguration_k01-367546858	
+[00:00:02]: Loading mod: k01-367546858 (k01轻松聊) Version:1.1.1	
+[00:00:02]: Could not load mod_config_data/modconfiguration_k02-376333686	
+[00:00:02]: Loading mod: k02-376333686 (k02季节时钟) Version:1.2b1	
+[00:00:02]: Could not load mod_config_data/modconfiguration_k03-345692228	
+[00:00:02]: Loading mod: k03-345692228 (k03小地图) Version:1.0.4b	
+[00:00:02]: Could not load mod_config_data/modconfiguration_k04-351325790	
+[00:00:02]: Loading mod: k04-351325790 (k04几何种植) Version:1.4.3	
+[00:00:02]: Could not load mod_config_data/modconfiguration_k05-459280938	
+[00:00:02]: Loading mod: k05-459280938 (k05地图显示资源) Version:3.8	
+[00:00:02]: Could not load mod_config_data/modconfiguration_k06-365119238	
+[00:00:02]: Loading mod: k06-365119238 (k06智能锅) Version:4.02	
+[00:00:02]: Could not load mod_config_data/modconfiguration_k08-343753877	
+[00:00:02]: Loading mod: k08-343753877 (k08快捷告知) Version:1.12	
+[00:00:02]: Mod: k06-365119238 (k06智能锅)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: k06-365119238 (k06智能锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: k06-365119238 (k06智能锅)	Loading modmain.lua	
+[00:00:02]: modimport: ../mods/k06-365119238/modmain_segments/containerwidgetfunction.lua	
+[00:00:02]: modimport: ../mods/k06-365119238/modmain_segments/containers_setup.lua	
+[00:00:02]: modimport: ../mods/k06-365119238/modmain_segments/action_predict.lua	
+[00:00:02]: Mod: k02-376333686 (k02季节时钟)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: k02-376333686 (k02季节时钟)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: k02-376333686 (k02季节时钟)	Loading modmain.lua	
+[00:00:02]: Mod: k05-459280938 (k05地图显示资源)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: k05-459280938 (k05地图显示资源)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: k05-459280938 (k05地图显示资源)	Loading modmain.lua	
+[00:00:02]: Mod: k01-367546858 (k01轻松聊)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: k01-367546858 (k01轻松聊)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: k01-367546858 (k01轻松聊)	Loading modmain.lua	
+[00:00:02]: Mod: k04-351325790 (k04几何种植)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: k04-351325790 (k04几何种植)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: k04-351325790 (k04几何种植)	Loading modmain.lua	
+[00:00:02]: Mod: k03-345692228 (k03小地图)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: k03-345692228 (k03小地图)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: k03-345692228 (k03小地图)	Loading modmain.lua	
+[00:00:02]: Mod: k08-343753877 (k08快捷告知)	Loading modworldgenmain.lua	
+[00:00:02]: Mod: k08-343753877 (k08快捷告知)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:02]: Mod: k08-343753877 (k08快捷告知)	Loading modmain.lua	
+[00:00:02]: modimport: ../mods/k08-343753877/announcestrings.lua	
+[00:00:04]: LOADING LUA SUCCESS
+[00:00:04]: PlayerDeaths could not load morgue	
+[00:00:04]: PlayerHistory loaded player_history	169	
+[00:00:04]: loaded profile	
+[00:00:04]: bloom_enabled	false	
+[00:00:04]: loaded saveindex	
+[00:00:04]: OnFilesLoaded()	
+[00:00:04]: OnUpdatePurchaseStateComplete	
+[00:00:05]: Mod: k06-365119238 (k06智能锅)	Registering prefabs	
+[00:00:05]: Mod: k06-365119238 (k06智能锅)	  Registering default mod prefab	
+[00:00:05]: Mod: k02-376333686 (k02季节时钟)	Registering prefabs	
+[00:00:05]: Mod: k02-376333686 (k02季节时钟)	  Registering default mod prefab	
+[00:00:05]: Mod: k05-459280938 (k05地图显示资源)	Registering prefabs	
+[00:00:05]: Mod: k05-459280938 (k05地图显示资源)	  Registering default mod prefab	
+[00:00:05]: Mod: k01-367546858 (k01轻松聊)	Registering prefabs	
+[00:00:05]: Mod: k01-367546858 (k01轻松聊)	  Registering default mod prefab	
+[00:00:05]: Mod: k04-351325790 (k04几何种植)	Registering prefabs	
+[00:00:05]: Mod: k04-351325790 (k04几何种植)	  Registering prefab file: prefabs/buildgridplacer	
+[00:00:05]: Mod: k04-351325790 (k04几何种植)	    buildgridplacer	
+[00:00:05]: Mod: k04-351325790 (k04几何种植)	  Registering default mod prefab	
+[00:00:05]: Mod: k03-345692228 (k03小地图)	Registering prefabs	
+[00:00:05]: Mod: k03-345692228 (k03小地图)	  Registering default mod prefab	
+[00:00:05]: Mod: k08-343753877 (k08快捷告知)	Registering prefabs	
+[00:00:05]: Mod: k08-343753877 (k08快捷告知)	  Registering default mod prefab	
+[00:00:05]: 	Load FE	
+[00:00:05]: 	Load FE: done	
+[00:00:05]: SimLuaProxy::QueryServer()
+[00:00:05]: SimLuaProxy::QueryServer()
+[00:00:05]: ModIndex: Load sequence finished successfully.	
+[00:00:05]: Reset() returning
+[00:00:09]: SimLuaProxy::QueryServer()
+[00:00:09]: SimLuaProxy::QueryServer()
+[00:00:09]: SteamWorkshop::OnError: Steam user not online. Can't enumerate Workshop files!
+[00:00:09]: SteamWorkshop::CompleteCallback (failure, Steam user not online. Can't enumerate Workshop files!) empty
+[00:00:11]: loaded mod_config_data/modconfiguration_e27-369083494	
+[00:00:11]: loaded mod_config_data/modconfiguration_c31-436897772	
+[00:00:11]: loaded mod_config_data/modconfiguration_e19-458940297	
+[00:00:11]: loaded mod_config_data/modconfiguration_e06-458587300	
+[00:00:11]: loaded mod_config_data/modconfiguration_e10-375859599	
+[00:00:11]: loaded mod_config_data/modconfiguration_e03-378160973	
+[00:00:11]: QueryStats: { "req":"modrank", "field":"Session.Loads.Mods.list", "fieldop":"unwind", "linkpref":"external", "limit": 20}
+[00:00:12]: ../mods/e10-375859599/preview.tex is 200x200 but compressed textures must have power of 2 dimensions.
+[00:00:12]: ../mods/e02-373480109/Coordinate.tex is 120x104 but compressed textures must have power of 2 dimensions.
+[00:00:12]: SteamWorkshop::CompleteCallback (failure, Steam user not online. Can't enumerate Workshop files!) empty
+[00:00:13]: SteamWorkshop::CompleteCallback (failure, Steam user not online. Can't enumerate Workshop files!) empty
+[00:00:14]: SteamWorkshop::CompleteCallback (failure, Steam user not online. Can't enumerate Workshop files!) empty
+[00:00:14]: SteamWorkshop::CompleteCallback (failure, Steam user not online. Can't enumerate Workshop files!) empty
+[00:00:15]: Network tick rate: U=15(2), D=0
+[00:00:15]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:00:15]: Setting up socket descriptors
+[00:00:15]: loaded mod_config_data/modconfiguration_c31-436897772	
+[00:00:15]: loaded mod_config_data/modconfiguration_e10-375859599	
+[00:00:15]: Could not load mod_config_data/modconfiguration_e14-375850593	
+[00:00:15]: Could not load mod_config_data/modconfiguration_e18-447092740	
+[00:00:15]: loaded mod_config_data/modconfiguration_e27-369083494	
+[00:00:15]: loaded mod_config_data/modconfiguration_e06-458587300	
+[00:00:15]: Could not load mod_config_data/modconfiguration_e22-362175979	
+[00:00:15]: loaded mod_config_data/modconfiguration_e19-458940297	
+[00:00:15]: loaded mod_config_data/modconfiguration_e03-378160973	
+[00:00:15]: Could not load mod_config_data/modconfiguration_d01-343762271	
+[00:00:15]: Could not load mod_config_data/modconfiguration_e02-373480109	
+[00:00:15]: Lan Server Started on port: 10999
+[00:00:15]: SteamWorkshop::CompleteCallback (failure, Steam user not online. Can't enumerate Workshop files!) empty
+[00:00:16]: SteamWorkshop::CompleteCallback (failure, Steam user not online. Can't enumerate Workshop files!) empty
+[00:00:17]: loaded mod_config_data/modconfiguration_c31-436897772	
+[00:00:17]: loaded mod_config_data/modconfiguration_e10-375859599	
+[00:00:17]: Could not load mod_config_data/modconfiguration_e14-375850593	
+[00:00:17]: Could not load mod_config_data/modconfiguration_e18-447092740	
+[00:00:17]: loaded mod_config_data/modconfiguration_e27-369083494	
+[00:00:17]: loaded mod_config_data/modconfiguration_e06-458587300	
+[00:00:17]: Could not load mod_config_data/modconfiguration_e22-362175979	
+[00:00:17]: loaded mod_config_data/modconfiguration_e19-458940297	
+[00:00:17]: loaded mod_config_data/modconfiguration_e03-378160973	
+[00:00:17]: Could not load mod_config_data/modconfiguration_d01-343762271	
+[00:00:17]: Could not load mod_config_data/modconfiguration_e02-373480109	
+[00:00:17]: unloading prefabs for mod MOD_k06-365119238	
+[00:00:17]: unloading prefabs for mod MOD_k02-376333686	
+[00:00:17]: unloading prefabs for mod MOD_k05-459280938	
+[00:00:17]: unloading prefabs for mod MOD_k01-367546858	
+[00:00:17]: unloading prefabs for mod MOD_k04-351325790	
+[00:00:17]: unloading prefabs for mod MOD_k03-345692228	
+[00:00:17]: unloading prefabs for mod MOD_k08-343753877	
+[00:00:17]: Collecting garbage...
+[00:00:17]: lua_gc took 0.02 seconds
+[00:00:17]: ~NetworkLuaProxy()
+[00:00:17]: ~SimLuaProxy()
+[00:00:17]: SteamWorkshop::CancelDownloads clearing all unfinished downloads
+[00:00:17]: lua_close took 0.04 seconds
+[00:00:17]: ReleaseAll
+[00:00:17]: ReleaseAll Finished
+[00:00:17]: cGame::StartPlaying
+[00:00:17]: LOADING LUA
+[00:00:17]: DoLuaFile scripts/main.lua
+[00:00:17]: DoLuaFile loading buffer scripts/main.lua
+[00:00:17]: Translator:LoadPOFile - loading file: scripts/languages/chinese.po	
+[00:00:18]: scripts/main.lua(169,1) running main.lua
+	
+[00:00:18]: loaded modindex	
+[00:00:18]: ModIndex: Beginning normal load sequence.
+	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	c31-436897772	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	d01-343762271	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	e02-373480109	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	e03-378160973	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	e06-458587300	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	e10-375859599	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	e14-375850593	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	e18-447092740	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	e19-458940297	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	e22-362175979	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	e27-369083494	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	k01-367546858	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	k02-376333686	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	k03-345692228	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	k04-351325790	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	k05-459280938	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	k06-365119238	
+[00:00:18]: ModIndex:GetModsToLoad inserting moddir, 	k08-343753877	
+[00:00:18]: loaded mod_config_data/modconfiguration_c31-436897772	
+[00:00:18]: Loading mod: c31-436897772 (c31装备扩展包) Version:1.8	
+[00:00:18]: Could not load mod_config_data/modconfiguration_d01-343762271	
+[00:00:18]: Loading mod: d01-343762271 (d01全人物解锁) Version:1.9.10	
+[00:00:18]: Could not load mod_config_data/modconfiguration_e02-373480109	
+[00:00:18]: Loading mod: e02-373480109 (e02坐标系统) Version:0.0.3	
+[00:00:18]: loaded mod_config_data/modconfiguration_e03-378160973	
+[00:00:18]: Loading mod: e03-378160973 (e03全图定位) Version:1.3.5	
+[00:00:18]: loaded mod_config_data/modconfiguration_e06-458587300	
+[00:00:18]: Loading mod: e06-458587300 (e06木牌传送) Version:1.0.4	
+[00:00:18]: loaded mod_config_data/modconfiguration_e10-375859599	
+[00:00:18]: Loading mod: e10-375859599 (e10怪物显血) Version:1.4.7	
+[00:00:18]: Could not load mod_config_data/modconfiguration_e14-375850593	
+[00:00:18]: Loading mod: e14-375850593 (e14五格装备栏) Version:1.6.0	
+[00:00:18]: Could not load mod_config_data/modconfiguration_e18-447092740	
+[00:00:18]: Loading mod: e18-447092740 (e18更多动作) Version:1.2.7	
+[00:00:18]: loaded mod_config_data/modconfiguration_e19-458940297	
+[00:00:18]: Loading mod: e19-458940297 (e19食物和武器属性) Version:2.5	
+[00:00:18]: Could not load mod_config_data/modconfiguration_e22-362175979	
+[00:00:18]: Loading mod: e22-362175979 (e22虫洞标记) Version:1.2	
+[00:00:18]: loaded mod_config_data/modconfiguration_e27-369083494	
+[00:00:18]: Loading mod: e27-369083494 (e27树桩再生) Version:2.0.0b	
+[00:00:18]: Could not load mod_config_data/modconfiguration_k01-367546858	
+[00:00:18]: Loading mod: k01-367546858 (k01轻松聊) Version:1.1.1	
+[00:00:18]: Could not load mod_config_data/modconfiguration_k02-376333686	
+[00:00:18]: Loading mod: k02-376333686 (k02季节时钟) Version:1.2b1	
+[00:00:18]: Could not load mod_config_data/modconfiguration_k03-345692228	
+[00:00:18]: Loading mod: k03-345692228 (k03小地图) Version:1.0.4b	
+[00:00:18]: Could not load mod_config_data/modconfiguration_k04-351325790	
+[00:00:18]: Loading mod: k04-351325790 (k04几何种植) Version:1.4.3	
+[00:00:18]: Could not load mod_config_data/modconfiguration_k05-459280938	
+[00:00:18]: Loading mod: k05-459280938 (k05地图显示资源) Version:3.8	
+[00:00:18]: Could not load mod_config_data/modconfiguration_k06-365119238	
+[00:00:18]: Loading mod: k06-365119238 (k06智能锅) Version:4.02	
+[00:00:18]: Could not load mod_config_data/modconfiguration_k08-343753877	
+[00:00:18]: Loading mod: k08-343753877 (k08快捷告知) Version:1.12	
+[00:00:18]: Mod: c31-436897772 (c31装备扩展包)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: c31-436897772 (c31装备扩展包)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: c31-436897772 (c31装备扩展包)	Loading modmain.lua	
+[00:00:18]: Mod: k06-365119238 (k06智能锅)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: k06-365119238 (k06智能锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: k06-365119238 (k06智能锅)	Loading modmain.lua	
+[00:00:18]: modimport: ../mods/k06-365119238/modmain_segments/containerwidgetfunction.lua	
+[00:00:18]: modimport: ../mods/k06-365119238/modmain_segments/containers_setup.lua	
+[00:00:18]: modimport: ../mods/k06-365119238/modmain_segments/action_predict.lua	
+[00:00:18]: Mod: e14-375850593 (e14五格装备栏)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: e14-375850593 (e14五格装备栏)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: e14-375850593 (e14五格装备栏)	Loading modmain.lua	
+[00:00:18]: Mod: e19-458940297 (e19食物和武器属性)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: e19-458940297 (e19食物和武器属性)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: e19-458940297 (e19食物和武器属性)	Loading modmain.lua	
+[00:00:18]: Mod: e02-373480109 (e02坐标系统)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: e02-373480109 (e02坐标系统)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: e02-373480109 (e02坐标系统)	Loading modmain.lua	
+[00:00:18]: Mod: k02-376333686 (k02季节时钟)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: k02-376333686 (k02季节时钟)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: k02-376333686 (k02季节时钟)	Loading modmain.lua	
+[00:00:18]: Mod: k03-345692228 (k03小地图)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: k03-345692228 (k03小地图)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: k03-345692228 (k03小地图)	Loading modmain.lua	
+[00:00:18]: Mod: e06-458587300 (e06木牌传送)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: e06-458587300 (e06木牌传送)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: e06-458587300 (e06木牌传送)	Loading modmain.lua	
+[00:00:18]: Mod: k04-351325790 (k04几何种植)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: k04-351325790 (k04几何种植)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: k04-351325790 (k04几何种植)	Loading modmain.lua	
+[00:00:18]: Mod: k05-459280938 (k05地图显示资源)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: k05-459280938 (k05地图显示资源)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: k05-459280938 (k05地图显示资源)	Loading modmain.lua	
+[00:00:18]: Mod: k01-367546858 (k01轻松聊)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: k01-367546858 (k01轻松聊)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: k01-367546858 (k01轻松聊)	Loading modmain.lua	
+[00:00:18]: Mod: e27-369083494 (e27树桩再生)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: e27-369083494 (e27树桩再生)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: e27-369083494 (e27树桩再生)	Loading modmain.lua	
+[00:00:18]: Mod: e22-362175979 (e22虫洞标记)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: e22-362175979 (e22虫洞标记)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: e22-362175979 (e22虫洞标记)	Loading modmain.lua	
+[00:00:18]: Mod: e10-375859599 (e10怪物显血)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: e10-375859599 (e10怪物显血)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: e10-375859599 (e10怪物显血)	Loading modmain.lua	
+[00:00:18]: Mod: e18-447092740 (e18更多动作)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: e18-447092740 (e18更多动作)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: e18-447092740 (e18更多动作)	Loading modmain.lua	
+[00:00:18]: Mod: d01-343762271 (d01全人物解锁)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: d01-343762271 (d01全人物解锁)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: d01-343762271 (d01全人物解锁)	Loading modmain.lua	
+[00:00:18]: Mod: k08-343753877 (k08快捷告知)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: k08-343753877 (k08快捷告知)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: k08-343753877 (k08快捷告知)	Loading modmain.lua	
+[00:00:18]: modimport: ../mods/k08-343753877/announcestrings.lua	
+[00:00:18]: Mod: e03-378160973 (e03全图定位)	Loading modworldgenmain.lua	
+[00:00:18]: Mod: e03-378160973 (e03全图定位)	  Mod had no modworldgenmain.lua. Skipping.	
+[00:00:18]: Mod: e03-378160973 (e03全图定位)	Loading modmain.lua	
+[00:00:18]: LOADING LUA SUCCESS
+[00:00:18]: PlayerDeaths could not load morgue	
+[00:00:18]: PlayerHistory loaded player_history	169	
+[00:00:18]: loaded profile	
+[00:00:18]: bloom_enabled	false	
+[00:00:18]: loaded saveindex	
+[00:00:18]: OnFilesLoaded()	
+[00:00:18]: OnUpdatePurchaseStateComplete	
+[00:00:18]: 	Unload FE	
+[00:00:18]: 	Unload FE done	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	Registering prefabs	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/ewecushat	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    ewecushat	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/hollowhat	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    hollowhat	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/woodenmace	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    woodenmace	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/summerbandana	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    summerbandana	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/growthstaff	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    growthstaff	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/birchnuthat	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    birchnuthat	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/cactusmace	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    cactusmace	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/armormosquito	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    armormosquito	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/fryingpan	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    fryingpan	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/baronsuit	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    baronsuit	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/dark_axe	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    dark_axe	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/flyswatter	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    flyswatter	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/ewecushat1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    ewecushat1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/hollowhat1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    hollowhat1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/woodenmace1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    woodenmace1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/summerbandana1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    summerbandana1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/growthstaff1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    growthstaff1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/birchnuthat1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    birchnuthat1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/cactusmace1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    cactusmace1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/armormosquito1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    armormosquito1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/fryingpan1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    fryingpan1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/baronsuit1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    baronsuit1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/dark_axe1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    dark_axe1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/flyswatter1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	    flyswatter1	
+[00:00:20]: Mod: c31-436897772 (c31装备扩展包)	  Registering default mod prefab	
+[00:00:20]: Mod: k06-365119238 (k06智能锅)	Registering prefabs	
+[00:00:20]: Mod: k06-365119238 (k06智能锅)	  Registering default mod prefab	
+[00:00:20]: Mod: e14-375850593 (e14五格装备栏)	Registering prefabs	
+[00:00:20]: Mod: e14-375850593 (e14五格装备栏)	  Registering default mod prefab	
+[00:00:20]: Mod: e19-458940297 (e19食物和武器属性)	Registering prefabs	
+[00:00:20]: Mod: e19-458940297 (e19食物和武器属性)	  Registering default mod prefab	
+[00:00:20]: Mod: e02-373480109 (e02坐标系统)	Registering prefabs	
+[00:00:20]: Mod: e02-373480109 (e02坐标系统)	  Registering default mod prefab	
+[00:00:20]: Mod: k02-376333686 (k02季节时钟)	Registering prefabs	
+[00:00:20]: Mod: k02-376333686 (k02季节时钟)	  Registering default mod prefab	
+[00:00:20]: Mod: k03-345692228 (k03小地图)	Registering prefabs	
+[00:00:20]: Mod: k03-345692228 (k03小地图)	  Registering default mod prefab	
+[00:00:20]: Mod: e06-458587300 (e06木牌传送)	Registering prefabs	
+[00:00:20]: Mod: e06-458587300 (e06木牌传送)	  Registering default mod prefab	
+[00:00:20]: Mod: k04-351325790 (k04几何种植)	Registering prefabs	
+[00:00:20]: Mod: k04-351325790 (k04几何种植)	  Registering prefab file: prefabs/buildgridplacer	
+[00:00:20]: Mod: k04-351325790 (k04几何种植)	    buildgridplacer	
+[00:00:20]: Mod: k04-351325790 (k04几何种植)	  Registering default mod prefab	
+[00:00:20]: Mod: k05-459280938 (k05地图显示资源)	Registering prefabs	
+[00:00:20]: Mod: k05-459280938 (k05地图显示资源)	  Registering default mod prefab	
+[00:00:20]: Mod: k01-367546858 (k01轻松聊)	Registering prefabs	
+[00:00:20]: Mod: k01-367546858 (k01轻松聊)	  Registering default mod prefab	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	Registering prefabs	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/stumpsprout	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    stumpsprout	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/veggies	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    corn	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    corn_cooked	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    corn_seeds	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    cave_banana	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    cave_banana_cooked	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    pomegranate	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    pomegranate_cooked	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    pomegranate_seeds	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    dragonfruit	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    dragonfruit_cooked	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    dragonfruit_seeds	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    carrot	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    carrot_cooked	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    carrot_seeds	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    watermelon	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    watermelon_cooked	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    watermelon_seeds	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    cactus_meat	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    cactus_meat_cooked	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    berries	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    berries_cooked	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    eggplant	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    eggplant_cooked	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    eggplant_seeds	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    durian	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    durian_cooked	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    durian_seeds	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    pumpkin	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    pumpkin_cooked	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    pumpkin_seeds	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/petals	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    petals	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/seeds	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    seeds	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    seeds_cooked	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/silk	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    silk	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/cutgrass	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    cutgrass	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/flower	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	    flower	
+[00:00:20]: Mod: e27-369083494 (e27树桩再生)	  Registering default mod prefab	
+[00:00:20]: Mod: e22-362175979 (e22虫洞标记)	Registering prefabs	
+[00:00:20]: Mod: e22-362175979 (e22虫洞标记)	  Registering default mod prefab	
+[00:00:20]: Mod: e10-375859599 (e10怪物显血)	Registering prefabs	
+[00:00:20]: Mod: e10-375859599 (e10怪物显血)	  Registering default mod prefab	
+[00:00:20]: Mod: e18-447092740 (e18更多动作)	Registering prefabs	
+[00:00:20]: Mod: e18-447092740 (e18更多动作)	  Registering default mod prefab	
+[00:00:20]: Mod: d01-343762271 (d01全人物解锁)	Registering prefabs	
+[00:00:20]: Mod: d01-343762271 (d01全人物解锁)	  Registering default mod prefab	
+[00:00:20]: Mod: k08-343753877 (k08快捷告知)	Registering prefabs	
+[00:00:20]: Mod: k08-343753877 (k08快捷告知)	  Registering default mod prefab	
+[00:00:20]: Mod: e03-378160973 (e03全图定位)	Registering prefabs	
+[00:00:20]: Mod: e03-378160973 (e03全图定位)	  Registering prefab file: prefabs/globalposition_classified	
+[00:00:20]: Mod: e03-378160973 (e03全图定位)	    globalposition_classified	
+[00:00:20]: Mod: e03-378160973 (e03全图定位)	  Registering prefab file: prefabs/smoketrail	
+[00:00:20]: Mod: e03-378160973 (e03全图定位)	    smoketrail	
+[00:00:20]: Mod: e03-378160973 (e03全图定位)	  Registering prefab file: prefabs/globalplayericon	
+[00:00:20]: Mod: e03-378160973 (e03全图定位)	    globalplayericon	
+[00:00:20]: Mod: e03-378160973 (e03全图定位)	  Registering default mod prefab	
+[00:00:20]: 	LOAD BE	
+[00:00:22]: 	LOAD BE: done	
+[00:00:22]: Deserialize world session from session/09D0000824A337DE/0000000002	
+[00:00:22]: Save file is at version 1	
+[00:00:22]: Begin Session: 09D0000824A337DE
+[00:00:22]: saving to server_temp/server_save	
+[00:00:22]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/ancient_altar.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/ancient_altar_broken.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/animal_track.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/blue_mushroom.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/carrot_planted.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/chester_eyebone.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/dirtpile.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/fireflies.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/flint.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/flower_cave_double.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/flower_cave_triple.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/green_mushroom.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/houndbone.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/mandrake.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/marsh_bush.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/molehill.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/mooseegg.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/pighead.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/rabbithole.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/red_mushroom.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/rock2.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/scorched_skeleton.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/skeleton.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/skeleton_player.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/teleportato_box.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/teleportato_crank.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/teleportato_potato.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/teleportato_ring.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/wall_hay.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/wall_moonrock.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/wall_ruins.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/wall_stone.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/wall_wood.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/waxwelljournal.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/babybeefalo.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/beefalo.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_albino_base.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_feathered.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_forest.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_frost_base.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_nightmare.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_rocky.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_summer.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_winter.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/krampus.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/lightninggoat.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/mossling.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/smallbird.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/spat.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/teenbird.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/tentacle_pillar.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/bearger.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/birchnutdrake.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/bishop.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/bishop_nightmare.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/crawlinghorror.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/crawlingnightmare.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/deerclops.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/dragonfly.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/firehound.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/hound.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/icehound.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/knight.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/knight_nightmare.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/leif.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/leif_sparse.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/littlewalrus.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/moose.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/nightmarebeak.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/rook.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/rook_nightmare.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/spiderqueen.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/tallbird.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/tentacle.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/terrorbeak.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/walrus.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/warg.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_1.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_2.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_3.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_4.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_5.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_6.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_7.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_8.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_9.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_10.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_11.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_12.xml )
+[00:00:22]: MiniMapComponent::AddAtlas( ../mods/e03-378160973/minimap/campfire.xml )
+[00:00:23]: Loading Nav Grid	
+[00:00:23]: setting 	summerlength	15	
+[00:00:23]: setting 	elapseddaysinseason	0	
+[00:00:23]: setting 	isfullmoon	false	
+[00:00:23]: setting 	moisture	91.349754333496	
+[00:00:23]: setting 	springlength	20	
+[00:00:23]: setting 	moonphase	new	
+[00:00:23]: setting 	precipitationrate	0	
+[00:00:23]: setting 	iswet	false	
+[00:00:23]: setting 	winterlength	15	
+[00:00:23]: setting 	iswinter	false	
+[00:00:23]: setting 	issummer	false	
+[00:00:23]: setting 	moistureceil	633.71075439453	
+[00:00:23]: setting 	isday	false	
+[00:00:23]: setting 	wetness	0	
+[00:00:23]: setting 	isnight	false	
+[00:00:23]: setting 	isdusk	true	
+[00:00:23]: setting 	isspring	false	
+[00:00:23]: setting 	isautumn	true	
+[00:00:23]: setting 	issnowing	false	
+[00:00:23]: setting 	snowlevel	0	
+[00:00:23]: setting 	issnowcovered	false	
+[00:00:23]: setting 	autumnlength	20	
+[00:00:23]: setting 	phase	dusk	
+[00:00:23]: setting 	temperature	31.195913308607	
+[00:00:23]: setting 	pop	0.14415055086255	
+[00:00:23]: setting 	season	autumn	
+[00:00:23]: setting 	israining	false	
+[00:00:23]: setting 	remainingdaysinseason	20	
+[00:00:23]: setting 	time	0.76131725311279	
+[00:00:23]: setting 	cycles	0	
+[00:00:23]: setting 	precipitation	none	
+[00:00:23]: setting 	timeinphase	0.69684600830078	
+[00:00:31]: Reconstructing topology	
+[00:00:31]: 	...Sorting points	
+[00:00:31]: 	...Sorting edges	
+[00:00:31]: 	...Connecting nodes	
+[00:00:31]: 	...Validating connections	
+[00:00:31]: 	...Housekeeping	
+[00:00:31]: 	...Done!	
+[00:00:32]: 1 uploads added to server. From server_temp
+[00:00:32]: Telling Client our new session identifier: 09D0000824A337DE
+[00:00:32]: ModIndex: Load sequence finished successfully.	
+[00:00:32]: Reset() returning
+[00:00:33]: New incoming connection 172.20.24.2|53930 GUID: 914230747223391017
+[00:00:33]: Client connected from [LAN] IP: 172.20.24.2
+[00:00:33]: SendHandShakeServerListing
+[00:00:33]: Attempting to send resume request
+[00:00:33]: ReceiveResumeRequest
+[00:00:33]: Received request to resume from: session/09D0000824A337DE/OU_76561197960471446_/0000000002
+[00:00:33]: OnResumeRequestLoadComplete - UserID OU_76561197960471446
+[00:00:33]: Could not find anim build temperature
+[00:00:33]: Could not find anim bank [temperature]
+[00:00:33]: [Load] SPAWNING PLAYER AT: (45.50, 0.00, 68.40)	
+[00:00:33]: ReceiveResumeNotification
+[00:00:34]: Loading minimap from session/09D0000824A337DE/OU_76561197960471446_/minimap
+[00:00:34]: Deserializing cached icon data: 148
+[00:00:34]: Deserializing tile data (350 x 350)
+[00:00:42]: ReceiveResumeRequest
+[00:00:42]: Received request to resume from: session/09D0000824A337DE/OU_76561198406608729_/0000000002
+[00:00:42]: OnResumeRequestLoadComplete - UserID OU_76561198406608729
+[00:00:42]: [Load] SPAWNING PLAYER AT: (-14.96, 0.00, 125.35)	
+[00:00:43]: WARNING! Could not find region 'avatar_globalposition_classified.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:00:43]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:01:10]: [Steam] UserDisconnect successfully sent for steamid '0'
+[00:01:10]: ID_CONNECTION_LOST 172.20.24.2|53930
+[00:01:10]: Serializing user session to session/09D0000824A337DE/OU_76561198406608729_/0000000003
+[00:01:25]: New incoming connection 172.20.24.2|53693 GUID: 387309590882171304
+[00:01:25]: Client connected from [LAN] IP: 172.20.24.2
+[00:01:25]: SendHandShakeServerListing
+[00:01:36]: ReceiveResumeRequest
+[00:01:36]: Received request to resume from: session/09D0000824A337DE/OU_76561198406608729_/0000000003
+[00:01:36]: OnResumeRequestLoadComplete - UserID OU_76561198406608729
+[00:01:36]: [Load] SPAWNING PLAYER AT: (-14.96, 0.00, 125.35)	
+[00:01:37]: WARNING! Could not find region 'avatar_globalposition_classified.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[00:01:37]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[00:02:29]: Serializing user minimap to session/09D0000824A337DE/OU_76561197960471446_/minimap
+[00:02:29]: Serializing user session to session/09D0000824A337DE/OU_76561197960471446_/0000000003
+[00:02:29]: Serializing user session to session/09D0000824A337DE/OU_76561198406608729_/0000000003
+[00:02:30]: Serializing world session to session/09D0000824A337DE/0000000003
+[00:03:41]: Could not find anim [idle] in bank [flowers]
+[00:03:46]: Could not find anim [f7] in bank [stumpsprout]
+[00:04:05]: Could not find anim [idle] in bank [flowers]
+[00:04:07]: Could not find anim [f7] in bank [stumpsprout]
+[00:04:42]: Could not find anim [idle] in bank [flowers]
+[00:04:44]: Could not find anim [f6] in bank [stumpsprout]
+[00:09:36]: Stale Component Reference: GUID 118591, scripts/widgets/text.lua:70
+[00:10:30]: Serializing user minimap to session/09D0000824A337DE/OU_76561197960471446_/minimap
+[00:10:30]: Serializing user session to session/09D0000824A337DE/OU_76561197960471446_/0000000004
+[00:10:30]: Serializing user session to session/09D0000824A337DE/OU_76561198406608729_/0000000004
+[00:10:30]: Can't find	101962	
+[00:10:30]: Can't find	101964	
+[00:10:30]: Can't find	101963	
+[00:10:30]: Can't find	101965	
+[00:10:30]: Serializing world session to session/09D0000824A337DE/0000000004
+[00:18:30]: Serializing user minimap to session/09D0000824A337DE/OU_76561197960471446_/minimap
+[00:18:30]: Serializing user session to session/09D0000824A337DE/OU_76561197960471446_/0000000005
+[00:18:30]: Serializing user session to session/09D0000824A337DE/OU_76561198406608729_/0000000005
+[00:18:30]: Can't find	101963	
+[00:18:30]: Can't find	101962	
+[00:18:30]: Can't find	101964	
+[00:18:30]: Can't find	113597	113597 - wathgrithr	
+[00:18:30]: Can't find	101965	
+[00:18:30]: Can't find	101887	
+[00:18:30]: Serializing world session to session/09D0000824A337DE/0000000005
+[00:25:40]: CURL ERROR: Operation timed out after 0 milliseconds with 0 out of 0 bytes received
+[00:26:31]: Serializing user minimap to session/09D0000824A337DE/OU_76561197960471446_/minimap
+[00:26:31]: Serializing user session to session/09D0000824A337DE/OU_76561197960471446_/0000000006
+[00:26:31]: Serializing user session to session/09D0000824A337DE/OU_76561198406608729_/0000000006
+[00:26:31]: Can't find	101962	
+[00:26:31]: Can't find	101964	
+[00:26:31]: Can't find	101965	
+[00:26:31]: Can't find	101963	
+[00:26:31]: Can't find	101887	
+[00:26:31]: Serializing world session to session/09D0000824A337DE/0000000006
+[00:34:31]: Serializing user minimap to session/09D0000824A337DE/OU_76561197960471446_/minimap
+[00:34:31]: Serializing user session to session/09D0000824A337DE/OU_76561197960471446_/0000000007
+[00:34:31]: Serializing user session to session/09D0000824A337DE/OU_76561198406608729_/0000000007
+[00:34:31]: Can't find	101962	
+[00:34:31]: Can't find	101964	
+[00:34:31]: Can't find	101965	
+[00:34:31]: Can't find	101902	
+[00:34:31]: Can't find	101887	
+[00:34:31]: Can't find	101903	
+[00:34:31]: Can't find	101963	
+[00:34:31]: Serializing world session to session/09D0000824A337DE/0000000007
+[00:39:18]: Net partial byte (64) out of range [0, 63]
+[00:39:18]: Error serializing lua state for entity rocks[114731]
+[00:39:37]: Net partial byte (65) out of range [0, 63]
+[00:39:37]: Error serializing lua state for entity rocks[114731]
+[00:39:46]: Net partial byte (66) out of range [0, 63]
+[00:39:46]: Error serializing lua state for entity rocks[114731]
+[00:40:29]: Net partial byte (67) out of range [0, 63]
+[00:40:29]: Error serializing lua state for entity rocks[114731]
+[00:40:51]: Net partial byte (68) out of range [0, 63]
+[00:40:51]: Error serializing lua state for entity rocks[114731]
+[00:41:47]: Net partial byte (69) out of range [0, 63]
+[00:41:47]: Error serializing lua state for entity rocks[114731]
+[00:42:14]: Net partial byte (70) out of range [0, 63]
+[00:42:14]: Error serializing lua state for entity rocks[114731]
+[00:42:31]: Serializing user minimap to session/09D0000824A337DE/OU_76561197960471446_/minimap
+[00:42:31]: Serializing user session to session/09D0000824A337DE/OU_76561197960471446_/0000000008
+[00:42:31]: Serializing user session to session/09D0000824A337DE/OU_76561198406608729_/0000000008
+[00:42:31]: Can't find	101884	
+[00:42:31]: Can't find	101962	
+[00:42:31]: Can't find	101963	
+[00:42:31]: Can't find	101964	
+[00:42:31]: Can't find	101965	
+[00:42:31]: Can't find	101902	
+[00:42:31]: Can't find	101903	
+[00:42:31]: Can't find	101887	
+[00:42:32]: Serializing world session to session/09D0000824A337DE/0000000008
+[00:48:18]: Could not find anim [idle] in bank [plant_normal]
+[00:48:42]: Could not find anim [idle] in bank [plant_normal]
+[00:48:53]: Could not find anim [grow_pst] in bank [stumpsprout]
+[00:50:32]: Serializing user minimap to session/09D0000824A337DE/OU_76561197960471446_/minimap
+[00:50:32]: Serializing user session to session/09D0000824A337DE/OU_76561197960471446_/0000000009
+[00:50:32]: Serializing user session to session/09D0000824A337DE/OU_76561198406608729_/0000000009
+[00:50:32]: Can't find	101884	
+[00:50:32]: Can't find	101962	
+[00:50:32]: Can't find	101964	
+[00:50:32]: Can't find	101902	
+[00:50:32]: Can't find	101887	
+[00:50:32]: Can't find	101963	
+[00:50:32]: Can't find	101965	
+[00:50:32]: Can't find	101903	
+[00:50:32]: Serializing world session to session/09D0000824A337DE/0000000009
+[00:58:32]: Serializing user minimap to session/09D0000824A337DE/OU_76561197960471446_/minimap
+[00:58:32]: Serializing user session to session/09D0000824A337DE/OU_76561197960471446_/0000000010
+[00:58:32]: Serializing user session to session/09D0000824A337DE/OU_76561198406608729_/0000000010
+[00:58:32]: Can't find	101884	
+[00:58:32]: Can't find	101903	
+[00:58:32]: Can't find	101962	
+[00:58:32]: Can't find	101964	
+[00:58:32]: Can't find	101902	
+[00:58:32]: Can't find	101965	
+[00:58:32]: Can't find	101963	
+[00:58:32]: Can't find	101887	
+[00:58:33]: Serializing world session to session/09D0000824A337DE/0000000010
+[01:04:16]: Could not find anim [idle] in bank [flowers]
+[01:06:33]: Serializing user minimap to session/09D0000824A337DE/OU_76561197960471446_/minimap
+[01:06:33]: Serializing user session to session/09D0000824A337DE/OU_76561197960471446_/0000000011
+[01:06:33]: Serializing user session to session/09D0000824A337DE/OU_76561198406608729_/0000000011
+[01:06:33]: Can't find	101884	
+[01:06:33]: Can't find	101887	
+[01:06:33]: Can't find	101962	
+[01:06:33]: Can't find	101964	
+[01:06:33]: Can't find	101965	
+[01:06:33]: Can't find	101963	
+[01:06:33]: Can't find	101902	
+[01:06:33]: Can't find	101903	
+[01:06:33]: Can't find	113597	113597 - wathgrithr	
+[01:06:33]: Serializing world session to session/09D0000824A337DE/0000000011
+[01:08:06]: Could not find anim [idle] in bank [plant_normal]
+[01:08:08]: Could not find anim [idle] in bank [plant_normal]
+[01:08:15]: Could not find anim [grow_pst] in bank [stumpsprout]
+[01:09:47]: Could not find anim [idle] in bank [flowers]
+[01:09:50]: Could not find anim [f8] in bank [stumpsprout]
+[01:09:59]: Could not find anim [death] in bank [ghost]
+[01:09:59]: Serializing user minimap to session/09D0000824A337DE/OU_76561197960471446_/minimap
+[01:09:59]: Serializing user session to session/09D0000824A337DE/OU_76561197960471446_/0000000012
+[01:09:59]: SAVING Morgue	1	
+[01:14:33]: Serializing user minimap to session/09D0000824A337DE/OU_76561197960471446_/minimap
+[01:14:33]: Serializing user session to session/09D0000824A337DE/OU_76561197960471446_/0000000012
+[01:14:33]: Serializing user session to session/09D0000824A337DE/OU_76561198406608729_/0000000012
+[01:14:33]: Can't find	101884	
+[01:14:33]: Can't find	101962	
+[01:14:33]: Can't find	101964	
+[01:14:33]: Can't find	101902	
+[01:14:33]: Can't find	101963	
+[01:14:33]: Can't find	101965	
+[01:14:33]: Can't find	101887	
+[01:14:33]: Can't find	101903	
+[01:14:33]: Serializing world session to session/09D0000824A337DE/0000000012
+[01:14:49]: Net partial byte (76) out of range [0, 63]
+[01:14:49]: Error serializing lua state for entity flint[114271]
+[01:15:11]: Net partial byte (74) out of range [0, 63]
+[01:15:11]: Error serializing lua state for entity rocks[109110]
+[01:16:53]: Could not find anim [death] in bank [ghost]
+[01:16:53]: Serializing user session to session/09D0000824A337DE/OU_76561198406608729_/0000000013
+[01:16:57]: received reset request in WorldResetFromSim	
+[01:16:57]: pushing ms_worldreset	
+[01:16:57]: unloading prefabs for mod MOD_c31-436897772	
+[01:16:57]: unloading prefabs for mod MOD_k06-365119238	
+[01:16:57]: unloading prefabs for mod MOD_e14-375850593	
+[01:16:57]: unloading prefabs for mod MOD_e19-458940297	
+[01:16:57]: unloading prefabs for mod MOD_e02-373480109	
+[01:16:57]: unloading prefabs for mod MOD_k02-376333686	
+[01:16:57]: unloading prefabs for mod MOD_k03-345692228	
+[01:16:57]: unloading prefabs for mod MOD_e06-458587300	
+[01:16:57]: unloading prefabs for mod MOD_k04-351325790	
+[01:16:57]: unloading prefabs for mod MOD_k05-459280938	
+[01:16:57]: unloading prefabs for mod MOD_k01-367546858	
+[01:16:57]: unloading prefabs for mod MOD_e27-369083494	
+[01:16:57]: unloading prefabs for mod MOD_e22-362175979	
+[01:16:57]: unloading prefabs for mod MOD_e10-375859599	
+[01:16:57]: unloading prefabs for mod MOD_e18-447092740	
+[01:16:57]: unloading prefabs for mod MOD_d01-343762271	
+[01:16:57]: unloading prefabs for mod MOD_k08-343753877	
+[01:16:57]: unloading prefabs for mod MOD_e03-378160973	
+[01:16:57]: Collecting garbage...
+[01:16:58]: lua_gc took 0.17 seconds
+[01:16:58]: ~NetworkLuaProxy()
+[01:16:58]: ~SimLuaProxy()
+[01:16:58]: SteamWorkshop::CancelDownloads clearing all unfinished downloads
+[01:16:58]: lua_close took 0.43 seconds
+[01:16:58]: ReleaseAll
+[01:16:58]: ReleaseAll Finished
+[01:16:58]: cGame::StartPlaying
+[01:16:58]: LOADING LUA
+[01:16:58]: DoLuaFile scripts/main.lua
+[01:16:58]: DoLuaFile loading buffer scripts/main.lua
+[01:16:58]: Translator:LoadPOFile - loading file: scripts/languages/chinese.po	
+[01:16:59]: scripts/main.lua(169,1) running main.lua
+	
+[01:16:59]: loaded modindex	
+[01:16:59]: ModIndex: Beginning normal load sequence.
+	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	c31-436897772	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	d01-343762271	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	e02-373480109	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	e03-378160973	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	e06-458587300	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	e10-375859599	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	e14-375850593	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	e18-447092740	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	e19-458940297	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	e22-362175979	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	e27-369083494	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	k01-367546858	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	k02-376333686	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	k03-345692228	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	k04-351325790	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	k05-459280938	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	k06-365119238	
+[01:16:59]: ModIndex:GetModsToLoad inserting moddir, 	k08-343753877	
+[01:16:59]: loaded mod_config_data/modconfiguration_c31-436897772	
+[01:16:59]: Loading mod: c31-436897772 (c31装备扩展包) Version:1.8	
+[01:16:59]: Could not load mod_config_data/modconfiguration_d01-343762271	
+[01:16:59]: Loading mod: d01-343762271 (d01全人物解锁) Version:1.9.10	
+[01:16:59]: Could not load mod_config_data/modconfiguration_e02-373480109	
+[01:16:59]: Loading mod: e02-373480109 (e02坐标系统) Version:0.0.3	
+[01:16:59]: loaded mod_config_data/modconfiguration_e03-378160973	
+[01:16:59]: Loading mod: e03-378160973 (e03全图定位) Version:1.3.5	
+[01:16:59]: loaded mod_config_data/modconfiguration_e06-458587300	
+[01:16:59]: Loading mod: e06-458587300 (e06木牌传送) Version:1.0.4	
+[01:16:59]: loaded mod_config_data/modconfiguration_e10-375859599	
+[01:16:59]: Loading mod: e10-375859599 (e10怪物显血) Version:1.4.7	
+[01:16:59]: Could not load mod_config_data/modconfiguration_e14-375850593	
+[01:16:59]: Loading mod: e14-375850593 (e14五格装备栏) Version:1.6.0	
+[01:16:59]: Could not load mod_config_data/modconfiguration_e18-447092740	
+[01:16:59]: Loading mod: e18-447092740 (e18更多动作) Version:1.2.7	
+[01:16:59]: loaded mod_config_data/modconfiguration_e19-458940297	
+[01:16:59]: Loading mod: e19-458940297 (e19食物和武器属性) Version:2.5	
+[01:16:59]: Could not load mod_config_data/modconfiguration_e22-362175979	
+[01:16:59]: Loading mod: e22-362175979 (e22虫洞标记) Version:1.2	
+[01:16:59]: loaded mod_config_data/modconfiguration_e27-369083494	
+[01:16:59]: Loading mod: e27-369083494 (e27树桩再生) Version:2.0.0b	
+[01:16:59]: Could not load mod_config_data/modconfiguration_k01-367546858	
+[01:16:59]: Loading mod: k01-367546858 (k01轻松聊) Version:1.1.1	
+[01:16:59]: Could not load mod_config_data/modconfiguration_k02-376333686	
+[01:16:59]: Loading mod: k02-376333686 (k02季节时钟) Version:1.2b1	
+[01:16:59]: Could not load mod_config_data/modconfiguration_k03-345692228	
+[01:16:59]: Loading mod: k03-345692228 (k03小地图) Version:1.0.4b	
+[01:16:59]: Could not load mod_config_data/modconfiguration_k04-351325790	
+[01:16:59]: Loading mod: k04-351325790 (k04几何种植) Version:1.4.3	
+[01:16:59]: Could not load mod_config_data/modconfiguration_k05-459280938	
+[01:16:59]: Loading mod: k05-459280938 (k05地图显示资源) Version:3.8	
+[01:16:59]: Could not load mod_config_data/modconfiguration_k06-365119238	
+[01:16:59]: Loading mod: k06-365119238 (k06智能锅) Version:4.02	
+[01:16:59]: Could not load mod_config_data/modconfiguration_k08-343753877	
+[01:16:59]: Loading mod: k08-343753877 (k08快捷告知) Version:1.12	
+[01:16:59]: Mod: c31-436897772 (c31装备扩展包)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: c31-436897772 (c31装备扩展包)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: c31-436897772 (c31装备扩展包)	Loading modmain.lua	
+[01:16:59]: Mod: k06-365119238 (k06智能锅)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: k06-365119238 (k06智能锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: k06-365119238 (k06智能锅)	Loading modmain.lua	
+[01:16:59]: modimport: ../mods/k06-365119238/modmain_segments/containerwidgetfunction.lua	
+[01:16:59]: modimport: ../mods/k06-365119238/modmain_segments/containers_setup.lua	
+[01:16:59]: modimport: ../mods/k06-365119238/modmain_segments/action_predict.lua	
+[01:16:59]: Mod: e14-375850593 (e14五格装备栏)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: e14-375850593 (e14五格装备栏)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: e14-375850593 (e14五格装备栏)	Loading modmain.lua	
+[01:16:59]: Mod: e19-458940297 (e19食物和武器属性)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: e19-458940297 (e19食物和武器属性)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: e19-458940297 (e19食物和武器属性)	Loading modmain.lua	
+[01:16:59]: Mod: e02-373480109 (e02坐标系统)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: e02-373480109 (e02坐标系统)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: e02-373480109 (e02坐标系统)	Loading modmain.lua	
+[01:16:59]: Mod: k02-376333686 (k02季节时钟)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: k02-376333686 (k02季节时钟)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: k02-376333686 (k02季节时钟)	Loading modmain.lua	
+[01:16:59]: Mod: k03-345692228 (k03小地图)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: k03-345692228 (k03小地图)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: k03-345692228 (k03小地图)	Loading modmain.lua	
+[01:16:59]: Mod: e06-458587300 (e06木牌传送)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: e06-458587300 (e06木牌传送)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: e06-458587300 (e06木牌传送)	Loading modmain.lua	
+[01:16:59]: Mod: k04-351325790 (k04几何种植)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: k04-351325790 (k04几何种植)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: k04-351325790 (k04几何种植)	Loading modmain.lua	
+[01:16:59]: Mod: k05-459280938 (k05地图显示资源)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: k05-459280938 (k05地图显示资源)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: k05-459280938 (k05地图显示资源)	Loading modmain.lua	
+[01:16:59]: Mod: k01-367546858 (k01轻松聊)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: k01-367546858 (k01轻松聊)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: k01-367546858 (k01轻松聊)	Loading modmain.lua	
+[01:16:59]: Mod: e27-369083494 (e27树桩再生)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: e27-369083494 (e27树桩再生)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: e27-369083494 (e27树桩再生)	Loading modmain.lua	
+[01:16:59]: Mod: e22-362175979 (e22虫洞标记)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: e22-362175979 (e22虫洞标记)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: e22-362175979 (e22虫洞标记)	Loading modmain.lua	
+[01:16:59]: Mod: e10-375859599 (e10怪物显血)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: e10-375859599 (e10怪物显血)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: e10-375859599 (e10怪物显血)	Loading modmain.lua	
+[01:16:59]: Mod: e18-447092740 (e18更多动作)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: e18-447092740 (e18更多动作)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: e18-447092740 (e18更多动作)	Loading modmain.lua	
+[01:16:59]: Mod: d01-343762271 (d01全人物解锁)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: d01-343762271 (d01全人物解锁)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: d01-343762271 (d01全人物解锁)	Loading modmain.lua	
+[01:16:59]: Mod: k08-343753877 (k08快捷告知)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: k08-343753877 (k08快捷告知)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: k08-343753877 (k08快捷告知)	Loading modmain.lua	
+[01:16:59]: modimport: ../mods/k08-343753877/announcestrings.lua	
+[01:16:59]: Mod: e03-378160973 (e03全图定位)	Loading modworldgenmain.lua	
+[01:16:59]: Mod: e03-378160973 (e03全图定位)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:16:59]: Mod: e03-378160973 (e03全图定位)	Loading modmain.lua	
+[01:16:59]: LOADING LUA SUCCESS
+[01:16:59]: PlayerDeaths loaded morgue	142	
+[01:16:59]: PlayerHistory loaded player_history	169	
+[01:16:59]: loaded profile	
+[01:16:59]: bloom_enabled	false	
+[01:16:59]: loaded saveindex	
+[01:16:59]: OnFilesLoaded()	
+[01:16:59]: OnUpdatePurchaseStateComplete	
+[01:16:59]: Not applying world gen overrides.	
+[01:16:59]: WorldSim::SimThread::SimThread()
+[01:16:59]: WorldSim::SimThread::SimThread() complete
+[01:16:59]: THREAD - started 'WorldSim' (6268)
+[01:16:59]: WorldSim::SimThread::Main()
+[01:16:59]: DoLuaFile scripts/worldgen_main.lua
+[01:16:59]: DoLuaFile loading buffer scripts/worldgen_main.lua
+[01:16:59]: Translator:LoadPOFile - loading file: scripts/languages/chinese.po	
+[01:16:59]: ModIndex: Load sequence finished successfully.	
+[01:16:59]: Reset() returning
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:16:59]: Error decoding lua RPC sender
+[01:17:00]: DLC enabled : 	false	
+[01:17:00]: ReceiveResumeRequest
+[01:17:00]: Ignored request to resume during loading state
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	k03-345692228	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	k06-365119238	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	c31-436897772	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	k04-351325790	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	e10-375859599	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	e14-375850593	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	e18-447092740	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	e06-458587300	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	e27-369083494	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	e22-362175979	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	k02-376333686	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	k08-343753877	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	e19-458940297	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	e03-378160973	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	d01-343762271	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	k01-367546858	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	k05-459280938	
+[01:17:00]: ModIndex:GetModsToLoad inserting modname, 	e02-373480109	
+[01:17:00]: Loading mod: k03-345692228 (k03小地图) Version:1.0.4b	
+[01:17:00]: Loading mod: k06-365119238 (k06智能锅) Version:4.02	
+[01:17:00]: Loading mod: c31-436897772 (c31装备扩展包) Version:1.8	
+[01:17:00]: Loading mod: k04-351325790 (k04几何种植) Version:1.4.3	
+[01:17:00]: Loading mod: e10-375859599 (e10怪物显血) Version:1.4.7	
+[01:17:00]: Loading mod: e14-375850593 (e14五格装备栏) Version:1.6.0	
+[01:17:00]: Loading mod: e18-447092740 (e18更多动作) Version:1.2.7	
+[01:17:00]: Loading mod: e06-458587300 (e06木牌传送) Version:1.0.4	
+[01:17:00]: Loading mod: e27-369083494 (e27树桩再生) Version:2.0.0b	
+[01:17:00]: Loading mod: e22-362175979 (e22虫洞标记) Version:1.2	
+[01:17:00]: Loading mod: k02-376333686 (k02季节时钟) Version:1.2b1	
+[01:17:00]: Loading mod: k08-343753877 (k08快捷告知) Version:1.12	
+[01:17:00]: Loading mod: e19-458940297 (e19食物和武器属性) Version:2.5	
+[01:17:00]: Loading mod: e03-378160973 (e03全图定位) Version:1.3.5	
+[01:17:00]: Loading mod: d01-343762271 (d01全人物解锁) Version:1.9.10	
+[01:17:00]: Loading mod: k01-367546858 (k01轻松聊) Version:1.1.1	
+[01:17:00]: Loading mod: k05-459280938 (k05地图显示资源) Version:3.8	
+[01:17:00]: Loading mod: e02-373480109 (e02坐标系统) Version:0.0.3	
+[01:17:00]: Mod: c31-436897772 (c31装备扩展包)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: c31-436897772 (c31装备扩展包)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: e14-375850593 (e14五格装备栏)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: e14-375850593 (e14五格装备栏)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: k06-365119238 (k06智能锅)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: k06-365119238 (k06智能锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: e02-373480109 (e02坐标系统)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: e02-373480109 (e02坐标系统)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: e19-458940297 (e19食物和武器属性)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: e19-458940297 (e19食物和武器属性)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: k02-376333686 (k02季节时钟)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: k02-376333686 (k02季节时钟)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: k08-343753877 (k08快捷告知)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: k08-343753877 (k08快捷告知)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: d01-343762271 (d01全人物解锁)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: d01-343762271 (d01全人物解锁)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: k01-367546858 (k01轻松聊)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: k01-367546858 (k01轻松聊)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: e22-362175979 (e22虫洞标记)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: e22-362175979 (e22虫洞标记)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: e27-369083494 (e27树桩再生)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: e27-369083494 (e27树桩再生)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: e06-458587300 (e06木牌传送)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: e06-458587300 (e06木牌传送)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: k04-351325790 (k04几何种植)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: k04-351325790 (k04几何种植)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: k05-459280938 (k05地图显示资源)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: k05-459280938 (k05地图显示资源)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: e10-375859599 (e10怪物显血)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: e10-375859599 (e10怪物显血)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: e18-447092740 (e18更多动作)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: e18-447092740 (e18更多动作)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: k03-345692228 (k03小地图)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: k03-345692228 (k03小地图)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: Mod: e03-378160973 (e03全图定位)	Loading modworldgenmain.lua	
+[01:17:00]: Mod: e03-378160973 (e03全图定位)	  Mod had no modworldgenmain.lua. Skipping.	
+[01:17:00]: scripts/worldgen_main.lua(79,1) running worldgen_main.lua
+	
+[01:17:00]: scripts/worldgen_main.lua(81,1) SEED = 	1446565064	
+[01:17:00]: scripts/worldgen_main.lua(484,1) WORLDGEN PRESET: 	SURVIVAL_TOGETHER	
+[01:17:00]: scripts/worldgen_main.lua(492,1) WORLDGEN LEVEL ID: 	1	
+[01:17:00]: scripts/worldgen_main.lua(499,1) 
+#######
+#
+# Generating Normal Mode Together Forever Level
+#
+#######
+	
+[01:17:00]: Creating story...	
+[01:17:00]: LinkNodesByKeys	
+[01:17:00]: Baking map...	350	
+[01:17:00]: [WorldSimActual::GenerateVoronoiMap]
+[01:17:00]: GenerateVoronoiMap [1]:
+[01:17:00]: ...Done.
+[01:17:00]: [AddEmptyNodes]
+[01:17:00]: GenerateVoronoiMap [100]:
+[01:17:03]: ...Done.
+[01:17:03]: [WorldSimActual::GenerateVoronoiMap] complete [success]
+[01:17:03]: [WorldSimActual::ConvertToTileMap]
+[01:17:03]: [ConvertToTileMap]
+[01:17:03]: [WorldSimActual::ConvertToTileMap] complete
+[01:17:03]: [WorldSimActual::SeparateIslands]
+[01:17:03]: [SeparateIslands]
+[01:17:03]: [WorldSimActual::SeparateIslands] complete
+[01:17:03]: Map Baked!	
+[01:17:03]: [WorldSimActual::ForceConnectivity]
+[01:17:03]: [GenerateLandmasses]
+[01:17:03]: [MergeConnectedLandmasses] true
+[01:17:03]: [ForceConnectivity]
+[01:17:03]: [ForceValid]
+[01:17:03]: [WorldSimActual::ForceConnectivity] complete
+[01:17:03]: [WorldSimActual::DrawRoads]
+[01:17:03]: [DrawRoads]
+[01:17:03]: [WorldSimActual::DrawRoads] complete
+[01:17:03]: Encoding...	
+[01:17:03]: Encoding... DONE	
+[01:17:03]: Checking Tags	
+[01:17:03]: Populating voronoi...	
+[01:17:03]: Warning! Could not find a spot for MooseNest in node Make a pick:3:BarePlain	
+[01:17:03]: Warning! Could not find a spot for DefaultPigking in node Speak to the king:8:PigKingdom	
+[01:17:03]: Warning! Could not find a spot for LivingTree in node Befriend the pigs:4:DeepForest	
+[01:17:03]: Warning! Could not find a spot for LivingTree in node Forest hunters:3:DeepForest	
+[01:17:03]: Badlands:6:Badlands:BG_69 Cant process points	
+[01:17:03]: Done forest map gen!	
+[01:17:03]: scripts/worldgen_main.lua(247,1) Checking map...	
+[01:17:03]: scripts/worldgen_main.lua(617,1) Generation complete	
+[01:17:04]: WorldSim::SimThread::Main() complete
+[01:17:08]: Serializing world session to session/01700009501F49B8/0000000001
+[01:17:08]: 	BE assets already loaded	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	Registering prefabs	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/ewecushat	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    ewecushat	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/hollowhat	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    hollowhat	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/woodenmace	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    woodenmace	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/summerbandana	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    summerbandana	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/growthstaff	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    growthstaff	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/birchnuthat	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    birchnuthat	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/cactusmace	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    cactusmace	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/armormosquito	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    armormosquito	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/fryingpan	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    fryingpan	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/baronsuit	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    baronsuit	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/dark_axe	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    dark_axe	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/flyswatter	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    flyswatter	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/ewecushat1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    ewecushat1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/hollowhat1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    hollowhat1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/woodenmace1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    woodenmace1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/summerbandana1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    summerbandana1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/growthstaff1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    growthstaff1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/birchnuthat1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    birchnuthat1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/cactusmace1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    cactusmace1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/armormosquito1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    armormosquito1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/fryingpan1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    fryingpan1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/baronsuit1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    baronsuit1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/dark_axe1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    dark_axe1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/flyswatter1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	    flyswatter1	
+[01:17:09]: Mod: c31-436897772 (c31装备扩展包)	  Registering default mod prefab	
+[01:17:09]: Mod: k06-365119238 (k06智能锅)	Registering prefabs	
+[01:17:09]: Mod: k06-365119238 (k06智能锅)	  Registering default mod prefab	
+[01:17:09]: Mod: e14-375850593 (e14五格装备栏)	Registering prefabs	
+[01:17:09]: Mod: e14-375850593 (e14五格装备栏)	  Registering default mod prefab	
+[01:17:09]: Mod: e19-458940297 (e19食物和武器属性)	Registering prefabs	
+[01:17:09]: Mod: e19-458940297 (e19食物和武器属性)	  Registering default mod prefab	
+[01:17:09]: Mod: e02-373480109 (e02坐标系统)	Registering prefabs	
+[01:17:09]: Mod: e02-373480109 (e02坐标系统)	  Registering default mod prefab	
+[01:17:09]: Mod: k02-376333686 (k02季节时钟)	Registering prefabs	
+[01:17:09]: Mod: k02-376333686 (k02季节时钟)	  Registering default mod prefab	
+[01:17:09]: Mod: k03-345692228 (k03小地图)	Registering prefabs	
+[01:17:09]: Mod: k03-345692228 (k03小地图)	  Registering default mod prefab	
+[01:17:09]: Mod: e06-458587300 (e06木牌传送)	Registering prefabs	
+[01:17:09]: Mod: e06-458587300 (e06木牌传送)	  Registering default mod prefab	
+[01:17:09]: Mod: k04-351325790 (k04几何种植)	Registering prefabs	
+[01:17:09]: Mod: k04-351325790 (k04几何种植)	  Registering prefab file: prefabs/buildgridplacer	
+[01:17:09]: Mod: k04-351325790 (k04几何种植)	    buildgridplacer	
+[01:17:09]: Mod: k04-351325790 (k04几何种植)	  Registering default mod prefab	
+[01:17:09]: Mod: k05-459280938 (k05地图显示资源)	Registering prefabs	
+[01:17:09]: Mod: k05-459280938 (k05地图显示资源)	  Registering default mod prefab	
+[01:17:09]: Mod: k01-367546858 (k01轻松聊)	Registering prefabs	
+[01:17:09]: Mod: k01-367546858 (k01轻松聊)	  Registering default mod prefab	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	Registering prefabs	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/stumpsprout	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    stumpsprout	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/veggies	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    corn	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    corn_cooked	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    corn_seeds	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    cave_banana	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    cave_banana_cooked	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    pomegranate	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    pomegranate_cooked	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    pomegranate_seeds	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    dragonfruit	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    dragonfruit_cooked	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    dragonfruit_seeds	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    carrot	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    carrot_cooked	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    carrot_seeds	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    watermelon	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    watermelon_cooked	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    watermelon_seeds	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    cactus_meat	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    cactus_meat_cooked	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    berries	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    berries_cooked	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    eggplant	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    eggplant_cooked	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    eggplant_seeds	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    durian	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    durian_cooked	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    durian_seeds	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    pumpkin	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    pumpkin_cooked	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    pumpkin_seeds	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/petals	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    petals	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/seeds	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    seeds	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    seeds_cooked	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/silk	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    silk	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/cutgrass	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    cutgrass	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/flower	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	    flower	
+[01:17:09]: Mod: e27-369083494 (e27树桩再生)	  Registering default mod prefab	
+[01:17:09]: Mod: e22-362175979 (e22虫洞标记)	Registering prefabs	
+[01:17:09]: Mod: e22-362175979 (e22虫洞标记)	  Registering default mod prefab	
+[01:17:09]: Mod: e10-375859599 (e10怪物显血)	Registering prefabs	
+[01:17:09]: Mod: e10-375859599 (e10怪物显血)	  Registering default mod prefab	
+[01:17:09]: Mod: e18-447092740 (e18更多动作)	Registering prefabs	
+[01:17:09]: Mod: e18-447092740 (e18更多动作)	  Registering default mod prefab	
+[01:17:09]: Mod: d01-343762271 (d01全人物解锁)	Registering prefabs	
+[01:17:09]: Mod: d01-343762271 (d01全人物解锁)	  Registering default mod prefab	
+[01:17:09]: Mod: k08-343753877 (k08快捷告知)	Registering prefabs	
+[01:17:09]: Mod: k08-343753877 (k08快捷告知)	  Registering default mod prefab	
+[01:17:09]: Mod: e03-378160973 (e03全图定位)	Registering prefabs	
+[01:17:09]: Mod: e03-378160973 (e03全图定位)	  Registering prefab file: prefabs/globalposition_classified	
+[01:17:09]: Mod: e03-378160973 (e03全图定位)	    globalposition_classified	
+[01:17:09]: Mod: e03-378160973 (e03全图定位)	  Registering prefab file: prefabs/smoketrail	
+[01:17:09]: Mod: e03-378160973 (e03全图定位)	    smoketrail	
+[01:17:09]: Mod: e03-378160973 (e03全图定位)	  Registering prefab file: prefabs/globalplayericon	
+[01:17:09]: Mod: e03-378160973 (e03全图定位)	    globalplayericon	
+[01:17:09]: Mod: e03-378160973 (e03全图定位)	  Registering default mod prefab	
+[01:17:09]: Begin Session: 01700009501F49B8
+[01:17:09]: Stomping previously assigned session identifier, two loads issued.
+[01:17:09]: saving to server_temp/server_save	
+[01:17:09]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/ancient_altar.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/ancient_altar_broken.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/animal_track.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/blue_mushroom.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/carrot_planted.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/chester_eyebone.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/dirtpile.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/fireflies.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/flint.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/flower_cave_double.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/flower_cave_triple.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/green_mushroom.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/houndbone.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/mandrake.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/marsh_bush.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/molehill.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/mooseegg.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/pighead.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/rabbithole.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/red_mushroom.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/rock2.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/scorched_skeleton.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/skeleton.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/skeleton_player.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/teleportato_box.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/teleportato_crank.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/teleportato_potato.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/teleportato_ring.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/wall_hay.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/wall_moonrock.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/wall_ruins.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/wall_stone.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/wall_wood.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/waxwelljournal.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/babybeefalo.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/beefalo.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_albino_base.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_feathered.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_forest.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_frost_base.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_nightmare.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_rocky.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_summer.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_winter.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/krampus.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/lightninggoat.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/mossling.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/smallbird.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/spat.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/teenbird.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/tentacle_pillar.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/bearger.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/birchnutdrake.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/bishop.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/bishop_nightmare.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/crawlinghorror.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/crawlingnightmare.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/deerclops.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/dragonfly.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/firehound.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/hound.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/icehound.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/knight.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/knight_nightmare.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/leif.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/leif_sparse.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/littlewalrus.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/moose.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/nightmarebeak.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/rook.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/rook_nightmare.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/spiderqueen.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/tallbird.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/tentacle.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/terrorbeak.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/walrus.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/warg.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_1.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_2.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_3.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_4.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_5.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_6.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_7.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_8.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_9.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_10.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_11.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_12.xml )
+[01:17:09]: MiniMapComponent::AddAtlas( ../mods/e03-378160973/minimap/campfire.xml )
+[01:17:10]: Loading Nav Grid	
+[01:17:20]: Reconstructing topology	
+[01:17:20]: 	...Sorting points	
+[01:17:20]: 	...Sorting edges	
+[01:17:20]: 	...Connecting nodes	
+[01:17:20]: 	...Validating connections	
+[01:17:20]: 	...Housekeeping	
+[01:17:20]: 	...Done!	
+[01:17:20]: 1 uploads added to server. From server_temp
+[01:17:20]: Telling Client our new session identifier: 01700009501F49B8
+[01:17:22]: Attempting to send resume request
+[01:17:22]: ReceiveResumeRequest
+[01:17:22]: Received request to resume from: session/01700009501F49B8/OU_76561197960471446_
+[01:17:22]: OnResumeRequestLoadComplete - UserID OU_76561197960471446
+[01:17:22]: ReceiveResumeNotification
+[01:17:22]: Deleting user session from session/01700009501F49B8/OU_76561197960471446_/0000000002
+[01:17:26]: ReceiveResumeRequest
+[01:17:26]: Received request to resume from: session/01700009501F49B8/OU_76561198406608729_
+[01:17:26]: OnResumeRequestLoadComplete - UserID OU_76561198406608729
+[01:17:38]: Received request to spawn as wathgrithr from jeremie[Host]
+
+[01:17:38]: Could not find anim build temperature
+[01:17:38]: Could not find anim bank [temperature]
+[01:17:38]: [Fixed] SPAWNING PLAYER AT: (60.00, 0.00, -24.00)	
+[01:17:38]: Serializing user session to session/01700009501F49B8/OU_76561197960471446_/0000000002
+[01:17:38]: Loading minimap from session/01700009501F49B8/OU_76561197960471446_/minimap
+[01:17:38]: Clearing minimap
+[01:18:00]: Received request to spawn as woodie from jansing
+
+[01:18:00]: [Fixed] SPAWNING PLAYER AT: (60.00, 0.00, -24.00)	
+[01:18:00]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000002
+[01:18:01]: WARNING! Could not find region 'avatar_globalposition_classified.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[01:18:01]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[01:25:23]: Serializing user minimap to session/01700009501F49B8/OU_76561197960471446_/minimap
+[01:25:23]: Serializing user session to session/01700009501F49B8/OU_76561197960471446_/0000000002
+[01:25:23]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000002
+[01:25:24]: Serializing world session to session/01700009501F49B8/0000000002
+[01:29:37]: Could not find anim [idle] in bank [flowers]
+[01:32:47]: Could not find anim [death] in bank [ghost]
+[01:32:47]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000003
+[01:33:24]: Serializing user minimap to session/01700009501F49B8/OU_76561197960471446_/minimap
+[01:33:24]: Serializing user session to session/01700009501F49B8/OU_76561197960471446_/0000000003
+[01:33:24]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000003
+[01:33:24]: Serializing world session to session/01700009501F49B8/0000000003
+[01:39:41]: Could not find anim [idle_loop] in bank [ghost]
+[01:39:44]: Could not find anim [transform] in bank [wilson]
+[01:39:45]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000004
+[01:41:24]: Serializing user minimap to session/01700009501F49B8/OU_76561197960471446_/minimap
+[01:41:24]: Serializing user session to session/01700009501F49B8/OU_76561197960471446_/0000000004
+[01:41:24]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000004
+[01:41:24]: Serializing world session to session/01700009501F49B8/0000000004
+[01:42:21]: Could not find anim [idle] in bank [plant_normal]
+[01:42:25]: Could not find anim [idle] in bank [plant_normal]
+[01:42:28]: CURL ERROR: Resolving timed out after 5015 milliseconds
+[01:42:28]: CURL ERROR: Resolving timed out after 5015 milliseconds
+[01:42:28]: CURL ERROR: Resolving timed out after 5015 milliseconds
+[01:44:28]: Could not find anim [death] in bank [ghost]
+[01:44:28]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000005
+[01:44:32]: CURL ERROR: Resolving timed out after 5000 milliseconds
+[01:45:56]: Could not find anim [idle_loop] in bank [ghost]
+[01:45:59]: Could not find anim [transform] in bank [OUTOFSPACE]
+[01:46:00]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000005
+[01:47:28]: CURL ERROR: Resolving timed out after 5015 milliseconds
+[01:47:28]: CURL ERROR: Resolving timed out after 5015 milliseconds
+[01:47:28]: CURL ERROR: Resolving timed out after 5015 milliseconds
+[01:49:25]: Serializing user minimap to session/01700009501F49B8/OU_76561197960471446_/minimap
+[01:49:25]: Serializing user session to session/01700009501F49B8/OU_76561197960471446_/0000000005
+[01:49:25]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000005
+[01:49:25]: Serializing world session to session/01700009501F49B8/0000000005
+[01:49:54]: Net partial byte (66) out of range [0, 63]
+[01:49:54]: Error serializing lua state for entity flint[100965]
+[01:49:55]: Could not find anim [death] in bank [ghost]
+[01:49:55]: Serializing user minimap to session/01700009501F49B8/OU_76561197960471446_/minimap
+[01:49:55]: Serializing user session to session/01700009501F49B8/OU_76561197960471446_/0000000006
+[01:49:55]: SAVING Morgue	2	
+[01:49:59]: CURL ERROR: Resolving timed out after 5016 milliseconds
+[01:50:29]: Could not find anim [idle_loop] in bank [ghost]
+[01:50:32]: Serializing user minimap to session/01700009501F49B8/OU_76561197960471446_/minimap
+[01:50:32]: Serializing user session to session/01700009501F49B8/OU_76561197960471446_/0000000006
+[01:52:29]: CURL ERROR: Resolving timed out after 5000 milliseconds
+[01:52:29]: CURL ERROR: Resolving timed out after 5000 milliseconds
+[01:52:29]: CURL ERROR: Resolving timed out after 5000 milliseconds
+[01:57:25]: Serializing user minimap to session/01700009501F49B8/OU_76561197960471446_/minimap
+[01:57:25]: Serializing user session to session/01700009501F49B8/OU_76561197960471446_/0000000006
+[01:57:25]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000006
+[01:57:25]: Serializing world session to session/01700009501F49B8/0000000006
+[01:57:29]: CURL ERROR: Resolving timed out after 5016 milliseconds
+[01:57:29]: CURL ERROR: Resolving timed out after 5016 milliseconds
+[01:57:29]: CURL ERROR: Resolving timed out after 5016 milliseconds
+[01:58:08]: Could not find anim [idle] in bank [plant_normal]
+[01:58:13]: Could not find anim [idle] in bank [plant_normal]
+[02:00:27]: Could not find anim [grow_normal_to_tall] in bank [tree_leaf_monster]
+[02:02:25]: Could not find anim [death] in bank [ghost]
+[02:02:25]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000007
+[02:02:29]: CURL ERROR: Resolving timed out after 5000 milliseconds
+[02:02:29]: CURL ERROR: Resolving timed out after 5000 milliseconds
+[02:02:29]: CURL ERROR: Resolving timed out after 5000 milliseconds
+[02:02:29]: CURL ERROR: Resolving timed out after 5000 milliseconds
+[02:02:48]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:48]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:48]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:48]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:48]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:48]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:48]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:48]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:48]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:49]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:50]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:51]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:52]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:53]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:54]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:55]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:56]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:57]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:58]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:58]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:58]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:58]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:58]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:58]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:58]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:58]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:58]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:58]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:58]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:58]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:58]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:58]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:58]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:59]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:59]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:59]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:59]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:59]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:59]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:59]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:02:59]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:03:00]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:03:01]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:03:01]: FMOD Error: Can't play event dontstarve_DLC001/creatures/decidous/drake_run_rustle: An Event failed to be retrieved, most likely due to 'just fail' being specified as the max playbacks behavior. 
+[02:05:26]: Serializing user minimap to session/01700009501F49B8/OU_76561197960471446_/minimap
+[02:05:26]: Serializing user session to session/01700009501F49B8/OU_76561197960471446_/0000000007
+[02:05:26]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000007
+[02:05:26]: Serializing world session to session/01700009501F49B8/0000000007
+[02:07:30]: CURL ERROR: Resolving timed out after 5000 milliseconds
+[02:07:30]: CURL ERROR: Resolving timed out after 5000 milliseconds
+[02:07:30]: CURL ERROR: Resolving timed out after 5000 milliseconds
+[02:08:21]: component homeseeker already exists!	scripts/components/childspawner.lua:328 in (method) DoTakeOwnership (Lua) <324-333>	
+[02:09:35]: [Steam] UserDisconnect successfully sent for steamid '0'
+[02:09:35]: ID_CONNECTION_LOST 172.20.24.2|53693
+[02:09:36]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000008
+[02:11:02]: New incoming connection 172.20.24.2|57240 GUID: 662029175918033609
+[02:11:02]: Client connected from [LAN] IP: 172.20.24.2
+[02:11:02]: SendHandShakeServerListing
+[02:11:13]: ReceiveResumeRequest
+[02:11:13]: Received request to resume from: session/01700009501F49B8/OU_76561198406608729_/0000000008
+[02:11:13]: OnResumeRequestLoadComplete - UserID OU_76561198406608729
+[02:11:13]: Could not find anim [idle_loop] in bank [ghost]
+[02:11:13]: [Load] SPAWNING PLAYER AT: (-340.61, 0.00, 36.95)	
+[02:11:14]: WARNING! Could not find region 'avatar_globalposition_classified.tex' from atlas 'images/avatars.xml'. Is the region specified in the atlas?
+[02:11:14]: Looking for default texture 'avatar_unknown.tex' from atlas 'images/avatars.xml'.
+[02:11:23]: Could not find anim [idle_loop] in bank [ghost]
+[02:11:26]: Could not find anim [transform] in bank [OUTOFSPACE]
+[02:11:27]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000008
+[02:12:41]: CURL ERROR: Resolving timed out after 5016 milliseconds
+[02:12:41]: CURL ERROR: Resolving timed out after 5016 milliseconds
+[02:12:41]: CURL ERROR: Resolving timed out after 5016 milliseconds
+[02:12:41]: CURL ERROR: Resolving timed out after 5016 milliseconds
+[02:13:13]: Stale Component Reference: GUID 188213, scripts/widgets/text.lua:70
+[02:13:37]: Serializing user minimap to session/01700009501F49B8/OU_76561197960471446_/minimap
+[02:13:37]: Serializing user session to session/01700009501F49B8/OU_76561197960471446_/0000000008
+[02:13:37]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000008
+[02:13:37]: Can't find	113594	
+[02:13:37]: Can't find	113595	
+[02:13:37]: Can't find	113598	
+[02:13:37]: Can't find	113599	
+[02:13:37]: Can't find	113600	
+[02:13:38]: Serializing world session to session/01700009501F49B8/0000000008
+[02:15:04]: Could not find anim [idle] in bank [flowers]
+[02:15:53]: Could not find anim [death] in bank [ghost]
+[02:15:53]: Serializing user minimap to session/01700009501F49B8/OU_76561197960471446_/minimap
+[02:15:53]: Serializing user session to session/01700009501F49B8/OU_76561197960471446_/0000000009
+[02:15:53]: SAVING Morgue	3	
+[02:15:56]: CURL ERROR: Resolving timed out after 5016 milliseconds
+[02:16:07]: Net partial byte (86) out of range [0, 63]
+[02:16:07]: Error serializing lua state for entity flint[100965]
+[02:17:41]: CURL ERROR: Resolving timed out after 5016 milliseconds
+[02:17:41]: CURL ERROR: Resolving timed out after 5016 milliseconds
+[02:17:41]: CURL ERROR: Resolving timed out after 5016 milliseconds
+[02:20:41]: Could not find anim [grow_pst] in bank [stumpsprout]
+[02:21:38]: Serializing user minimap to session/01700009501F49B8/OU_76561197960471446_/minimap
+[02:21:38]: Serializing user session to session/01700009501F49B8/OU_76561197960471446_/0000000009
+[02:21:38]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000009
+[02:21:38]: Can't find	113594	
+[02:21:38]: Can't find	113595	
+[02:21:38]: Can't find	113598	
+[02:21:38]: Can't find	113599	
+[02:21:38]: Can't find	113600	
+[02:21:38]: Can't find	183607	183607 - woodie	
+[02:21:38]: Serializing world session to session/01700009501F49B8/0000000009
+[02:22:42]: CURL ERROR: Resolving timed out after 5016 milliseconds
+[02:22:42]: CURL ERROR: Resolving timed out after 5016 milliseconds
+[02:22:42]: CURL ERROR: Resolving timed out after 5016 milliseconds
+[02:22:56]: Could not find anim [death] in bank [ghost]
+[02:22:56]: Serializing user session to session/01700009501F49B8/OU_76561198406608729_/0000000010
+[02:22:59]: CURL ERROR: Resolving timed out after 5000 milliseconds
+[02:24:09]: Getting display mode: Querying display 1 [of 1]
+[02:24:09]: 	\\.\DISPLAY1: 1920, 1080, 60
+[02:24:56]: unloading prefabs for mod MOD_c31-436897772	
+[02:24:56]: unloading prefabs for mod MOD_k06-365119238	
+[02:24:56]: unloading prefabs for mod MOD_e14-375850593	
+[02:24:56]: unloading prefabs for mod MOD_e19-458940297	
+[02:24:56]: unloading prefabs for mod MOD_e02-373480109	
+[02:24:56]: unloading prefabs for mod MOD_k02-376333686	
+[02:24:56]: unloading prefabs for mod MOD_k03-345692228	
+[02:24:56]: unloading prefabs for mod MOD_e06-458587300	
+[02:24:56]: unloading prefabs for mod MOD_k04-351325790	
+[02:24:56]: unloading prefabs for mod MOD_k05-459280938	
+[02:24:56]: unloading prefabs for mod MOD_k01-367546858	
+[02:24:56]: unloading prefabs for mod MOD_e27-369083494	
+[02:24:56]: unloading prefabs for mod MOD_e22-362175979	
+[02:24:56]: unloading prefabs for mod MOD_e10-375859599	
+[02:24:56]: unloading prefabs for mod MOD_e18-447092740	
+[02:24:56]: unloading prefabs for mod MOD_d01-343762271	
+[02:24:56]: unloading prefabs for mod MOD_k08-343753877	
+[02:24:56]: unloading prefabs for mod MOD_e03-378160973	
+[02:24:57]: Collecting garbage...
+[02:24:57]: lua_gc took 0.18 seconds
+[02:24:57]: ~NetworkLuaProxy()
+[02:24:57]: ~SimLuaProxy()
+[02:24:57]: SteamWorkshop::CancelDownloads clearing all unfinished downloads
+[02:24:58]: lua_close took 0.47 seconds
+[02:24:58]: ReleaseAll
+[02:24:58]: ReleaseAll Finished
+[02:24:58]: cGame::StartPlaying
+[02:24:58]: LOADING LUA
+[02:24:58]: DoLuaFile scripts/main.lua
+[02:24:58]: DoLuaFile loading buffer scripts/main.lua
+[02:24:58]: Translator:LoadPOFile - loading file: scripts/languages/chinese.po	
+[02:24:58]: scripts/main.lua(169,1) running main.lua
+	
+[02:24:58]: loaded modindex	
+[02:24:58]: ModIndex: Beginning normal load sequence.
+	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	c31-436897772	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	d01-343762271	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	e02-373480109	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	e03-378160973	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	e06-458587300	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	e10-375859599	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	e14-375850593	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	e18-447092740	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	e19-458940297	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	e22-362175979	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	e27-369083494	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	k01-367546858	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	k02-376333686	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	k03-345692228	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	k04-351325790	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	k05-459280938	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	k06-365119238	
+[02:24:58]: ModIndex:GetModsToLoad inserting moddir, 	k08-343753877	
+[02:24:58]: loaded mod_config_data/modconfiguration_c31-436897772	
+[02:24:58]: Loading mod: c31-436897772 (c31装备扩展包) Version:1.8	
+[02:24:58]: Could not load mod_config_data/modconfiguration_d01-343762271	
+[02:24:58]: Loading mod: d01-343762271 (d01全人物解锁) Version:1.9.10	
+[02:24:58]: Could not load mod_config_data/modconfiguration_e02-373480109	
+[02:24:58]: Loading mod: e02-373480109 (e02坐标系统) Version:0.0.3	
+[02:24:58]: loaded mod_config_data/modconfiguration_e03-378160973	
+[02:24:58]: Loading mod: e03-378160973 (e03全图定位) Version:1.3.5	
+[02:24:58]: loaded mod_config_data/modconfiguration_e06-458587300	
+[02:24:58]: Loading mod: e06-458587300 (e06木牌传送) Version:1.0.4	
+[02:24:58]: loaded mod_config_data/modconfiguration_e10-375859599	
+[02:24:58]: Loading mod: e10-375859599 (e10怪物显血) Version:1.4.7	
+[02:24:58]: Could not load mod_config_data/modconfiguration_e14-375850593	
+[02:24:58]: Loading mod: e14-375850593 (e14五格装备栏) Version:1.6.0	
+[02:24:58]: Could not load mod_config_data/modconfiguration_e18-447092740	
+[02:24:58]: Loading mod: e18-447092740 (e18更多动作) Version:1.2.7	
+[02:24:58]: loaded mod_config_data/modconfiguration_e19-458940297	
+[02:24:58]: Loading mod: e19-458940297 (e19食物和武器属性) Version:2.5	
+[02:24:58]: Could not load mod_config_data/modconfiguration_e22-362175979	
+[02:24:58]: Loading mod: e22-362175979 (e22虫洞标记) Version:1.2	
+[02:24:58]: loaded mod_config_data/modconfiguration_e27-369083494	
+[02:24:58]: Loading mod: e27-369083494 (e27树桩再生) Version:2.0.0b	
+[02:24:58]: Could not load mod_config_data/modconfiguration_k01-367546858	
+[02:24:58]: Loading mod: k01-367546858 (k01轻松聊) Version:1.1.1	
+[02:24:58]: Could not load mod_config_data/modconfiguration_k02-376333686	
+[02:24:58]: Loading mod: k02-376333686 (k02季节时钟) Version:1.2b1	
+[02:24:58]: Could not load mod_config_data/modconfiguration_k03-345692228	
+[02:24:58]: Loading mod: k03-345692228 (k03小地图) Version:1.0.4b	
+[02:24:58]: Could not load mod_config_data/modconfiguration_k04-351325790	
+[02:24:58]: Loading mod: k04-351325790 (k04几何种植) Version:1.4.3	
+[02:24:58]: Could not load mod_config_data/modconfiguration_k05-459280938	
+[02:24:58]: Loading mod: k05-459280938 (k05地图显示资源) Version:3.8	
+[02:24:58]: Could not load mod_config_data/modconfiguration_k06-365119238	
+[02:24:58]: Loading mod: k06-365119238 (k06智能锅) Version:4.02	
+[02:24:58]: Could not load mod_config_data/modconfiguration_k08-343753877	
+[02:24:58]: Loading mod: k08-343753877 (k08快捷告知) Version:1.12	
+[02:24:58]: Mod: c31-436897772 (c31装备扩展包)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: c31-436897772 (c31装备扩展包)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: c31-436897772 (c31装备扩展包)	Loading modmain.lua	
+[02:24:58]: Mod: k06-365119238 (k06智能锅)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: k06-365119238 (k06智能锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: k06-365119238 (k06智能锅)	Loading modmain.lua	
+[02:24:58]: modimport: ../mods/k06-365119238/modmain_segments/containerwidgetfunction.lua	
+[02:24:58]: modimport: ../mods/k06-365119238/modmain_segments/containers_setup.lua	
+[02:24:58]: modimport: ../mods/k06-365119238/modmain_segments/action_predict.lua	
+[02:24:58]: Mod: e14-375850593 (e14五格装备栏)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: e14-375850593 (e14五格装备栏)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: e14-375850593 (e14五格装备栏)	Loading modmain.lua	
+[02:24:58]: Mod: e19-458940297 (e19食物和武器属性)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: e19-458940297 (e19食物和武器属性)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: e19-458940297 (e19食物和武器属性)	Loading modmain.lua	
+[02:24:58]: Mod: e02-373480109 (e02坐标系统)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: e02-373480109 (e02坐标系统)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: e02-373480109 (e02坐标系统)	Loading modmain.lua	
+[02:24:58]: Mod: k02-376333686 (k02季节时钟)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: k02-376333686 (k02季节时钟)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: k02-376333686 (k02季节时钟)	Loading modmain.lua	
+[02:24:58]: Mod: k03-345692228 (k03小地图)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: k03-345692228 (k03小地图)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: k03-345692228 (k03小地图)	Loading modmain.lua	
+[02:24:58]: Mod: e06-458587300 (e06木牌传送)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: e06-458587300 (e06木牌传送)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: e06-458587300 (e06木牌传送)	Loading modmain.lua	
+[02:24:58]: Mod: k04-351325790 (k04几何种植)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: k04-351325790 (k04几何种植)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: k04-351325790 (k04几何种植)	Loading modmain.lua	
+[02:24:58]: Mod: k05-459280938 (k05地图显示资源)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: k05-459280938 (k05地图显示资源)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: k05-459280938 (k05地图显示资源)	Loading modmain.lua	
+[02:24:58]: Mod: k01-367546858 (k01轻松聊)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: k01-367546858 (k01轻松聊)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: k01-367546858 (k01轻松聊)	Loading modmain.lua	
+[02:24:58]: Mod: e27-369083494 (e27树桩再生)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: e27-369083494 (e27树桩再生)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: e27-369083494 (e27树桩再生)	Loading modmain.lua	
+[02:24:58]: Mod: e22-362175979 (e22虫洞标记)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: e22-362175979 (e22虫洞标记)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: e22-362175979 (e22虫洞标记)	Loading modmain.lua	
+[02:24:58]: Mod: e10-375859599 (e10怪物显血)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: e10-375859599 (e10怪物显血)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: e10-375859599 (e10怪物显血)	Loading modmain.lua	
+[02:24:58]: Mod: e18-447092740 (e18更多动作)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: e18-447092740 (e18更多动作)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: e18-447092740 (e18更多动作)	Loading modmain.lua	
+[02:24:58]: Mod: d01-343762271 (d01全人物解锁)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: d01-343762271 (d01全人物解锁)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: d01-343762271 (d01全人物解锁)	Loading modmain.lua	
+[02:24:58]: Mod: k08-343753877 (k08快捷告知)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: k08-343753877 (k08快捷告知)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: k08-343753877 (k08快捷告知)	Loading modmain.lua	
+[02:24:58]: modimport: ../mods/k08-343753877/announcestrings.lua	
+[02:24:58]: Mod: e03-378160973 (e03全图定位)	Loading modworldgenmain.lua	
+[02:24:58]: Mod: e03-378160973 (e03全图定位)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:58]: Mod: e03-378160973 (e03全图定位)	Loading modmain.lua	
+[02:24:58]: LOADING LUA SUCCESS
+[02:24:58]: PlayerDeaths loaded morgue	416	
+[02:24:58]: PlayerHistory loaded player_history	169	
+[02:24:58]: loaded profile	
+[02:24:58]: bloom_enabled	false	
+[02:24:58]: loaded saveindex	
+[02:24:58]: OnFilesLoaded()	
+[02:24:58]: OnUpdatePurchaseStateComplete	
+[02:24:58]: Not applying world gen overrides.	
+[02:24:59]: WorldSim::SimThread::SimThread()
+[02:24:59]: WorldSim::SimThread::SimThread() complete
+[02:24:59]: THREAD - started 'WorldSim' (6616)
+[02:24:59]: WorldSim::SimThread::Main()
+[02:24:59]: DoLuaFile scripts/worldgen_main.lua
+[02:24:59]: DoLuaFile loading buffer scripts/worldgen_main.lua
+[02:24:59]: Translator:LoadPOFile - loading file: scripts/languages/chinese.po	
+[02:24:59]: ModIndex: Load sequence finished successfully.	
+[02:24:59]: Reset() returning
+[02:24:59]: Error decoding lua RPC sender
+[02:24:59]: Error decoding lua RPC sender
+[02:24:59]: Error decoding lua RPC sender
+[02:24:59]: Error decoding lua RPC sender
+[02:24:59]: Error decoding lua RPC sender
+[02:24:59]: ReceiveResumeRequest
+[02:24:59]: Ignored request to resume during loading state
+[02:24:59]: DLC enabled : 	false	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	k03-345692228	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	c31-436897772	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	k08-343753877	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	k04-351325790	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	e14-375850593	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	e06-458587300	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	e27-369083494	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	e18-447092740	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	e22-362175979	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	e10-375859599	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	k02-376333686	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	k05-459280938	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	k06-365119238	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	e19-458940297	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	k01-367546858	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	e03-378160973	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	d01-343762271	
+[02:24:59]: ModIndex:GetModsToLoad inserting modname, 	e02-373480109	
+[02:24:59]: Loading mod: k03-345692228 (k03小地图) Version:1.0.4b	
+[02:24:59]: Loading mod: c31-436897772 (c31装备扩展包) Version:1.8	
+[02:24:59]: Loading mod: k08-343753877 (k08快捷告知) Version:1.12	
+[02:24:59]: Loading mod: k04-351325790 (k04几何种植) Version:1.4.3	
+[02:24:59]: Loading mod: e14-375850593 (e14五格装备栏) Version:1.6.0	
+[02:24:59]: Loading mod: e06-458587300 (e06木牌传送) Version:1.0.4	
+[02:24:59]: Loading mod: e27-369083494 (e27树桩再生) Version:2.0.0b	
+[02:24:59]: Loading mod: e18-447092740 (e18更多动作) Version:1.2.7	
+[02:24:59]: Loading mod: e22-362175979 (e22虫洞标记) Version:1.2	
+[02:24:59]: Loading mod: e10-375859599 (e10怪物显血) Version:1.4.7	
+[02:24:59]: Loading mod: k02-376333686 (k02季节时钟) Version:1.2b1	
+[02:24:59]: Loading mod: k05-459280938 (k05地图显示资源) Version:3.8	
+[02:24:59]: Loading mod: k06-365119238 (k06智能锅) Version:4.02	
+[02:24:59]: Loading mod: e19-458940297 (e19食物和武器属性) Version:2.5	
+[02:24:59]: Loading mod: k01-367546858 (k01轻松聊) Version:1.1.1	
+[02:24:59]: Loading mod: e03-378160973 (e03全图定位) Version:1.3.5	
+[02:24:59]: Loading mod: d01-343762271 (d01全人物解锁) Version:1.9.10	
+[02:24:59]: Loading mod: e02-373480109 (e02坐标系统) Version:0.0.3	
+[02:24:59]: Mod: c31-436897772 (c31装备扩展包)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: c31-436897772 (c31装备扩展包)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: k06-365119238 (k06智能锅)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: k06-365119238 (k06智能锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: e14-375850593 (e14五格装备栏)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: e14-375850593 (e14五格装备栏)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: e19-458940297 (e19食物和武器属性)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: e19-458940297 (e19食物和武器属性)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: e02-373480109 (e02坐标系统)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: e02-373480109 (e02坐标系统)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: k02-376333686 (k02季节时钟)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: k02-376333686 (k02季节时钟)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: k01-367546858 (k01轻松聊)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: k01-367546858 (k01轻松聊)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: k05-459280938 (k05地图显示资源)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: k05-459280938 (k05地图显示资源)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: e10-375859599 (e10怪物显血)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: e10-375859599 (e10怪物显血)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: e22-362175979 (e22虫洞标记)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: e22-362175979 (e22虫洞标记)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: e18-447092740 (e18更多动作)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: e18-447092740 (e18更多动作)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: k08-343753877 (k08快捷告知)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: k08-343753877 (k08快捷告知)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: d01-343762271 (d01全人物解锁)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: d01-343762271 (d01全人物解锁)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: k04-351325790 (k04几何种植)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: k04-351325790 (k04几何种植)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: e27-369083494 (e27树桩再生)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: e27-369083494 (e27树桩再生)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: e06-458587300 (e06木牌传送)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: e06-458587300 (e06木牌传送)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: k03-345692228 (k03小地图)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: k03-345692228 (k03小地图)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: Mod: e03-378160973 (e03全图定位)	Loading modworldgenmain.lua	
+[02:24:59]: Mod: e03-378160973 (e03全图定位)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:24:59]: scripts/worldgen_main.lua(79,1) running worldgen_main.lua
+	
+[02:24:59]: scripts/worldgen_main.lua(81,1) SEED = 	1446569144	
+[02:24:59]: scripts/worldgen_main.lua(484,1) WORLDGEN PRESET: 	SURVIVAL_TOGETHER	
+[02:24:59]: scripts/worldgen_main.lua(492,1) WORLDGEN LEVEL ID: 	1	
+[02:24:59]: scripts/worldgen_main.lua(499,1) 
+#######
+#
+# Generating Normal Mode Together Forever Level
+#
+#######
+	
+[02:25:00]: Creating story...	
+[02:25:00]: LinkNodesByKeys	
+[02:25:00]: Baking map...	350	
+[02:25:00]: [WorldSimActual::GenerateVoronoiMap]
+[02:25:00]: GenerateVoronoiMap [1]:
+[02:25:00]: ...Done.
+[02:25:00]: [AddEmptyNodes]
+[02:25:00]: GenerateVoronoiMap [100]:
+[02:25:02]: ...Done.
+[02:25:02]: [WorldSimActual::GenerateVoronoiMap] complete [success]
+[02:25:02]: [WorldSimActual::ConvertToTileMap]
+[02:25:02]: [ConvertToTileMap]
+[02:25:02]: [WorldSimActual::ConvertToTileMap] complete
+[02:25:02]: [WorldSimActual::SeparateIslands]
+[02:25:02]: [SeparateIslands]
+[02:25:02]: [WorldSimActual::SeparateIslands] complete
+[02:25:02]: Map Baked!	
+[02:25:02]: [WorldSimActual::ForceConnectivity]
+[02:25:02]: [GenerateLandmasses]
+[02:25:02]: [MergeConnectedLandmasses] true
+[02:25:02]: [ForceConnectivity]
+[02:25:02]: [ForceValid]
+[02:25:02]: [WorldSimActual::ForceConnectivity] complete
+[02:25:02]: [WorldSimActual::DrawRoads]
+[02:25:02]: [DrawRoads]
+[02:25:02]: [WorldSimActual::DrawRoads] complete
+[02:25:02]: Encoding...	
+[02:25:02]: Encoding... DONE	
+[02:25:02]: Checking Tags	
+[02:25:02]: Populating voronoi...	
+[02:25:03]: Warning! Could not find a spot for Maxwell1 in node Kill the spiders:0:SpiderVillage	
+[02:25:03]: Warning! Could not find a spot for LivingTree in node For a nice walk:5:DeepForest	
+[02:25:03]: Badlands:1:BuzzardyBadlands Cant process points	
+[02:25:03]: Done forest map gen!	
+[02:25:03]: scripts/worldgen_main.lua(247,1) Checking map...	
+[02:25:03]: scripts/worldgen_main.lua(617,1) Generation complete	
+[02:25:03]: WorldSim::SimThread::Main() complete
+[02:25:07]: Serializing world session to session/0040000A4347E2FC/0000000001
+[02:25:07]: 	BE assets already loaded	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	Registering prefabs	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/ewecushat	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    ewecushat	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/hollowhat	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    hollowhat	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/woodenmace	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    woodenmace	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/summerbandana	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    summerbandana	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/growthstaff	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    growthstaff	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/birchnuthat	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    birchnuthat	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/cactusmace	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    cactusmace	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/armormosquito	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    armormosquito	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/fryingpan	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    fryingpan	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/baronsuit	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    baronsuit	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/dark_axe	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    dark_axe	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/flyswatter	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    flyswatter	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/ewecushat1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    ewecushat1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/hollowhat1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    hollowhat1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/woodenmace1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    woodenmace1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/summerbandana1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    summerbandana1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/growthstaff1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    growthstaff1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/birchnuthat1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    birchnuthat1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/cactusmace1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    cactusmace1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/armormosquito1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    armormosquito1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/fryingpan1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    fryingpan1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/baronsuit1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    baronsuit1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/dark_axe1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    dark_axe1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering prefab file: prefabs/flyswatter1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	    flyswatter1	
+[02:25:08]: Mod: c31-436897772 (c31装备扩展包)	  Registering default mod prefab	
+[02:25:08]: Mod: k06-365119238 (k06智能锅)	Registering prefabs	
+[02:25:08]: Mod: k06-365119238 (k06智能锅)	  Registering default mod prefab	
+[02:25:08]: Mod: e14-375850593 (e14五格装备栏)	Registering prefabs	
+[02:25:08]: Mod: e14-375850593 (e14五格装备栏)	  Registering default mod prefab	
+[02:25:08]: Mod: e19-458940297 (e19食物和武器属性)	Registering prefabs	
+[02:25:08]: Mod: e19-458940297 (e19食物和武器属性)	  Registering default mod prefab	
+[02:25:08]: Mod: e02-373480109 (e02坐标系统)	Registering prefabs	
+[02:25:08]: Mod: e02-373480109 (e02坐标系统)	  Registering default mod prefab	
+[02:25:08]: Mod: k02-376333686 (k02季节时钟)	Registering prefabs	
+[02:25:08]: Mod: k02-376333686 (k02季节时钟)	  Registering default mod prefab	
+[02:25:08]: Mod: k03-345692228 (k03小地图)	Registering prefabs	
+[02:25:08]: Mod: k03-345692228 (k03小地图)	  Registering default mod prefab	
+[02:25:08]: Mod: e06-458587300 (e06木牌传送)	Registering prefabs	
+[02:25:08]: Mod: e06-458587300 (e06木牌传送)	  Registering default mod prefab	
+[02:25:08]: Mod: k04-351325790 (k04几何种植)	Registering prefabs	
+[02:25:08]: Mod: k04-351325790 (k04几何种植)	  Registering prefab file: prefabs/buildgridplacer	
+[02:25:08]: Mod: k04-351325790 (k04几何种植)	    buildgridplacer	
+[02:25:08]: Mod: k04-351325790 (k04几何种植)	  Registering default mod prefab	
+[02:25:08]: Mod: k05-459280938 (k05地图显示资源)	Registering prefabs	
+[02:25:08]: Mod: k05-459280938 (k05地图显示资源)	  Registering default mod prefab	
+[02:25:08]: Mod: k01-367546858 (k01轻松聊)	Registering prefabs	
+[02:25:08]: Mod: k01-367546858 (k01轻松聊)	  Registering default mod prefab	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	Registering prefabs	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/stumpsprout	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    stumpsprout	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/veggies	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    corn	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    corn_cooked	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    corn_seeds	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    cave_banana	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    cave_banana_cooked	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    pomegranate	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    pomegranate_cooked	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    pomegranate_seeds	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    dragonfruit	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    dragonfruit_cooked	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    dragonfruit_seeds	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    carrot	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    carrot_cooked	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    carrot_seeds	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    watermelon	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    watermelon_cooked	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    watermelon_seeds	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    cactus_meat	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    cactus_meat_cooked	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    berries	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    berries_cooked	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    eggplant	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    eggplant_cooked	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    eggplant_seeds	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    durian	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    durian_cooked	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    durian_seeds	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    pumpkin	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    pumpkin_cooked	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    pumpkin_seeds	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/petals	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    petals	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/seeds	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    seeds	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    seeds_cooked	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/silk	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    silk	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/cutgrass	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    cutgrass	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	  Registering prefab file: prefabs/flower	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	    flower	
+[02:25:08]: Mod: e27-369083494 (e27树桩再生)	  Registering default mod prefab	
+[02:25:08]: Mod: e22-362175979 (e22虫洞标记)	Registering prefabs	
+[02:25:08]: Mod: e22-362175979 (e22虫洞标记)	  Registering default mod prefab	
+[02:25:08]: Mod: e10-375859599 (e10怪物显血)	Registering prefabs	
+[02:25:08]: Mod: e10-375859599 (e10怪物显血)	  Registering default mod prefab	
+[02:25:08]: Mod: e18-447092740 (e18更多动作)	Registering prefabs	
+[02:25:08]: Mod: e18-447092740 (e18更多动作)	  Registering default mod prefab	
+[02:25:08]: Mod: d01-343762271 (d01全人物解锁)	Registering prefabs	
+[02:25:08]: Mod: d01-343762271 (d01全人物解锁)	  Registering default mod prefab	
+[02:25:08]: Mod: k08-343753877 (k08快捷告知)	Registering prefabs	
+[02:25:08]: Mod: k08-343753877 (k08快捷告知)	  Registering default mod prefab	
+[02:25:08]: Mod: e03-378160973 (e03全图定位)	Registering prefabs	
+[02:25:08]: Mod: e03-378160973 (e03全图定位)	  Registering prefab file: prefabs/globalposition_classified	
+[02:25:08]: Mod: e03-378160973 (e03全图定位)	    globalposition_classified	
+[02:25:08]: Mod: e03-378160973 (e03全图定位)	  Registering prefab file: prefabs/smoketrail	
+[02:25:08]: Mod: e03-378160973 (e03全图定位)	    smoketrail	
+[02:25:08]: Mod: e03-378160973 (e03全图定位)	  Registering prefab file: prefabs/globalplayericon	
+[02:25:08]: Mod: e03-378160973 (e03全图定位)	    globalplayericon	
+[02:25:08]: Mod: e03-378160973 (e03全图定位)	  Registering default mod prefab	
+[02:25:08]: Begin Session: 0040000A4347E2FC
+[02:25:08]: Stomping previously assigned session identifier, two loads issued.
+[02:25:09]: saving to server_temp/server_save	
+[02:25:09]: MiniMapComponent::AddAtlas( minimap/minimap_data.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/ancient_altar.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/ancient_altar_broken.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/animal_track.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/blue_mushroom.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/carrot_planted.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/chester_eyebone.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/dirtpile.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/fireflies.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/flint.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/flower_cave_double.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/flower_cave_triple.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/green_mushroom.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/houndbone.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/mandrake.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/marsh_bush.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/molehill.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/mooseegg.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/pighead.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/rabbithole.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/red_mushroom.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/rock2.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/scorched_skeleton.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/skeleton.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/skeleton_player.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/teleportato_box.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/teleportato_crank.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/teleportato_potato.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/teleportato_ring.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/wall_hay.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/wall_moonrock.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/wall_ruins.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/wall_stone.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/wall_wood.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/waxwelljournal.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/babybeefalo.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/beefalo.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_albino_base.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_feathered.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_forest.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_frost_base.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_nightmare.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_rocky.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_summer.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/koalefant_winter.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/krampus.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/lightninggoat.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/mossling.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/smallbird.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/spat.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/teenbird.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/tentacle_pillar.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/bearger.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/birchnutdrake.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/bishop.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/bishop_nightmare.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/crawlinghorror.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/crawlingnightmare.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/deerclops.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/dragonfly.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/firehound.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/hound.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/icehound.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/knight.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/knight_nightmare.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/leif.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/leif_sparse.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/littlewalrus.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/moose.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/nightmarebeak.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/rook.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/rook_nightmare.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/spiderqueen.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/tallbird.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/tentacle.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/terrorbeak.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/walrus.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/k05-459280938/images/warg.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_1.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_2.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_3.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_4.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_5.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_6.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_7.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_8.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_9.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_10.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_11.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/e22-362175979/images/mark_12.xml )
+[02:25:09]: MiniMapComponent::AddAtlas( ../mods/e03-378160973/minimap/campfire.xml )
+[02:25:09]: Loading Nav Grid	
+[02:25:20]: Reconstructing topology	
+[02:25:20]: 	...Sorting points	
+[02:25:20]: 	...Sorting edges	
+[02:25:20]: 	...Connecting nodes	
+[02:25:20]: 	...Validating connections	
+[02:25:20]: 	...Housekeeping	
+[02:25:20]: 	...Done!	
+[02:25:20]: 1 uploads added to server. From server_temp
+[02:25:20]: Telling Client our new session identifier: 0040000A4347E2FC
+[02:25:22]: [Steam] UserDisconnect successfully sent for steamid '0'
+[02:25:25]: CURL ERROR: Resolving timed out after 5016 milliseconds
+[02:25:33]: Attempting to send resume request
+[02:25:33]: ReceiveResumeRequest
+[02:25:33]: Received request to resume from: session/0040000A4347E2FC/OU_76561197960471446_
+[02:25:33]: OnResumeRequestLoadComplete - UserID OU_76561197960471446
+[02:25:33]: ReceiveResumeNotification
+[02:25:33]: Deleting user session from session/0040000A4347E2FC/OU_76561197960471446_/0000000002
+[02:25:38]: DoRestart:	true	
+[02:25:40]: Serializing world session to session/0040000A4347E2FC/0000000002
+[02:25:40]: [Steam] UserDisconnect successfully sent for steamid '0'
+[02:25:40]: unloading prefabs for mod MOD_c31-436897772	
+[02:25:40]: unloading prefabs for mod MOD_k06-365119238	
+[02:25:40]: unloading prefabs for mod MOD_e14-375850593	
+[02:25:40]: unloading prefabs for mod MOD_e19-458940297	
+[02:25:40]: unloading prefabs for mod MOD_e02-373480109	
+[02:25:40]: unloading prefabs for mod MOD_k02-376333686	
+[02:25:40]: unloading prefabs for mod MOD_k03-345692228	
+[02:25:40]: unloading prefabs for mod MOD_e06-458587300	
+[02:25:40]: unloading prefabs for mod MOD_k04-351325790	
+[02:25:40]: unloading prefabs for mod MOD_k05-459280938	
+[02:25:40]: unloading prefabs for mod MOD_k01-367546858	
+[02:25:40]: unloading prefabs for mod MOD_e27-369083494	
+[02:25:40]: unloading prefabs for mod MOD_e22-362175979	
+[02:25:40]: unloading prefabs for mod MOD_e10-375859599	
+[02:25:40]: unloading prefabs for mod MOD_e18-447092740	
+[02:25:40]: unloading prefabs for mod MOD_d01-343762271	
+[02:25:40]: unloading prefabs for mod MOD_k08-343753877	
+[02:25:40]: unloading prefabs for mod MOD_e03-378160973	
+[02:25:40]: Collecting garbage...
+[02:25:41]: lua_gc took 0.15 seconds
+[02:25:41]: ~NetworkLuaProxy()
+[02:25:41]: ~SimLuaProxy()
+[02:25:41]: SteamWorkshop::CancelDownloads clearing all unfinished downloads
+[02:25:41]: lua_close took 0.47 seconds
+[02:25:41]: ReleaseAll
+[02:25:41]: ReleaseAll Finished
+[02:25:41]: cGame::StartPlaying
+[02:25:41]: LOADING LUA
+[02:25:41]: DoLuaFile scripts/main.lua
+[02:25:41]: DoLuaFile loading buffer scripts/main.lua
+[02:25:41]: Translator:LoadPOFile - loading file: scripts/languages/chinese.po	
+[02:25:42]: scripts/main.lua(169,1) running main.lua
+	
+[02:25:42]: loaded modindex	
+[02:25:42]: ModIndex: Beginning normal load sequence.
+	
+[02:25:42]: ModIndex:GetModsToLoad inserting moddir, 	k01-367546858	
+[02:25:42]: ModIndex:GetModsToLoad inserting moddir, 	k02-376333686	
+[02:25:42]: ModIndex:GetModsToLoad inserting moddir, 	k03-345692228	
+[02:25:42]: ModIndex:GetModsToLoad inserting moddir, 	k04-351325790	
+[02:25:42]: ModIndex:GetModsToLoad inserting moddir, 	k05-459280938	
+[02:25:42]: ModIndex:GetModsToLoad inserting moddir, 	k06-365119238	
+[02:25:42]: ModIndex:GetModsToLoad inserting moddir, 	k08-343753877	
+[02:25:42]: Could not load mod_config_data/modconfiguration_k01-367546858	
+[02:25:42]: Loading mod: k01-367546858 (k01轻松聊) Version:1.1.1	
+[02:25:42]: Could not load mod_config_data/modconfiguration_k02-376333686	
+[02:25:42]: Loading mod: k02-376333686 (k02季节时钟) Version:1.2b1	
+[02:25:42]: Could not load mod_config_data/modconfiguration_k03-345692228	
+[02:25:42]: Loading mod: k03-345692228 (k03小地图) Version:1.0.4b	
+[02:25:42]: Could not load mod_config_data/modconfiguration_k04-351325790	
+[02:25:42]: Loading mod: k04-351325790 (k04几何种植) Version:1.4.3	
+[02:25:42]: Could not load mod_config_data/modconfiguration_k05-459280938	
+[02:25:42]: Loading mod: k05-459280938 (k05地图显示资源) Version:3.8	
+[02:25:42]: Could not load mod_config_data/modconfiguration_k06-365119238	
+[02:25:42]: Loading mod: k06-365119238 (k06智能锅) Version:4.02	
+[02:25:42]: Could not load mod_config_data/modconfiguration_k08-343753877	
+[02:25:42]: Loading mod: k08-343753877 (k08快捷告知) Version:1.12	
+[02:25:42]: Mod: k06-365119238 (k06智能锅)	Loading modworldgenmain.lua	
+[02:25:42]: Mod: k06-365119238 (k06智能锅)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:25:42]: Mod: k06-365119238 (k06智能锅)	Loading modmain.lua	
+[02:25:42]: modimport: ../mods/k06-365119238/modmain_segments/containerwidgetfunction.lua	
+[02:25:42]: modimport: ../mods/k06-365119238/modmain_segments/containers_setup.lua	
+[02:25:42]: modimport: ../mods/k06-365119238/modmain_segments/action_predict.lua	
+[02:25:42]: Mod: k02-376333686 (k02季节时钟)	Loading modworldgenmain.lua	
+[02:25:42]: Mod: k02-376333686 (k02季节时钟)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:25:42]: Mod: k02-376333686 (k02季节时钟)	Loading modmain.lua	
+[02:25:42]: Mod: k05-459280938 (k05地图显示资源)	Loading modworldgenmain.lua	
+[02:25:42]: Mod: k05-459280938 (k05地图显示资源)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:25:42]: Mod: k05-459280938 (k05地图显示资源)	Loading modmain.lua	
+[02:25:42]: Mod: k01-367546858 (k01轻松聊)	Loading modworldgenmain.lua	
+[02:25:42]: Mod: k01-367546858 (k01轻松聊)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:25:42]: Mod: k01-367546858 (k01轻松聊)	Loading modmain.lua	
+[02:25:42]: Mod: k04-351325790 (k04几何种植)	Loading modworldgenmain.lua	
+[02:25:42]: Mod: k04-351325790 (k04几何种植)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:25:42]: Mod: k04-351325790 (k04几何种植)	Loading modmain.lua	
+[02:25:42]: Mod: k03-345692228 (k03小地图)	Loading modworldgenmain.lua	
+[02:25:42]: Mod: k03-345692228 (k03小地图)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:25:42]: Mod: k03-345692228 (k03小地图)	Loading modmain.lua	
+[02:25:42]: Mod: k08-343753877 (k08快捷告知)	Loading modworldgenmain.lua	
+[02:25:42]: Mod: k08-343753877 (k08快捷告知)	  Mod had no modworldgenmain.lua. Skipping.	
+[02:25:42]: Mod: k08-343753877 (k08快捷告知)	Loading modmain.lua	
+[02:25:42]: modimport: ../mods/k08-343753877/announcestrings.lua	
+[02:25:42]: LOADING LUA SUCCESS
+[02:25:42]: PlayerDeaths loaded morgue	416	
+[02:25:42]: PlayerHistory loaded player_history	169	
+[02:25:42]: loaded profile	
+[02:25:42]: bloom_enabled	false	
+[02:25:42]: loaded saveindex	
+[02:25:42]: OnFilesLoaded()	
+[02:25:42]: OnUpdatePurchaseStateComplete	
+[02:25:42]: 	Unload BE	
+[02:25:42]: 	Unload BE done	
+[02:25:42]: Could not unload undefined prefab 0x359da624 (log)
+[02:25:42]: Could not unload undefined prefab 0x29ad5029 (spoiled_food)
+[02:25:42]: Could not unload undefined prefab 0x29d8efdb (red_leaves_chop)
+[02:25:42]: Could not unload undefined prefab 0x39590c78 (orange_leaves_chop)
+[02:25:42]: Could not unload undefined prefab 0x2d1c40c (deciduous_root)
+[02:25:42]: Could not unload undefined prefab 0x41ba89b5 (nightmarefuel)
+[02:25:42]: Could not unload undefined prefab 0x29ad5029 (spoiled_food)
+[02:25:42]: Could not unload undefined prefab 0x235a9a90 (birchnutdrake)
+[02:25:42]: Could not unload undefined prefab 0x359da624 (log)
+[02:25:42]: Could not unload undefined prefab 0x9be18af2 (twigs)
+[02:25:42]: Could not unload undefined prefab 0x184178b (meat)
+[02:25:42]: Could not unload undefined prefab 0x359da624 (log)
+[02:25:42]: Could not unload undefined prefab 0x1078732c (character_fire)
+[02:25:42]: Could not unload undefined prefab 0x184178b (meat)
+[02:25:42]: Could not unload undefined prefab 0x359da624 (log)
+[02:25:42]: Could not unload undefined prefab 0x1078732c (character_fire)
+[02:25:43]: Mod: k06-365119238 (k06智能锅)	Registering prefabs	
+[02:25:43]: Mod: k06-365119238 (k06智能锅)	  Registering default mod prefab	
+[02:25:43]: Mod: k02-376333686 (k02季节时钟)	Registering prefabs	
+[02:25:43]: Mod: k02-376333686 (k02季节时钟)	  Registering default mod prefab	
+[02:25:43]: Mod: k05-459280938 (k05地图显示资源)	Registering prefabs	
+[02:25:43]: Mod: k05-459280938 (k05地图显示资源)	  Registering default mod prefab	
+[02:25:43]: Mod: k01-367546858 (k01轻松聊)	Registering prefabs	
+[02:25:43]: Mod: k01-367546858 (k01轻松聊)	  Registering default mod prefab	
+[02:25:43]: Mod: k04-351325790 (k04几何种植)	Registering prefabs	
+[02:25:43]: Mod: k04-351325790 (k04几何种植)	  Registering prefab file: prefabs/buildgridplacer	
+[02:25:43]: Mod: k04-351325790 (k04几何种植)	    buildgridplacer	
+[02:25:43]: Mod: k04-351325790 (k04几何种植)	  Registering default mod prefab	
+[02:25:43]: Mod: k03-345692228 (k03小地图)	Registering prefabs	
+[02:25:43]: Mod: k03-345692228 (k03小地图)	  Registering default mod prefab	
+[02:25:43]: Mod: k08-343753877 (k08快捷告知)	Registering prefabs	
+[02:25:43]: Mod: k08-343753877 (k08快捷告知)	  Registering default mod prefab	
+[02:25:43]: 	Load FE	
+[02:25:43]: 	Load FE: done	
+[02:25:43]: SimLuaProxy::QueryServer()
+[02:25:43]: SimLuaProxy::QueryServer()
+[02:25:43]: ModIndex: Load sequence finished successfully.	
+[02:25:43]: Reset() returning
+[02:25:48]: unloading prefabs for mod MOD_k06-365119238	
+[02:25:48]: unloading prefabs for mod MOD_k02-376333686	
+[02:25:48]: unloading prefabs for mod MOD_k05-459280938	
+[02:25:48]: unloading prefabs for mod MOD_k01-367546858	
+[02:25:48]: unloading prefabs for mod MOD_k04-351325790	
+[02:25:48]: unloading prefabs for mod MOD_k03-345692228	
+[02:25:48]: unloading prefabs for mod MOD_k08-343753877	
+[02:25:48]: Collecting garbage...
+[02:25:48]: lua_gc took 0.02 seconds
+[02:25:48]: ~NetworkLuaProxy()
+[02:25:48]: ~SimLuaProxy()
+[02:25:48]: Cancelling LuaQueryCallback handle [103]
+[02:25:48]: Cancelling LuaQueryCallback handle [104]
+[02:25:48]: SteamWorkshop::CancelDownloads clearing all unfinished downloads
+[02:25:48]: lua_close took 0.03 seconds
+[02:25:48]: CURL ERROR: Resolving timed out after 5015 milliseconds
+[02:25:48]: CURL ERROR: Resolving timed out after 5015 milliseconds
+[02:25:48]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[02:25:48]: anim/batwing.zip - 1
+[02:25:48]: anim/meat.zip - 1
+[02:25:48]: anim/meat_human.zip - 1
+[02:25:48]: anim/spoiled_food.zip - 1
+[02:25:48]: anim/log.zip - 1
+[02:25:48]: anim/fire_large_character.zip - 1
+[02:25:48]: anim/meat_small.zip - 1
+[02:25:48]: anim/meat_rack_food.zip - 1
+[02:25:48]: anim/plant_meat.zip - 1
+[02:25:48]: anim/drumstick.zip - 1
+[02:25:48]: anim/meat_monster.zip - 1
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]: Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
+[02:25:48]:  Manager - ORPHANED UNKNOWN RESOURCES:
+[02:25:48]: anim/fire_large_character.zip:fire_large_character--atlas-0.tex - 1
+[02:25:48]: anim/meat_rack_food.zip:meat_rack_food--atlas-0.tex - 1
+[02:25:48]: anim/fire_large_character.zip:fire_large_character--atlas-1.tex - 1
+[02:25:48]: anim/meat_human.zip:meat_human--atlas-0.tex - 1
+[02:25:48]: anim/meat_small.zip:meat_small--atlas-0.tex - 1
+[02:25:48]: anim/drumstick.zip:drumstick--atlas-0.tex - 1
+[02:25:48]: anim/meat.zip:meat--atlas-0.tex - 1
+[02:25:48]: anim/batwing.zip:batwing--atlas-0.tex - 1
+[02:25:48]: anim/log.zip:log--atlas-0.tex - 1
+[02:25:48]: anim/plant_meat.zip:plant_meat--atlas-0.tex - 1
+[02:25:48]: anim/spoiled_food.zip:spoiled_food--atlas-0.tex - 1
+[02:25:48]: anim/batwing.zip:batwing--atlas-1.tex - 1
+[02:25:48]: anim/meat_monster.zip:meat_monster--atlas-0.tex - 1
+[02:25:49]: HttpClient2::ClientThread::Main() complete
+[02:25:49]: Shutting down

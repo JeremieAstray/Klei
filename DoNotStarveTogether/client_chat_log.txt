@@ -1,0 +1,14 @@
+[00:04:08]: [Whisper] (KU_c3ubt6H1) 独孤影: #restart_d
+[00:04:08]: [Announcement] 独孤影 (维格弗里德)restart the game!
+[00:07:44]: [Say] (KU_c3ubt6H1) 独孤影: 家在这儿
+[00:07:57]: [Say] (KU_c3ubt6H1) 独孤影: dui
+[00:09:45]: [Say] (KU_c3ubt6H1) 独孤影: shenme
+[00:10:03]: [Say] (KU_c3ubt6H1) 独孤影: 我一会儿弄死他们
+[00:10:06]: [Join Announcement] fants
+[00:11:09]: [Say] (KU_c3ubt6H1) 独孤影: henduo
+[00:12:21]: [Leave Announcement] fants
+[00:14:53]: [Say] (KU_c3ubt6H1) 独孤影: 帮我打鸭子
+[00:15:33]: [Join Announcement] fants
+[00:15:59]: [Say] (KU_-atTHOh-) 枯叶_听海: 被次元攻击了
+[00:17:23]: [Say] (KU_c3ubt6H1) 独孤影: 我杀了鸭子
+[00:17:47]: [Death Announcement] 枯叶_听海 死亡，死因： 猎犬.他成了一个令人毛骨悚然的鬼！

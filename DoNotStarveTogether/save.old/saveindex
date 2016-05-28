@@ -1,0 +1,44 @@
+KLEI     1 return {
+  last_used_slot=1,
+  slots={
+    {
+      enabled_mods={  },
+      server={
+        clan={ admin=false, id="", only=false },
+        description="",
+        game_mode="survival",
+        max_players=4,
+        name="940's World",
+        online_mode=false,
+        password="123456",
+        privacy_type=2,
+        pvp=false 
+      },
+      session_id="0040000A4347E2FC",
+      world={
+        day=1,
+        options={
+          actualpreset="CUSTOM_PRESET_1",
+          preset="SURVIVAL_TOGETHER",
+          presetdata={
+            basepreset="SURVIVAL_TOGETHER",
+            data="CUSTOM_PRESET_1",
+            desc="预 设 自 定 义  1. 你 的 地 盘 ， 你 做 主 ！ ",
+            overrides={
+              { "cave_entrance", "never" },
+              { "rock", "always" },
+              { "rock_ice", "always" },
+              { "flint", "always" } 
+            },
+            text="自 定 义 预 设  1" 
+          },
+          tweak={  } 
+        } 
+      } 
+    },
+    { enabled_mods={  }, server={  }, world={  } },
+    { enabled_mods={  }, server={  }, world={  } },
+    { enabled_mods={  }, server={  }, world={  } },
+    { enabled_mods={  }, server={  }, world={  } } 
+  } 
+}

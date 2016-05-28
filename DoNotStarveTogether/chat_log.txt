@@ -1,0 +1,18 @@
+[00:00:42]: [Announcement] join_game jansing 来 到 了 这 个 世 界
+[00:01:10]: [Announcement] leave_game jansing 离 开 游 戏
+[00:01:36]: [Announcement] join_game jansing 来 到 了 这 个 世 界
+[01:09:59]: [Announcement] death jeremie 死 亡 ， 死 因 ： 皮 弗 娄 牛 .她 成 了 一 个 令 人 毛 骨 悚 然 的 鬼 ！
+[01:16:53]: [Announcement] death jansing 死 亡 ， 死 因 ： 皮 弗 娄 牛 .他 成 了 一 个 令 人 毛 骨 悚 然 的 鬼 ！
+[01:18:00]: [Announcement] join_game jansing 来 到 了 这 个 世 界
+[01:32:47]: [Announcement] death jansing 死 亡 ， 死 因 ： 黑 暗 .他 成 了 一 个 令 人 毛 骨 悚 然 的 鬼 ！
+[01:39:41]: [Announcement] resurrect jansing 复 活 自  jeremie.
+[01:44:28]: [Announcement] death jansing 死 亡 ， 死 因 ： 爬 行 恐 惧 化 身 .他 成 了 一 个 令 人 毛 骨 悚 然 的 鬼 ！
+[01:45:56]: [Announcement] resurrect jansing 复 活 自  jeremie.
+[01:49:55]: [Announcement] death jeremie 死 亡 ， 死 因 ： 机 械 战 车 .她 成 了 一 个 令 人 毛 骨 悚 然 的 鬼 ！
+[01:50:29]: [Announcement] resurrect jeremie 复 活 自  试 金 石 .
+[02:02:25]: [Announcement] death jansing 死 亡 ， 死 因 ： 尖 喙 恐 惧 化 身 .他 成 了 一 个 令 人 毛 骨 悚 然 的 鬼 ！
+[02:09:35]: [Announcement] leave_game jansing 离 开 游 戏
+[02:11:13]: [Announcement] join_game jansing 来 到 了 这 个 世 界
+[02:11:23]: [Announcement] resurrect jansing 复 活 自  jeremie.
+[02:15:53]: [Announcement] death jeremie 死 亡 ， 死 因 ： 青 蛙 .她 成 了 一 个 令 人 毛 骨 悚 然 的 鬼 ！
+[02:22:56]: [Announcement] death jansing 死 亡 ， 死 因 ： 怪 兽 肉 .他 成 了 一 个 令 人 毛 骨 悚 然 的 鬼 ！

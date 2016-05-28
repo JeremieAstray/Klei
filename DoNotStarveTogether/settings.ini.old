@@ -1,0 +1,18 @@
+[MISC]
+CONSOLE_ENABLED = true
+autocompiler_enabled = true
+
+
+[graphics]
+windowed_width = 1920
+windowed_height = 1017
+window_x = 0
+window_y = 23
+
+
+[network]
+default_server_name = 940's World
+server_password = 123456
+max_players = 4
+lan_only_server = true
+default_server_description = 
