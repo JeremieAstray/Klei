@@ -9,8 +9,8 @@ SteamApps()->BIsSubscribedApp( 393010 ) -- Subscribed!
 SteamApps()->BIsDlcInstalled( 393010 ) -- Installed!
 cGame::InitializeOnMainThread
 WindowManager::Initialize
-Creating window with size 1440x900 at 805240832x805240832
-THREAD - started 'SDLInputManager' (2956857344)
+Creating window with size 1280x800 at 805240832x805240832
+THREAD - started 'SDLInputManager' (2957389824)
 OSX version 10.11.5
 GLInfo
 ~~~~~~
@@ -186,7 +186,7 @@ scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_work
 scripts/mods.lua(179,1) Loading mod: workshop-256990160 (Dont Erase My Saveslot)	
 scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-323996352	
 scripts/mods.lua(179,1) Loading mod: workshop-323996352 (Wormhole Marks)	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-356043883	
+scripts/modindex.lua(393,1) loaded mod_config_data/modconfiguration_workshop-356043883	
 scripts/mods.lua(179,1) Loading mod: workshop-356043883 (Geometric Placement)	
 scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-377836982	
 scripts/mods.lua(179,1) Loading mod: workshop-377836982 (Where is Chester?)	
@@ -256,7 +256,7 @@ LOADING LUA SUCCESS
 scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	4557	
 scripts/playerprofile.lua(508,1) loaded profile	
 scripts/playerprofile.lua(572,1) bloom_enabled	false	
-DEVICE CAP 1466053013
+DEVICE CAP 1466397900
 scripts/saveindex.lua(119,1) loaded saveindex	
 scripts/gamelogic.lua(1390,1) OnFilesLoaded()	
 scripts/gamelogic.lua(1379,1) OnUpdatePurchaseStateComplete	
@@ -597,190 +597,9 @@ scripts/modindex.lua(85,1) ModIndex: Load sequence finished successfully.
 	
 Reset() returning
 focus gained
-GetCachedUGCCount 0
-EnumerateUserSubscribedFiles(0)
-OnEnumerateUserSubscribedFilesResult 
-   EResult 1, results 18/18
-Enum complete. Found 18 mods.
-DeleteUnsubscribedFiles [../mods]
-FindDirectoriesMatching [../mods/workshop-*]
-... [../mods/workshop-170030148]
-... adding [workshop-170030148]
-... [../mods/workshop-180823800]
-... adding [workshop-180823800]
-... [../mods/workshop-188251898]
-... adding [workshop-188251898]
-... [../mods/workshop-198485522]
-... adding [workshop-198485522]
-... [../mods/workshop-222103064]
-... adding [workshop-222103064]
-... [../mods/workshop-222342168]
-... adding [workshop-222342168]
-... [../mods/workshop-256990160]
-... adding [workshop-256990160]
-... [../mods/workshop-323996352]
-... adding [workshop-323996352]
-... [../mods/workshop-356043883]
-... adding [workshop-356043883]
-... [../mods/workshop-377836982]
-... adding [workshop-377836982]
-... [../mods/workshop-399501980]
-... adding [workshop-399501980]
-... [../mods/workshop-456082189]
-... adding [workshop-456082189]
-... [../mods/workshop-511422938]
-... adding [workshop-511422938]
-... [../mods/workshop-571751170]
-... adding [workshop-571751170]
-... [../mods/workshop-574636989]
-... adding [workshop-574636989]
-... [../mods/workshop-579513934]
-... adding [workshop-579513934]
-... [../mods/workshop-584259222]
-... adding [workshop-584259222]
-... [../mods/workshop-592554020]
-... adding [workshop-592554020]
-GetPublishedFileDetails(0)
-Getting mod details...
-OnPublishedFileDetailsResult 
-   EResult 1, 170030148
-   245850, 219740, [Display Food Values], 529544281346799238, 919019506098964950, 76561198049829886, 1376666733, 1458983166, 0, 0, [item,Interface,tweak,version:Public preview version], 0, [mod_publish_data_file.zip], 271655, 74101, [], 0
-scripts/mods.lua(19,1) mod_name workshop-170030148	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(1)
-Getting mod details...
-HttpClientWriteCallback (0x0282D744, 1, 1272, 0xB0122E20)
+HttpClientWriteCallback (0x01012945, 1, 1272, 0xB0122E20)
 HttpClientWriteCallback READ 1272 (1272 total)
-OnPublishedFileDetailsResult 
-   EResult 1, 188251898
-   245850, 219740, [Minimap HUD], 288602101460365415, 558737771725946190, 76561197960431333, 1382514013, 1459105915, 0, 0, [Interface,Reign of Giants Compatible,version:1.0.7], 0, [mod_publish_data_file.zip], 12777, 41782, [], 0
-scripts/mods.lua(19,1) mod_name workshop-188251898	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(2)
-Getting mod details...
-OnPublishedFileDetailsResult 
-   EResult 1, 222103064
-   245850, 219740, [Where's My Beefalo?], 30726777088895825, 487820662817815988, 76561197989646930, 1390995491, 1417398092, 0, 0, [Creature,environment,Interface,worldgen,tweak,Reign of Giants Compatible,version:1.4], 0, [mod_publish_data_file.zip], 79011, 275659, [], 0
-scripts/mods.lua(19,1) mod_name workshop-222103064	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(3)
-Getting mod details...
-OnPublishedFileDetailsResult 
-   EResult 1, 323996352
-   245850, 219740, [Wormhole Marks], 609474841941678598, 35227289354721911, 76561198027077262, 1412788013, 1450904438, 0, 0, [utility,tweak,Reign of Giants Compatible,version:1.2.3], 0, [mod_publish_data_file.zip], 107504, 32008, [], 0
-scripts/mods.lua(19,1) mod_name workshop-323996352	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(4)
-Getting mod details...
-QueryServerComplete no callback
-OnPublishedFileDetailsResult 
-   EResult 1, 222342168
-   245850, 219740, [SmartCrockPot], 357276631074961702, 3281172720287038854, 76561198025317013, 1391049622, 1454352129, 0, 0, [utility,Interface,Tutorial,Reign of Giants Compatible,version:4.000002], 0, [mod_publish_data_file.zip], 19816, 30514, [], 0
-scripts/mods.lua(19,1) mod_name workshop-222342168	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(5)
-Getting mod details...
-OnPublishedFileDetailsResult 
-   EResult 1, 377836982
-   245850, 219740, [Where is Chester?], 28480317266604612, 28479983629129611, 76561197967998533, 1421668584, 1421974237, 0, 0, [pet,item,Creature,environment,tweak,Other,version:1.1], 0, [mod_publish_data_file.zip], 315318, 223522, [], 0
-scripts/mods.lua(19,1) mod_name workshop-377836982	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(6)
-Getting mod details...
-OnPublishedFileDetailsResult 
-   EResult 1, 511422938
-   245850, 219740, [Scythe], 280722393123968067, 365154562156716078, 76561198234234404, 1441272399, 1460621840, 0, 0, [item,Reign of Giants Compatible,Shipwrecked Compatible,version:2.0.3], 0, [mod_publish_data_file.zip], 63457, 75678, [], 0
-scripts/mods.lua(19,1) mod_name workshop-511422938	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(7)
-Getting mod details...
-OnPublishedFileDetailsResult 
-   EResult 1, 180823800
-   245850, 219740, [Just Larger Chests], 615044185862288786, 615029943832853987, 76561198039114150, 1379944117, 1393880608, 0, 0, [Interface,tweak], 0, [mod_publish_data_file.zip], 76571, 121990, [], 0
-scripts/mods.lua(19,1) mod_name workshop-180823800	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(8)
-Getting mod details...
-OnPublishedFileDetailsResult 
-   EResult 1, 399501980
-   245850, 219740, [Never Perish Icebox 2.0], 530634929176767509, 530634674428875257, 76561198060471684, 1425006287, 1425259564, 0, 0, [item,environment,Other,Reign of Giants Compatible,version:2.0], 0, [mod_publish_data_file.zip], 10796, 7748, [], 0
-scripts/mods.lua(19,1) mod_name workshop-399501980	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(9)
-Getting mod details...
-OnPublishedFileDetailsResult 
-   EResult 1, 571751170
-   245850, 219740, [Extra Slots (Shipwrecked)], 305488747313135225, 387671104592789186, 76561198023676128, 1449611101, 1457408741, 0, 0, [character,item,Interface,tweak,Reign of Giants Compatible,version:0.06], 0, [mod_publish_data_file.zip], 16016, 21121, [], 0
-scripts/mods.lua(19,1) mod_name workshop-571751170	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(10)
-Getting mod details...
-OnPublishedFileDetailsResult 
-   EResult 1, 456082189
-   245850, 219740, [Health Info], 362902762342902823, 27366287301149683, 76561198025486794, 1433578344, 1450879401, 0, 0, [character,utility,Creature,Interface,Other,Reign of Giants Compatible,version:2.0.3,server_admin], 0, [mod_publish_data_file.zip], 15481, 68108, [], 0
-scripts/mods.lua(19,1) mod_name workshop-456082189	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(11)
-Getting mod details...
-OnPublishedFileDetailsResult 
-   EResult 1, 198485522
-   245850, 219740, [Storm Cellar], 29597789815426563, 666828702388181528, 76561197989646930, 1385527105, 1413964168, 0, 0, [item,environment,Interface,tweak,Other,Reign of Giants Compatible], 0, [mod_publish_data_file.zip], 287008, 239026, [], 0
-scripts/mods.lua(19,1) mod_name workshop-198485522	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(12)
-Getting mod details...
-OnPublishedFileDetailsResult 
-   EResult 1, 256990160
-   245850, 219740, [Dont Erase My Saveslot], 642124127289310763, 3336349969170785508, 76561198062976749, 1399372665, 1449285926, 0, 0, [utility,tweak,version:1.0], 0, [mod_publish_data_file.zip], 678, 28339, [], 0
-scripts/mods.lua(19,1) mod_name workshop-256990160	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(13)
-Getting mod details...
-OnPublishedFileDetailsResult 
-   EResult 1, 584259222
-   245850, 219740, [Storeroom], 316744920734173277, 362903713116215502, 76561198174493482, 1451132249, 1454889863, 0, 0, [item,Art,tweak,Other,Reign of Giants Compatible,version:2.1a], 0, [mod_publish_data_file.zip], 333601, 519442, [], 0
-scripts/mods.lua(19,1) mod_name workshop-584259222	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(14)
-Getting mod details...
-OnPublishedFileDetailsResult 
-   EResult 1, 579513934
-   245850, 219740, [[DS] Too many Item +], 577949100157329664, 577949100157108938, 76561198091006872, 1450590033, 1450594638, 0, 0, [item,utility,environment,Interface,tweak,Other,Reign of Giants Compatible,version:1.1], 0, [mod_publish_data_file.zip], 1198223, 115665, [], 0
-scripts/mods.lua(19,1) mod_name workshop-579513934	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(15)
-Getting mod details...
-OnPublishedFileDetailsResult 
-   EResult 1, 356043883
-   245850, 219740, [Geometric Placement], 271720179226982218, 278474310944194293, 76561198025931302, 1418560911, 1465932052, 0, 0, [Interface,Reign of Giants Compatible,Shipwrecked Compatible,tweak,utility,version:2.0.9], 0, [mod_publish_data_file.zip], 61912, 1066286, [], 0
-scripts/mods.lua(19,1) mod_name workshop-356043883	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(16)
-Getting mod details...
-OnPublishedFileDetailsResult 
-   EResult 1, 592554020
-   245850, 219740, [Smart  Furnace (SW-ROG) V1.5], 267216579580991409, 362906026131407096, 76561198193315938, 1451906390, 1465525756, 0, 0, [item,Reign of Giants Compatible,Shipwrecked Compatible,version:1.5], 0, [mod_publish_data_file.zip], 188989, 51645, [], 0
-scripts/mods.lua(19,1) mod_name workshop-592554020	
-scripts/mods.lua(21,1) table: 0xfad9550	
-GetPublishedFileDetails(17)
-Getting mod details...
-OnPublishedFileDetailsResult 
-   EResult 1, 574636989
-   245850, 219740, [Combined Status], 271720179227206580, 403434072387554230, 76561198025931302, 1449993746, 1465936532, 0, 0, [Interface,Reign of Giants Compatible,Shipwrecked Compatible,tweak,version:1.6.6], 0, [mod_publish_data_file.zip], 384940, 118758, [], 0
-scripts/mods.lua(19,1) mod_name workshop-574636989	
-scripts/mods.lua(21,1) table: 0xfad9550	
-Mod listing complete.
-DownloadPublishedFile(0)
-SteamWorkshop::OnError: DownloadPublishedFile attempted to download non-existent mod.
-SteamWorkshop::CompleteCallback (failure, DownloadPublishedFile attempted to download non-existent mod.) set
-SimLuaProxy::OnUpdateWorkshopModsComplete(failed, DownloadPublishedFile attempted to download non-existent mod.)
-scripts/screens/modsscreen.lua(915,1) Reloading Mod Info Prefabs	
-scripts/screens/modsscreen.lua(902,1) Loading Mod Info Prefabs	
-scripts/screens/modsscreen.lua(907,1) Unloading Mod Info Prefabs	
-QueryStats: { "req":"modrank", "field":"Session.Loads.Mods.list", "fieldop":"unwind", "linkpref":"klei", "limit": 20}
-../mods/workshop-180823800/modicon.tex is 200x200 but compressed textures must have power of 2 dimensions.
-../mods/workshop-323996352/wormhole_marks.tex is 200x200 but compressed textures must have power of 2 dimensions.
-scripts/screens/modsscreen.lua(907,1) Unloading Mod Info Prefabs	
+scripts/screens/slotdetailsscreen.lua(64,1) Loading slot details my DLC is RoG = 	false	  Capy = 	true	
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-222342168	
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-323996352	
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-574636989	
@@ -799,180 +618,7 @@ scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-456082189
 Collecting garbage...
 lua_gc took 0.02 seconds
 ~SimLuaProxy()
-Cancelling LuaQueryCallback handle [3]
-lua_close took 0.07 seconds
-ReleaseAll
-ReleaseAll Finished
-cGame::StartPlaying
-LOADING LUA
-DoLuaFile scripts/main.lua
-DoLuaFile loading buffer scripts/main.lua
-scripts/main.lua(165,1) running main.lua
-	
-scripts/modindex.lua(321,1) loaded modindex	
-scripts/modindex.lua(75,1) ModIndex: Beginning normal load sequence.
-	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-170030148	
-scripts/mods.lua(179,1) Loading mod: workshop-170030148 (Display Food Values)	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-180823800	
-scripts/mods.lua(179,1) Loading mod: workshop-180823800 (Just Larger Chests) (Old API! (mod: 5 game: 6) )	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-188251898	
-scripts/mods.lua(179,1) Loading mod: workshop-188251898 (Minimap HUD)	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-222103064	
-scripts/mods.lua(179,1) Loading mod: workshop-222103064 (Where's My Beefalo?)	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-222342168	
-scripts/mods.lua(179,1) Loading mod: workshop-222342168 (SmartCrockPot)	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-256990160	
-scripts/mods.lua(179,1) Loading mod: workshop-256990160 (Dont Erase My Saveslot)	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-323996352	
-scripts/mods.lua(179,1) Loading mod: workshop-323996352 (Wormhole Marks)	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-356043883	
-scripts/mods.lua(179,1) Loading mod: workshop-356043883 (Geometric Placement)	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-377836982	
-scripts/mods.lua(179,1) Loading mod: workshop-377836982 (Where is Chester?)	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-399501980	
-scripts/mods.lua(179,1) Loading mod: workshop-399501980 (Never Perish Icebox 2.0)	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-456082189	
-scripts/mods.lua(179,1) Loading mod: workshop-456082189 (Health Info)	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-511422938	
-scripts/mods.lua(179,1) Loading mod: workshop-511422938 (Scythe)	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-574636989	
-scripts/mods.lua(179,1) Loading mod: workshop-574636989 (Combined Status)	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-579513934	
-scripts/mods.lua(179,1) Loading mod: workshop-579513934 ([DS] Too many Item)	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-584259222	
-scripts/mods.lua(179,1) Loading mod: workshop-584259222 ( Storeroom)	
-scripts/mods.lua(206,1) Mod: workshop-222342168 (SmartCrockPot)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-222342168 (SmartCrockPot)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-222342168 (SmartCrockPot)	Loading modmain.lua	
-scripts/mods.lua(132,1) modimport: ../mods/workshop-222342168/modmain_segments/action_predict.lua	
-scripts/mods.lua(132,1) modimport: ../mods/workshop-222342168/modmain_segments/containerwidgetfunction.lua	
-scripts/mods.lua(206,1) Mod: workshop-323996352 (Wormhole Marks)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-323996352 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-323996352 (Wormhole Marks)	Loading modmain.lua	
-scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-574636989 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modmain.lua	
-scripts/mods.lua(206,1) Mod: workshop-579513934 ([DS] Too many Item)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-579513934 ([DS] Too many Item)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-579513934 ([DS] Too many Item)	Loading modmain.lua	
-scripts/mods.lua(206,1) Mod: workshop-377836982 (Where is Chester?)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-377836982 (Where is Chester?)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-377836982 (Where is Chester?)	Loading modmain.lua	
-scripts/mods.lua(206,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Loading modmain.lua	
-scripts/mods.lua(206,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	Loading modmain.lua	
-scripts/mods.lua(206,1) Mod: workshop-188251898 (Minimap HUD)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-188251898 (Minimap HUD)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-188251898 (Minimap HUD)	Loading modmain.lua	
-scripts/mods.lua(206,1) Mod: workshop-222103064 (Where's My Beefalo?)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-222103064 (Where's My Beefalo?)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-222103064 (Where's My Beefalo?)	Loading modmain.lua	
-scripts/mods.lua(206,1) Mod: workshop-180823800 (Just Larger Chests)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-180823800 (Just Larger Chests)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-180823800 (Just Larger Chests)	Loading modmain.lua	
-scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-170030148 (Display Food Values)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-170030148 (Display Food Values)	Loading modmain.lua	
-scripts/mods.lua(206,1) Mod: workshop-584259222 ( Storeroom)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-584259222 ( Storeroom)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-584259222 ( Storeroom)	Loading modmain.lua	
-../mods/workshop-584259222/modmain.lua(67,1) slots_debug 	80	
-../mods/workshop-584259222/modmain.lua(68,1) recipe_debug 	20	20	5	
-scripts/mods.lua(206,1) Mod: workshop-511422938 (Scythe)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-511422938 (Scythe)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-511422938 (Scythe)	Loading modmain.lua	
-scripts/mods.lua(132,1) modimport: ../mods/workshop-511422938/mowdown.lua	
-scripts/mods.lua(206,1) Mod: workshop-356043883 (Geometric Placement)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-356043883 (Geometric Placement)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-356043883 (Geometric Placement)	Loading modmain.lua	
-scripts/mods.lua(206,1) Mod: workshop-456082189 (Health Info)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-456082189 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-456082189 (Health Info)	Loading modmain.lua	
-LOADING LUA SUCCESS
-scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	4557	
-scripts/playerprofile.lua(508,1) loaded profile	
-scripts/playerprofile.lua(572,1) bloom_enabled	false	
-DEVICE CAP 1466053028
-scripts/saveindex.lua(119,1) loaded saveindex	
-scripts/gamelogic.lua(1390,1) OnFilesLoaded()	
-scripts/gamelogic.lua(1379,1) OnUpdatePurchaseStateComplete	
-scripts/gamelogic.lua(121,1) 	FE assets already loaded	
-scripts/mods.lua(296,1) Mod: workshop-222342168 (SmartCrockPot)	Registering prefabs	
-scripts/mods.lua(319,1) Mod: workshop-222342168 (SmartCrockPot)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-323996352 (Wormhole Marks)	Registering prefabs	
-scripts/mods.lua(319,1) Mod: workshop-323996352 (Wormhole Marks)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-574636989 (Combined Status)	Registering prefabs	
-scripts/mods.lua(319,1) Mod: workshop-574636989 (Combined Status)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-579513934 ([DS] Too many Item)	Registering prefabs	
-scripts/mods.lua(319,1) Mod: workshop-579513934 ([DS] Too many Item)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-377836982 (Where is Chester?)	Registering prefabs	
-scripts/mods.lua(319,1) Mod: workshop-377836982 (Where is Chester?)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	Registering prefabs	
-scripts/mods.lua(319,1) Mod: workshop-399501980 (Never Perish Icebox 2.0)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	Registering prefabs	
-scripts/mods.lua(319,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-188251898 (Minimap HUD)	Registering prefabs	
-scripts/mods.lua(319,1) Mod: workshop-188251898 (Minimap HUD)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-222103064 (Where's My Beefalo?)	Registering prefabs	
-scripts/mods.lua(319,1) Mod: workshop-222103064 (Where's My Beefalo?)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-180823800 (Just Larger Chests)	Registering prefabs	
-scripts/mods.lua(319,1) Mod: workshop-180823800 (Just Larger Chests)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-170030148 (Display Food Values)	Registering prefabs	
-scripts/mods.lua(319,1) Mod: workshop-170030148 (Display Food Values)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-584259222 ( Storeroom)	Registering prefabs	
-scripts/mods.lua(302,1) Mod: workshop-584259222 ( Storeroom)	  Registering prefab file: prefabs/cupboard	
-scripts/mods.lua(306,1) Mod: workshop-584259222 ( Storeroom)	    cupboard	
-scripts/mods.lua(306,1) Mod: workshop-584259222 ( Storeroom)	    cupboard_placer	
-scripts/mods.lua(319,1) Mod: workshop-584259222 ( Storeroom)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-511422938 (Scythe)	Registering prefabs	
-scripts/mods.lua(302,1) Mod: workshop-511422938 (Scythe)	  Registering prefab file: prefabs/scythe	
-scripts/mods.lua(306,1) Mod: workshop-511422938 (Scythe)	    scythe	
-scripts/mods.lua(302,1) Mod: workshop-511422938 (Scythe)	  Registering prefab file: prefabs/golden_scythe	
-scripts/mods.lua(306,1) Mod: workshop-511422938 (Scythe)	    golden_scythe	
-scripts/mods.lua(319,1) Mod: workshop-511422938 (Scythe)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-356043883 (Geometric Placement)	Registering prefabs	
-scripts/mods.lua(302,1) Mod: workshop-356043883 (Geometric Placement)	  Registering prefab file: prefabs/buildgridplacer	
-scripts/mods.lua(306,1) Mod: workshop-356043883 (Geometric Placement)	    buildgridplacer	
-scripts/mods.lua(319,1) Mod: workshop-356043883 (Geometric Placement)	  Registering default mod prefab	
-scripts/mods.lua(296,1) Mod: workshop-456082189 (Health Info)	Registering prefabs	
-scripts/mods.lua(319,1) Mod: workshop-456082189 (Health Info)	  Registering default mod prefab	
-SimLuaProxy::QueryServer()
-scripts/modindex.lua(85,1) ModIndex: Load sequence finished successfully.
-	
-Reset() returning
-HttpClientWriteCallback (0x0282D605, 1, 2285, 0xB0122E20)
-HttpClientWriteCallback READ 2285 (2285 total)
-QueryServerComplete for non-existent handle [3] ok, HTTP 200: [{"modlinks":{"ws-Combined Status":"http:\/\/steamcommunity.com\/sharedfiles\/filedetails\/?id=574636989","ws-Wormhole Marks":"http:\/\/steamcommunity.com\/sharedfiles\/filedetails\/?id=323996352","ws-Smarter Crock Pot":"http:\/\/forums.kleientertainment.com\/files\/file\/458-smarter-crock-pot\/","ws-Craft Pot [DS, ROG, SW]":"http:\/\/steamcommunity.com\/sharedfiles\/filedetails\/?id=662872357","ws-DisplayFoodValues":"http:\/\/forums.kleientertainment.com\/index.php?\/files\/file\/109-display-foodhealing-items-values-hungerhealthsanity\/","ws-[T] Map Plug-in":"http:\/\/steamcommunity.com\/sharedfiles\/filedetails\/?id=635823261","ws-Extra Equip (Shipwrecked)":"http:\/\/steamcommunity.com\/sharedfiles\/filedetails\/?id=571751170","ws-BackPackPlus":"http:\/\/steamcommunity.com\/sharedfiles\/filedetails\/?id=249713554","ws-Health Info":"http:\/\/steamcommunity.com\/sharedfiles\/filedetails\/?id=456082189","ws-Always On Status":"http:\/\/forums.kleientertainment.com\/index.php?\/files\/file\/79-always-on-status\/","ws-Minimap HUD":"http:\/\/forums.kleientertainment.com\/index.php?\/files\/file\/352-minimap-hud\/","ws-Where's My Beefalo?":"http:\/\/forums.kleientertainment.com\/files\/file\/475-wheres-my-beefalo\/","ws-[SW\\ROG] PIG SHOP":"http:\/\/steamcommunity.com\/sharedfiles\/filedetails\/?id=598351182","ws-99 Stack Items":"http:\/\/steamcommunity.com\/sharedfiles\/filedetails\/?id=581027459","SW-Playing":"","ws-Geometric Placement":"http:\/\/steamcommunity.com\/sharedfiles\/filedetails\/?id=356043883","ws-Cupboard":"http:\/\/steamcommunity.com\/sharedfiles\/filedetails\/?id=584259222","ws-[T] Action Queue Plus":"http:\/\/steamcommunity.com\/sharedfiles\/filedetails\/?id=645871185","SW-NotPlaying":""},"modfeature":{"HeroInTheDark":"http:\/\/forums.kleientertainment.com\/files\/file\/518-mod-hero-in-the-dark\/"},"modnames":["SW-Playing","ws-Combined Status","ws-DisplayFoodValues","ws-Geometric Placement","ws-Health Info","ws-Minimap HUD","SW-NotPlaying","ws-Wormhole Marks","ws-Smarter Crock Pot","ws-Extra Equip (Shipwrecked)","ws-Always On Status","ws-Cupboard","ws-[T] Map Plug-in","ws-Craft Pot [DS, ROG, SW]","ws-Where's My Beefalo?","ws-[T] Action Queue Plus","ws-BackPackPlus","ws-99 Stack Items","ws-Smarter Crock Pot","ws-[SW\\ROG] PIG SHOP"]}
-]
-HttpClientWriteCallback (0x0282D744, 1, 1272, 0xB0122E20)
-HttpClientWriteCallback READ 1272 (1272 total)
-QueryServerComplete no callback
-SetDisplayMode
-fullscreen==true
-WindowManager::SetFullscreen(1280, 800, 0)
-scripts/saveindex.lua(1221,1) SaveIndex:StartSurvivalMode!:	false	true	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-222342168	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-323996352	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-574636989	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-579513934	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-377836982	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-399501980	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-256990160	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-188251898	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-222103064	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-180823800	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-170030148	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-584259222	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-511422938	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-356043883	
-scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-456082189	
-Collecting garbage...
-lua_gc took 0.02 seconds
-~SimLuaProxy()
+Cancelling LuaQueryCallback handle [2]
 lua_close took 0.05 seconds
 ReleaseAll
 ReleaseAll Finished
@@ -999,7 +645,7 @@ scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_work
 scripts/mods.lua(179,1) Loading mod: workshop-256990160 (Dont Erase My Saveslot)	
 scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-323996352	
 scripts/mods.lua(179,1) Loading mod: workshop-323996352 (Wormhole Marks)	
-scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-356043883	
+scripts/modindex.lua(393,1) loaded mod_config_data/modconfiguration_workshop-356043883	
 scripts/mods.lua(179,1) Loading mod: workshop-356043883 (Geometric Placement)	
 scripts/modindex.lua(398,1) Could not load mod_config_data/modconfiguration_workshop-377836982	
 scripts/mods.lua(179,1) Loading mod: workshop-377836982 (Where is Chester?)	
@@ -1054,108 +700,10 @@ LOADING LUA SUCCESS
 scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	4557	
 scripts/playerprofile.lua(508,1) loaded profile	
 scripts/playerprofile.lua(572,1) bloom_enabled	false	
-DEVICE CAP 1466053074
+DEVICE CAP 1466397910
 scripts/saveindex.lua(119,1) loaded saveindex	
 scripts/gamelogic.lua(1390,1) OnFilesLoaded()	
 scripts/gamelogic.lua(1379,1) OnUpdatePurchaseStateComplete	
-WorldSim::SimThread::SimThread()
-ABOUT TO INSTALL STACKTRACE
-DoLuaFile scripts/stacktrace.lua
-DoLuaFile loading buffer scripts/stacktrace.lua
-INSTALLED STACKTRACE
-WorldSim::SimThread::SimThread() complete
-THREAD - started 'WorldSim' (2954727424)
-WorldSim::SimThread::Main()
-DoLuaFile scripts/worldgen_main.lua
-DoLuaFile loading buffer scripts/worldgen_main.lua
-scripts/dlcsupport_worldgen.lua(25,1) DLC(RoG) enabled : 	false	
-scripts/dlcsupport_worldgen.lua(26,1) DLC(Shipwrecked) enabled : 	true	
-scripts/modindex.lua(85,1) ModIndex: Load sequence finished successfully.
-	
-Reset() returning
-scripts/mods.lua(179,1) Loading mod: workshop-356043883 (Geometric Placement)	
-scripts/mods.lua(179,1) Loading mod: workshop-511422938 (Scythe)	
-scripts/mods.lua(179,1) Loading mod: workshop-188251898 (Minimap HUD)	
-scripts/mods.lua(179,1) Loading mod: workshop-323996352 (Wormhole Marks)	
-scripts/mods.lua(179,1) Loading mod: workshop-256990160 (Dont Erase My Saveslot)	
-scripts/mods.lua(179,1) Loading mod: workshop-222342168 (SmartCrockPot)	
-scripts/mods.lua(179,1) Loading mod: workshop-456082189 (Health Info)	
-scripts/mods.lua(179,1) Loading mod: workshop-574636989 (Combined Status)	
-scripts/mods.lua(179,1) Loading mod: workshop-579513934 ([DS] Too many Item)	
-scripts/mods.lua(179,1) Loading mod: workshop-584259222 ( Storeroom)	
-scripts/mods.lua(206,1) Mod: workshop-222342168 (SmartCrockPot)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-222342168 (SmartCrockPot)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-323996352 (Wormhole Marks)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-323996352 (Wormhole Marks)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-579513934 ([DS] Too many Item)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-579513934 ([DS] Too many Item)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-188251898 (Minimap HUD)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-188251898 (Minimap HUD)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-574636989 (Combined Status)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-574636989 (Combined Status)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-256990160 (Dont Erase My Saveslot)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-584259222 ( Storeroom)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-584259222 ( Storeroom)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-511422938 (Scythe)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-511422938 (Scythe)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-356043883 (Geometric Placement)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-356043883 (Geometric Placement)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/mods.lua(206,1) Mod: workshop-456082189 (Health Info)	Loading modworldgenmain.lua	
-scripts/mods.lua(214,1) Mod: workshop-456082189 (Health Info)	  Mod had no modworldgenmain.lua. Skipping.	
-scripts/worldgen_main.lua(79,1) running worldgen_main.lua
-	
-scripts/worldgen_main.lua(81,1) SEED = 	1466053074	
-scripts/worldgen_main.lua(519,1) WORLDGEN PRESET: 	SHIPWRECKED_DEFAULT	
-scripts/worldgen_main.lua(527,1) WORLDGEN LEVEL ID: 	1	
-scripts/worldgen_main.lua(534,1) 
-#######
-#
-# Generating Shipwrecked Mode Shipwrecked Level
-#
-#######
-	
-scripts/map/forest_map.lua(301,1) Creating story...	
-scripts/map/storygen.lua(1364,1) Building SHIPWRECKED STORY	table: 0x17b99a00	
-scripts/map/network.lua(576,1) Warning: Tried to make IslandBeachNoLimpets into a loop but couldn't find end nodes.	
-scripts/map/storygen.lua(755,1) Story:GenerateNodesFromTasks start_task HomeIslandLarge	
-scripts/map/storygen.lua(712,1) LinkIslandsByKeys	
-scripts/map/storygen.lua(642,1) Linking 3 depths	
-scripts/map/forest_map.lua(364,1) Baking map...	350	750	24	
-scripts/map/forest_map.lua(390,1) Map Baked!	
-scripts/map/forest_map.lua(431,1) Encoding...	
-scripts/map/forest_map.lua(435,1) Encoding... DONE	
-scripts/map/forest_map.lua(522,1) Checking Tags	
-scripts/map/water.lua(677,1) Fill open water...	
-scripts/map/water.lua(700,1) Found 4 positions, radius 50	
-scripts/map/water.lua(157,1) Convert impassible to water...	
-scripts/map/water.lua(222,1)   Square fill...	
-scripts/map/water.lua(204,1)   Ground fill...	
-scripts/map/water.lua(245,1)   Noise...	
-scripts/map/water.lua(293,1)   Blend...	
-scripts/map/treasurehunt.lua(2849,1) WorldGenPlaceTreasures called!	table: 0x17251670	table: 0x17e17fa0	478	478	4600000	
-scripts/map/treasurehunt.lua(3042,1) Building treasure defs...	
-scripts/map/treasurehunt.lua(3186,1) Placing treasures...	
-scripts/map/treasurehunt.lua(3191,1) Placing maps...	
-scripts/map/forest_map.lua(652,1) Populating voronoi...	
-scripts/map/object_layout.lua(418,1) Warning! Could not find a spot for Xspot in node PirateBounty:0:BeachUnkeptDubloon	
-scripts/map/water.lua(416,1) Removing single tiles...	
-scripts/map/water.lua(397,1) Adding shoreline...	
-scripts/map/water.lua(908,1) Populate water...	
-scripts/map/water.lua(780,1) Populate water extras...	
-scripts/map/water.lua(780,1) Populate water extras...	
-scripts/map/water.lua(780,1) Populate water extras...	
-scripts/map/water.lua(780,1) Populate water extras...	
-scripts/map/water.lua(780,1) Populate water extras...	
-scripts/map/water.lua(780,1) Populate water extras...	
-scripts/map/network.lua(821,1) SwapOutPrefabMarkers wormhole_MARKER -> wormhole	
-scripts/map/network.lua(821,1) SwapOutPrefabMarkers bermudatriangle_MARKER -> bermudatriangle	
-scripts/map/network.lua(823,1) 12 bermudatriangle_MARKER	
-scripts/map/network.lua(890,1) 4 bermudatriangle pairs placed.	
-scripts/map/forest_map.lua(809,1) Done shipwrecked map gen!	
-scripts/worldgen_main.lua(247,1) Checking map...	
-scripts/worldgen_main.lua(675,1) Generation complete	
-WorldSim::SimThread::Main() complete
 scripts/gamelogic.lua(158,1) 	Unload FE	
 scripts/gamelogic.lua(160,1) 	Unload FE done	
 scripts/dlcsupport.lua(26,1) Load scripts/DLC002_prefab_files	
@@ -1258,11 +806,17 @@ MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/triangle/triangle_
 MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/triangle/triangle_7.xml )
 MiniMapComponent::AddAtlas( ../mods/workshop-323996352/images/triangle/triangle_8.xml )
 MiniMapComponent::AddAtlas( ../mods/workshop-584259222/minimap/storeroom.xml )
-scripts/components/seasonmanager_sw.lua(2220,1) SPRING TIME	
+scripts/components/seasonmanager_sw.lua(2277,1) AUTUMN TIME	
 scripts/prefabs/shipwrecked.lua(502,1) tropical	
 scripts/components/seasonmanager_sw.lua(2303,1) MILD SEASON	
 scripts/gamelogic.lua(517,1) Prefab shipwrecked	
 scripts/gamelogic.lua(544,1) Loading Nav Grid	
+scripts/saveindex.lua(553,1) ClearCurrentResurrectors CB	
+scripts/saveindex.lua(578,1) DeregisterResurrector	
+scripts/saveindex.lua(594,1) DeregisterResurrector	
+scripts/saveindex.lua(578,1) DeregisterResurrector	
+scripts/saveindex.lua(594,1) DeregisterResurrector	
+scripts/components/scenariorunner.lua(28,1) Warning! The scenario runner on Volcano already has a script 'camera_volcano' but we are adding a script 'camera_volcano'	
 scripts/saveindex.lua(354,1) LoadSavedSeasonData CB	
 scripts/saveindex.lua(376,1) LoadSavedVolcanoData CB	
 scripts/saveindex.lua(246,1) LoadSavedHoundedData CB	
@@ -1272,47 +826,40 @@ scripts/widgets/boatover.lua(30,1) update state
 scripts/widgets/boatover.lua(45,1) turn off	
 Could not find anim build krampus
 Could not find anim [OUTOFSPACE] in bank [krampus]
+scripts/modindex.lua(85,1) ModIndex: Load sequence finished successfully.
+	
+Reset() returning
+QueryServerComplete for non-existent handle [2] ok, HTTP 200: []
 QueryServerComplete no callback
 QueryServerComplete no callback
-Stale Component Reference: GUID 117683, @scripts/widgets/text.lua:55
-scripts/widgets/widget.lua(263,1) stack traceback:
-	scripts/widgets/widget.lua:263 in (method) SetPosition (Lua) <258-267>
-	scripts/widgets/inventorybar.lua:198 in (method) Rebuild (Lua) <125-275>
-	scripts/widgets/inventorybar.lua:76 in (local) fn (Lua) <76-76>
-	scripts/entityscript.lua:736 in (method) PushEvent (Lua) <730-753>
-	scripts/components/inventory.lua:510 in (method) SetOverflow (Lua) <508-511>
-	scripts/prefabs/thatchpack.lua:9 in (field) onequipfn (Lua) <6-12>
-	scripts/components/equippable.lua:59 in (method) Equip (Lua) <44-64>
-	scripts/components/inventory.lua:804 in (method) Equip (Lua) <747-815>
-	scripts/components/builder.lua:440 in (method) DoBuild (Lua) <406-517>
-	scripts/actions.lua:880 in (field) fn (Lua) <878-884>
-	scripts/bufferedaction.lua:20 in (method) Do (Lua) <17-33>
-	scripts/entityscript.lua:1073 in (method) PerformBufferedAction (Lua) <1063-1086>
-	scripts/stategraphs/SGwilson.lua:2025 in (field) ontimeout (Lua) <2022-2026>
-	scripts/stategraph.lua:467 in (method) UpdateState (Lua) <453-497>
-	scripts/stategraph.lua:524 in (method) Update (Lua) <516-544>
-	scripts/stategraph.lua:120 in (method) Update (Lua) <104-143>
-	scripts/update.lua:135 in () ? (Lua) <79-148>	
-Stale Component Reference: GUID 119523, @scripts/widgets/widget.lua:265
-scripts/components/dynamicmusic.lua(28,1) start music	
+scripts/components/perishable.lua(194,1) perish	
 QueryServerComplete no callback
-QueryServerComplete no callback
-QueryServerComplete no callback
-scripts/components/resurrector.lua(42,1) Resurrector:OnSave	100108 - resurrectionstone	used:nil	active:nil	
+scripts/components/resurrector.lua(42,1) Resurrector:OnSave	106790 - resurrectionstone	used:false	active:false	
 scripts/saveindex.lua(578,1) DeregisterResurrector	
 scripts/saveindex.lua(594,1) DeregisterResurrector	
-scripts/components/resurrector.lua(42,1) Resurrector:OnSave	100109 - resurrectionstone	used:nil	active:nil	
+scripts/components/resurrector.lua(42,1) Resurrector:OnSave	106791 - resurrectionstone	used:false	active:false	
 scripts/saveindex.lua(578,1) DeregisterResurrector	
 scripts/saveindex.lua(594,1) DeregisterResurrector	
+scripts/mainfunctions.lua(562,1) Can't find	100017	100017 - wilson	
 scripts/mainfunctions.lua(588,1) Saved	shipwrecked_3	
+FMOD Error: Can't find named sound idle
+FMOD Error: Can't find named sound idle
+FMOD Error: Can't find named sound idle
+FMOD Error: Can't find named sound idle
+FMOD Error: Can't find named sound idle
+FMOD Error: Can't find named sound idle
+FMOD Error: Can't find named sound idle
+FMOD Error: Can't find named sound idle
 QueryServerComplete no callback
-scripts/components/resurrector.lua(42,1) Resurrector:OnSave	100108 - resurrectionstone	used:nil	active:nil	
+QueryServerComplete no callback
+Stale Component Reference: GUID 168639, @scripts/widgets/text.lua:55
+scripts/components/resurrector.lua(42,1) Resurrector:OnSave	106790 - resurrectionstone	used:false	active:false	
 scripts/saveindex.lua(578,1) DeregisterResurrector	
 scripts/saveindex.lua(594,1) DeregisterResurrector	
-scripts/components/resurrector.lua(42,1) Resurrector:OnSave	100109 - resurrectionstone	used:nil	active:nil	
+scripts/components/resurrector.lua(42,1) Resurrector:OnSave	106791 - resurrectionstone	used:false	active:false	
 scripts/saveindex.lua(578,1) DeregisterResurrector	
 scripts/saveindex.lua(594,1) DeregisterResurrector	
-scripts/mainfunctions.lua(562,1) Can't find	100026	100026 - wilson	
+scripts/mainfunctions.lua(562,1) Can't find	100017	100017 - wilson	
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-222342168	
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-323996352	
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-574636989	
@@ -1330,10 +877,10 @@ scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-356043883
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-456082189	
 scripts/mainfunctions.lua(588,1) Saved	shipwrecked_3	
 Collecting garbage...
-lua_gc took 0.11 seconds
+lua_gc took 0.10 seconds
 ~SimLuaProxy()
-Cancelling LuaQueryCallback handle [12]
-lua_close took 0.26 seconds
+Cancelling LuaQueryCallback handle [8]
+lua_close took 0.25 seconds
 ReleaseAll
 ReleaseAll Finished
 cGame::StartPlaying
@@ -1429,7 +976,7 @@ LOADING LUA SUCCESS
 scripts/playerdeaths.lua(79,1) PlayerDeaths loaded morgue	4557	
 scripts/playerprofile.lua(508,1) loaded profile	
 scripts/playerprofile.lua(572,1) bloom_enabled	false	
-DEVICE CAP 1466053773
+DEVICE CAP 1466398873
 scripts/saveindex.lua(119,1) loaded saveindex	
 scripts/gamelogic.lua(1390,1) OnFilesLoaded()	
 scripts/gamelogic.lua(1379,1) OnUpdatePurchaseStateComplete	
@@ -1506,7 +1053,9 @@ SimLuaProxy::QueryServer()
 scripts/modindex.lua(85,1) ModIndex: Load sequence finished successfully.
 	
 Reset() returning
-QueryServerComplete for non-existent handle [12] ok, HTTP 200: []
+QueryServerComplete for non-existent handle [8] ok, HTTP 200: []
+HttpClientWriteCallback (0x01012945, 1, 1272, 0xB0122E20)
+HttpClientWriteCallback READ 1272 (1272 total)
 Could not unload undefined prefab 0xb070dece (OUTOFSPACE)
 Could not unload undefined prefab 0x6170f8be (OUTOFSPACE)
 Could not unload undefined prefab 0xbaa28801 (OUTOFSPACE)
@@ -1547,11 +1096,11 @@ scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-584259222
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-511422938	
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-356043883	
 scripts/mods.lua(331,1) unloading prefabs for mod MOD_workshop-456082189	
+QueryServerComplete no callback
 Collecting garbage...
 lua_gc took 0.02 seconds
 ~SimLuaProxy()
-Cancelling LuaQueryCallback handle [13]
-lua_close took 0.05 seconds
+lua_close took 0.04 seconds
 Could not unload undefined prefab 0xb070dece (OUTOFSPACE)
 Could not unload undefined prefab 0x6170f8be (OUTOFSPACE)
 Could not unload undefined prefab 0xbaa28801 (OUTOFSPACE)
@@ -1597,11 +1146,8 @@ Orphaned unnamed resource. This resource must have used Add( resource ) to inser
 Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
 Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
 Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
-Orphaned unnamed resource. This resource must have used Add( resource ) to insert itself into the manager. 
  Manager - ORPHANED UNKNOWN RESOURCES:
 anim/doydoy_nest.zip:doydoy_nest--atlas-0.tex - 1
 anim/spoiled_food.zip:spoiled_food--atlas-0.tex - 1
-HttpClientWriteCallback (0x0282D745, 1, 1272, 0xB0122E20)
-HttpClientWriteCallback READ 1272 (1272 total)
 HttpClient::ClientThread::Main() complete
 Shutting down
